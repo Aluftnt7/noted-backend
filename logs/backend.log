@@ -298,3 +298,73 @@ Sun, 31 May 2020 14:10:26 GMT - Debug - shilarwa, 123, gigi kou
 Sun, 31 May 2020 14:10:26 GMT - Debug - auth.service - signup with username: shilarwa
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi kou","password":"$2b$10$s3S.zV1GfVftcjCypB6EBOcEUVEDXbHDEN.tv.Blly76ZZLCdr07a","userName":"shilarwa","_id":"5ed3bad2d9087a4944e98cd6"}
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.service - login with username: shilarwa
+Sun, 31 May 2020 14:24:29 GMT - Debug - gigigigi, 123, gigi hadid
+Sun, 31 May 2020 14:24:29 GMT - Debug - auth.service - signup with username: gigigigi
+Sun, 31 May 2020 14:24:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi hadid","password":"$2b$10$9UiAEnvzezeYWWMkQO01xOeUATBxCUx362J9NggQt2qKxqFK8f/ga","userName":"gigigigi","_id":"5ed3be1dd9087a4944e98cd7"}
+Sun, 31 May 2020 14:24:31 GMT - Debug - auth.service - login with username: gigigigi
+Sun, 31 May 2020 14:25:51 GMT - Debug - gittrraaasa, 123, asdasdas
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.service - signup with username: gittrraaasa
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.route - new account created: {"fullName":"asdasdas","password":"$2b$10$mIy986QBGzUtdeGwxRfrAOEfCK0D4G6bSvAbwbUD3RvqijcG1dsDK","userName":"gittrraaasa","_id":"5ed3be6fd9087a4944e98cd8"}
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.service - login with username: gittrraaasa
+Sun, 31 May 2020 14:27:24 GMT - Debug - hana banana, 123, gigi
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.service - signup with username: hana banana
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.route - new account created: {"fullName":"gigi","password":"$2b$10$.WZ0Gc4jz/jJ5t5/umHi6uBNuwefVyVfCVbzkHlwZo898eWF7cM6y","userName":"hana banana","_id":"5ed3beccd9087a4944e98cd9"}
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.service - login with username: hana banana
+Sun, 31 May 2020 14:43:20 GMT - Debug - sadasdsadasd1111, 12345, 123
+Sun, 31 May 2020 14:43:20 GMT - Debug - auth.service - signup with username: sadasdsadasd1111
+Sun, 31 May 2020 14:43:21 GMT - Debug - auth.route - new account created: {"fullName":"123","password":"$2b$10$1ymlEUFF7fp/6b7PZJpTrO4rDjWkx3k4RJRjP1NoP/QQG366hPvx.","userName":"sadasdsadasd1111","_id":"5ed3c288d9087a4944e98cda"}
+Sun, 31 May 2020 14:43:21 GMT - Debug - auth.service - login with username: sadasdsadasd1111
+Sun, 31 May 2020 14:45:49 GMT - Debug - dsadsaq112ed, 12, dsad sda
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.service - signup with username: dsadsaq112ed
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.route - new account created: {"fullName":"dsad sda","password":"$2b$10$wFyas7/73Afqw5j1UfdYY.89lmtFoLjvg/YUiCE5Gdl9jQPwNaG0y","userName":"dsadsaq112ed","_id":"5ed3c31dd9087a4944e98cdb"}
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.service - login with username: dsadsaq112ed
+Sun, 31 May 2020 14:49:01 GMT - Debug - ertte, 12, tyhgs
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.service - signup with username: ertte
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.route - new account created: {"fullName":"tyhgs","password":"$2b$10$IpVcN7NFdTe4j12osMsPzesy.0oZ6pYlY0dzFqkjgzygBKXUy5Kv6","userName":"ertte","_id":"5ed3c3ddd9087a4944e98cdc"}
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.service - login with username: ertte
+Sun, 31 May 2020 15:01:11 GMT - Debug - dsadasda, 123, sadas
+Sun, 31 May 2020 15:01:11 GMT - Debug - auth.service - signup with username: dsadasda
+Sun, 31 May 2020 15:01:13 GMT - Debug - auth.route - new account created: {"fullName":"sadas","password":"$2b$10$JQzTgTnipMzjqC6YnZc6gucNJBk1DLZcYpHy1fAH1iDhNYR9O0Zku","userName":"dsadasda","_id":"5ed3c6b7d9087a4944e98cdd"}
+Sun, 31 May 2020 15:01:13 GMT - Debug - auth.service - login with username: dsadasda
+Sun, 31 May 2020 15:17:18 GMT - Debug - dasdasdaqw, 12, wqwda
+Sun, 31 May 2020 15:17:18 GMT - Debug - auth.service - signup with username: dasdasdaqw
+Sun, 31 May 2020 15:17:19 GMT - Debug - auth.route - new account created: {"fullName":"wqwda","password":"$2b$10$z1E8zMQNR0cgc2EJkdhQ3uymaqY.fiKpesYdj3v2sWnyzs6yweuie","userName":"dasdasdaqw","_id":"5ed3ca7ed9087a4944e98cde"}
+Sun, 31 May 2020 15:17:19 GMT - Debug - auth.service - login with username: dasdasdaqw
+Sun, 31 May 2020 15:18:46 GMT - Debug - sda, 12, dsa
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.service - signup with username: sda
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$ID/Bo/nrQbdaSLqp4CF2Pe2azi8ScRWu0RGQCdmmByXo/BryxF/wu","userName":"sda","_id":"5ed3cad6d9087a4944e98cdf"}
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.service - login with username: sda
+Sun, 31 May 2020 15:19:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:19:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:20:28 GMT - Debug - sadasf, 12, fa
+Sun, 31 May 2020 15:20:28 GMT - Debug - auth.service - signup with username: sadasf
+Sun, 31 May 2020 15:20:31 GMT - Debug - auth.route - new account created: {"fullName":"fa","password":"$2b$10$jGT3aLV3roNeTLLNzJgicOK81zSAzN4pi8VXLYVcS6USG.Pl4Enii","userName":"sadasf","_id":"5ed3cb3cd47d8b51a0915644"}
+Sun, 31 May 2020 15:20:31 GMT - Debug - auth.service - login with username: sadasf
+Sun, 31 May 2020 15:22:14 GMT - Debug - dsa, 12, sa
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.route - new account created: {"fullName":"sa","password":"$2b$10$zkNuHEjvvjMROhNQ3nGbD.l8WOoSCjzvBZxsEsErZVdvG0bm8liSK","userName":"dsa","_id":"5ed3cba6d47d8b51a0915645"}
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:22:15 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:22:37 GMT - Debug - dsa, dsa, dsa
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$lGzY/SBPn8X0SlpmHNDutucjtNMufzGc2rNXL./6COjDLcuXM/bea","userName":"dsa","_id":"5ed3cbbdd47d8b51a0915646"}
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:22:38 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:23:59 GMT - Debug - dsadas, 1212, 12
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.service - signup with username: dsadas
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.route - new account created: {"fullName":"12","password":"$2b$10$XatSg47Vru26LkRfAZFl5O7ZyPZvg9uNsp3sm.9R7FFV2vY1K6bKi","userName":"dsadas","_id":"5ed3cc0fd47d8b51a0915647"}
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.service - login with username: dsadas
+Sun, 31 May 2020 15:25:45 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:25:58 GMT - Debug - ghpanika, 123, ruli
+Sun, 31 May 2020 15:25:58 GMT - Debug - auth.service - signup with username: ghpanika
+Sun, 31 May 2020 15:26:00 GMT - Debug - auth.route - new account created: {"fullName":"ruli","password":"$2b$10$9yMRt4.QEx30dJO9kPhwjOAua7wjfEcAsXrXERGiK5UvVDqaktBiO","userName":"ghpanika","_id":"5ed3cc8633edad30643d768b"}
+Sun, 31 May 2020 15:26:00 GMT - Debug - auth.service - login with username: ghpanika
+Sun, 31 May 2020 15:26:20 GMT - Debug - dsa, 12, asd
+Sun, 31 May 2020 15:26:20 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:26:21 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$4urZHsZtKIbB1KDhCG0jOuyQkDJCKpOKRu1cc9sF4xvKa5x/hYG1W","userName":"dsa","_id":"5ed3cc9d33edad30643d768c"}
+Sun, 31 May 2020 15:26:21 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:26:21 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:27:21 GMT - Debug - zizi halifa, 123, aasssddaaa
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - signup with username: zizi halifa
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.route - new account created: {"fullName":"aasssddaaa","password":"$2b$10$hY51J3QoTIrs50xuiB1bkORttdE6IRd7eKkicmXvpPno4Pao9K2xG","userName":"zizi halifa","_id":"5ed3ccd933edad30643d768d"}
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - login with username: zizi halifa
