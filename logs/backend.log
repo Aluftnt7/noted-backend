@@ -1,0 +1,300 @@
+Sun, 31 May 2020 10:07:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:08:15 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:08:18 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:30:08 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:31:10 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:31:21 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:31:37 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:32:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:33:50 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:34:01 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:34:09 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 10:34:39 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:06:11 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:41:51 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:45:02 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:45:17 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 11:45:17 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 11:45:47 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 11:47:27 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:47:51 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 11:47:51 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 11:48:21 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 11:49:26 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:49:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:52:31 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:52:38 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:53:05 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 11:53:05 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 11:53:35 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 11:55:14 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:55:25 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 11:55:25 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 11:55:46 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:55:58 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 11:55:58 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 11:56:16 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 11:57:47 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:02:55 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:02:55 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:02:55 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:02:55 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:03:11 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:03:11 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:03:25 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:04:16 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:04:31 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:04:31 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:04:55 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:05:05 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:05:05 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:05:28 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:05:55 GMT - Debug - baglama, 12, bagi baglam
+Sun, 31 May 2020 12:05:55 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:06:25 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 12:07:24 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:07:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:08:06 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:08:06 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:08:17 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:08:30 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:08:30 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:09:00 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 12:09:35 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:09:51 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:09:51 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:10:21 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 12:11:35 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:11:43 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:11:52 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:11:52 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:12:03 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:14:51 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:14:59 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:15:08 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:15:08 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:15:38 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 12:15:51 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:16:02 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:16:02 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:16:33 GMT - Error - [SIGNUP] MongoServerSelectionError: getaddrinfo ENOTFOUND cluster0-j35sr.mongodb.net
+Sun, 31 May 2020 12:17:08 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:17:13 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:17:28 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:17:28 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:17:31 GMT - Debug - auth.route - new account created: {"fullName":"bagi baglam","password":"$2b$10$giwUcbDkuKNUAY9vEAaqnuJ5yOwsAxUBH3OhBtsz7af7f1V7yyyiK","userName":"baglama","_id":"5ed3a058d8abf84bc465629f"}
+Sun, 31 May 2020 12:17:31 GMT - Error - [SIGNUP] ReferenceError: username is not defined
+Sun, 31 May 2020 12:18:57 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:19:14 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:19:20 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:19:28 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:20:44 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:20:46 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:20:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:20:54 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:22:08 GMT - Debug - zalmon limon, 123, ran zalmon
+Sun, 31 May 2020 12:22:08 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 12:22:10 GMT - Debug - auth.route - new account created: {"fullName":"ran zalmon","password":"$2b$10$2wCAgJ4GliBKGkUKdNl7UO.JgcZg.cQ9bD5DKXyBweYacPLElWD.S","userName":"zalmon limon","_id":"5ed3a1706a1f404aece75854"}
+Sun, 31 May 2020 12:22:10 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 12:22:10 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:23:23 GMT - Debug - bagwan, 123, raja baja
+Sun, 31 May 2020 12:23:23 GMT - Debug - auth.service - signup with username: bagwan
+Sun, 31 May 2020 12:23:23 GMT - Debug - auth.route - new account created: {"fullName":"raja baja","password":"$2b$10$fHygEI0crU/REkRP7r4qse3U7Z1SOTJfvif0Cmga4dR/zhsdZqlvq","userName":"bagwan","_id":"5ed3a1bb6a1f404aece75855"}
+Sun, 31 May 2020 12:23:23 GMT - Debug - auth.service - login with username: bagwan
+Sun, 31 May 2020 12:23:23 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:26:55 GMT - Debug - zalamonnnn, 123, DASDAS
+Sun, 31 May 2020 12:26:55 GMT - Debug - auth.service - signup with username: zalamonnnn
+Sun, 31 May 2020 12:26:55 GMT - Debug - auth.route - new account created: {"fullName":"DASDAS","password":"$2b$10$mgSgtFzKQBi84yzjHzu4eumer3Q7EzfLv807fy3e6fj9xRWYXfAB6","userName":"zalamonnnn","_id":"5ed3a28f6a1f404aece75856"}
+Sun, 31 May 2020 12:26:55 GMT - Debug - auth.service - login with username: zalamonnnn
+Sun, 31 May 2020 12:26:56 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:27:38 GMT - Debug - baglama, 123, bagi baglam
+Sun, 31 May 2020 12:27:38 GMT - Debug - auth.service - signup with username: baglama
+Sun, 31 May 2020 12:27:38 GMT - Debug - auth.route - new account created: {"fullName":"bagi baglam","password":"$2b$10$pRTlQJpAoI7ReQz2/tfCMeDl9LlBXOOJoAUOa7tN/DToT/YUF2nGK","userName":"baglama","_id":"5ed3a2ba6a1f404aece75857"}
+Sun, 31 May 2020 12:27:38 GMT - Debug - auth.service - login with username: baglama
+Sun, 31 May 2020 12:27:38 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:28:19 GMT - Debug - sadasd, das, das
+Sun, 31 May 2020 12:28:19 GMT - Debug - auth.service - signup with username: sadasd
+Sun, 31 May 2020 12:28:19 GMT - Debug - auth.route - new account created: {"fullName":"das","password":"$2b$10$k/mhM5uFg5jcUeovtZMK0eO6u9rb/H56NPo7frVCn.x34k4AjQOg.","userName":"sadasd","_id":"5ed3a2e36a1f404aece75858"}
+Sun, 31 May 2020 12:28:19 GMT - Debug - auth.service - login with username: sadasd
+Sun, 31 May 2020 12:28:19 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:30:45 GMT - Debug - 121212, 2121, 1212
+Sun, 31 May 2020 12:30:45 GMT - Debug - auth.service - signup with username: 121212
+Sun, 31 May 2020 12:30:45 GMT - Debug - auth.route - new account created: {"fullName":"1212","password":"$2b$10$CYPhAi1OzE7kpshEgKCyquSWJXbhXhN03JBUNkG5wzzwKpYQSQxzu","userName":"121212","_id":"5ed3a3756a1f404aece75859"}
+Sun, 31 May 2020 12:30:45 GMT - Debug - auth.service - login with username: 121212
+Sun, 31 May 2020 12:30:45 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:33:14 GMT - Debug - dsa, asd, asd
+Sun, 31 May 2020 12:33:14 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 12:33:14 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$PSTR6jMT46MDiQ44fCem3uHA7r8ptWDRydqEmLZWofy0EwrdqOTt6","userName":"dsa","_id":"5ed3a40a6a1f404aece7585a"}
+Sun, 31 May 2020 12:33:14 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 12:33:14 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:39:34 GMT - Debug - faaasasa, 123, sa
+Sun, 31 May 2020 12:39:34 GMT - Debug - auth.service - signup with username: faaasasa
+Sun, 31 May 2020 12:39:34 GMT - Debug - faaasasa, 123, sa
+Sun, 31 May 2020 12:39:34 GMT - Debug - auth.service - signup with username: faaasasa
+Sun, 31 May 2020 12:39:35 GMT - Debug - auth.route - new account created: {"fullName":"sa","password":"$2b$10$v09woyi.S/gsbMjj8LPPbOsFNylmlxWQhpMW3ANvry6.8VC2y9h6e","userName":"faaasasa","_id":"5ed3a5866a1f404aece7585b"}
+Sun, 31 May 2020 12:39:35 GMT - Debug - auth.service - login with username: faaasasa
+Sun, 31 May 2020 12:39:35 GMT - Debug - auth.route - new account created: {"fullName":"sa","password":"$2b$10$9q58XxbE7o8IzEyDhg7UWeleEqWQXhT7xSS2dQvmzSBv/2O15lFk.","userName":"faaasasa","_id":"5ed3a5866a1f404aece7585c"}
+Sun, 31 May 2020 12:39:35 GMT - Debug - auth.service - login with username: faaasasa
+Sun, 31 May 2020 12:39:35 GMT - Debug - faaasasa, 123, sa
+Sun, 31 May 2020 12:39:35 GMT - Debug - auth.service - signup with username: faaasasa
+Sun, 31 May 2020 12:39:35 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:39:35 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:39:36 GMT - Debug - auth.route - new account created: {"fullName":"sa","password":"$2b$10$67SJdjWh9nG2.Q9SOLX6Xehh8rtMlTtca2LhMRPyNEPfpQIl6gJbG","userName":"faaasasa","_id":"5ed3a5876a1f404aece7585d"}
+Sun, 31 May 2020 12:39:36 GMT - Debug - auth.service - login with username: faaasasa
+Sun, 31 May 2020 12:39:36 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:41:48 GMT - Debug - zalmon limon, 121212, 12121
+Sun, 31 May 2020 12:41:48 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 12:41:49 GMT - Debug - auth.route - new account created: {"fullName":"12121","password":"$2b$10$JIeoDBtO/gteMfXawNZjKe6ZrWYqHEo8firEAVULvBFvUj5z3LZI6","userName":"zalmon limon","_id":"5ed3a60c6a1f404aece7585e"}
+Sun, 31 May 2020 12:41:49 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 12:41:49 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:44:36 GMT - Debug - sadasdsad, asd, asdas
+Sun, 31 May 2020 12:44:36 GMT - Debug - auth.service - signup with username: sadasdsad
+Sun, 31 May 2020 12:44:36 GMT - Debug - auth.route - new account created: {"fullName":"asdas","password":"$2b$10$3E27Ned47x1v/A2bfFI2c.gf6dSjw8mch619apo7yJipH7X.XciGm","userName":"sadasdsad","_id":"5ed3a6b46a1f404aece7585f"}
+Sun, 31 May 2020 12:44:36 GMT - Debug - auth.service - login with username: sadasdsad
+Sun, 31 May 2020 12:44:36 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:47:07 GMT - Debug - dsadasd, dsa, asd
+Sun, 31 May 2020 12:47:07 GMT - Debug - auth.service - signup with username: dsadasd
+Sun, 31 May 2020 12:47:07 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$G2BMOyYmT3DknydiFs9F/uhwKkXaydmPoxD5HSqUaVWVyGPvwcA4.","userName":"dsadasd","_id":"5ed3a74b6a1f404aece75860"}
+Sun, 31 May 2020 12:47:07 GMT - Debug - auth.service - login with username: dsadasd
+Sun, 31 May 2020 12:47:07 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:49:43 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:49:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:50:05 GMT - Debug - dsadsa, 123, sadasdas
+Sun, 31 May 2020 12:50:05 GMT - Debug - auth.service - signup with username: dsadsa
+Sun, 31 May 2020 12:50:07 GMT - Debug - dsadsa, 123, sadasdas
+Sun, 31 May 2020 12:50:07 GMT - Debug - auth.service - signup with username: dsadsa
+Sun, 31 May 2020 12:50:08 GMT - Debug - auth.route - new account created: {"fullName":"sadasdas","password":"$2b$10$U9BcqKy56ym41OaD8xEOUOQ/m9Y7BHKwRaSU80f7FqK8/UyjOF.r6","userName":"dsadsa","_id":"5ed3a7fdfc72c2560c73a50a"}
+Sun, 31 May 2020 12:50:08 GMT - Debug - auth.service - login with username: dsadsa
+Sun, 31 May 2020 12:50:08 GMT - Debug - auth.route - new account created: {"fullName":"sadasdas","password":"$2b$10$Syhvxk4XSbqeL8wirybTXuixPhz7xmKTgWHzRY0UScfrjXVOkXkEW","userName":"dsadsa","_id":"5ed3a7fffc72c2560c73a50b"}
+Sun, 31 May 2020 12:50:08 GMT - Debug - auth.service - login with username: dsadsa
+Sun, 31 May 2020 12:50:08 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:50:08 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:50:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:50:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:50:59 GMT - Debug - zalmon limon, 123, DASDSA
+Sun, 31 May 2020 12:50:59 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 12:51:02 GMT - Debug - auth.route - new account created: {"fullName":"DASDSA","password":"$2b$10$1RKbk92a76hy8.JeUzgpJu1quQvg5zTpPQ80WY1GGjVNdSsqqzZJ.","userName":"zalmon limon","_id":"5ed3a834ce424d4bb80dade8"}
+Sun, 31 May 2020 12:51:02 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 12:51:02 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:51:17 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:51:24 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:51:36 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:52:36 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:53:28 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:53:32 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:53:47 GMT - Debug - fdaaasd, 123, bagi baglam
+Sun, 31 May 2020 12:53:47 GMT - Debug - auth.service - signup with username: fdaaasd
+Sun, 31 May 2020 12:53:50 GMT - Debug - auth.route - new account created: {"fullName":"bagi baglam","password":"$2b$10$dLI1WYzg4EufjsmLfUjazuxc4.AE2y/IWLIGBX.D57imoftvppUHy","userName":"fdaaasd","_id":"5ed3a8dcba79404f5ca56194"}
+Sun, 31 May 2020 12:53:50 GMT - Debug - auth.service - login with username: fdaaasd
+Sun, 31 May 2020 12:53:50 GMT - Error - [SIGNUP] Invalid username or password
+Sun, 31 May 2020 12:55:24 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:56:38 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 12:56:51 GMT - Debug - DSADASD, 123, DSAD
+Sun, 31 May 2020 12:56:51 GMT - Debug - auth.service - signup with username: DSADASD
+Sun, 31 May 2020 12:56:54 GMT - Debug - auth.route - new account created: {"fullName":"DSAD","password":"$2b$10$iTCishUPbN5q/97kJ3d3meqOrJXCPIn/ENzwd4MeqNJdkbdqON0NC","userName":"DSADASD","_id":"5ed3a993d5bacc414880d1dd"}
+Sun, 31 May 2020 12:56:54 GMT - Debug - auth.service - login with username: DSADASD
+Sun, 31 May 2020 12:56:54 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:06:42 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:06:55 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:07:10 GMT - Debug - zalmon limon, 123, asd
+Sun, 31 May 2020 13:07:10 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 13:07:13 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$5d1sViVF3G2gCkF4/vazJ.6ALGsrS1Lxv3JeL9W1b84NdJ5W/UqQu","userName":"zalmon limon","_id":"5ed3abfe58b47d4b505b30e7"}
+Sun, 31 May 2020 13:07:13 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 13:07:13 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:08:57 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:10:17 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:10:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:10:58 GMT - Debug - zalamonnnn, 123, dsa
+Sun, 31 May 2020 13:10:58 GMT - Debug - auth.service - signup with username: zalamonnnn
+Sun, 31 May 2020 13:11:00 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$4y.HgiLPqp9BmJhP.XSaDec.1USMX/uDTLfEeTQW5iAr9YDn/tqdO","userName":"zalamonnnn","_id":"5ed3ace2106ed51cd426fc01"}
+Sun, 31 May 2020 13:11:00 GMT - Debug - auth.service - login with username: zalamonnnn
+Sun, 31 May 2020 13:11:00 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:11:42 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:12:13 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:12:20 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:12:35 GMT - Debug - dalia, 123, ssaaasassa123
+Sun, 31 May 2020 13:12:35 GMT - Debug - auth.service - signup with username: dalia
+Sun, 31 May 2020 13:12:37 GMT - Debug - auth.route - new account created: {"fullName":"ssaaasassa123","password":"$2b$10$3Obm6vB7gC3OhqdU/Qeb/uZj6AvRDEZhCb9hkI/mDHzYURItWqNEK","userName":"dalia","_id":"5ed3ad435715c821fcc40e54"}
+Sun, 31 May 2020 13:12:37 GMT - Debug - auth.service - login with username: dalia
+Sun, 31 May 2020 13:12:38 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:14:12 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:14:21 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:14:27 GMT - Debug - dsa, 123, dsa
+Sun, 31 May 2020 13:14:27 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 13:14:30 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$wXAnpxkAv61R188X4wYi5eTIcakRT.CwjxKxhvdILtfnwV1exDs5O","userName":"dsa","_id":"5ed3adb385b21a33e8226baf"}
+Sun, 31 May 2020 13:14:30 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 13:14:30 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:17:04 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:17:05 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:17:20 GMT - Debug - taluli, 123, tal soffffffi
+Sun, 31 May 2020 13:17:20 GMT - Debug - auth.service - signup with username: taluli
+Sun, 31 May 2020 13:17:22 GMT - Debug - auth.route - new account created: {"fullName":"tal soffffffi","password":"$2b$10$2a3PPy2xa9S94LA30Y40XeTCF6/NWdvRB.kq/C9XfeLU1w8Utk8we","userName":"taluli","_id":"5ed3ae60a5c07953c89472c7"}
+Sun, 31 May 2020 13:17:22 GMT - Debug - auth.service - login with username: taluli
+Sun, 31 May 2020 13:17:22 GMT - Error - [SIGNUP] MongoError: query selector must be an object
+Sun, 31 May 2020 13:18:53 GMT - Debug - rajawan, 123, raji
+Sun, 31 May 2020 13:18:53 GMT - Debug - auth.service - signup with username: rajawan
+Sun, 31 May 2020 13:18:53 GMT - Debug - auth.route - new account created: {"fullName":"raji","password":"$2b$10$k9BFf1x1kEJQi163hq85Jef2BukGoIeA7R4qaBb8pRMhnem4Re5kS","userName":"rajawan","_id":"5ed3aebda5c07953c89472c8"}
+Sun, 31 May 2020 13:18:53 GMT - Debug - auth.service - login with username: rajawan
+Sun, 31 May 2020 13:18:53 GMT - Error - [SIGNUP] MongoError: query selector must be an object
+Sun, 31 May 2020 13:21:12 GMT - Debug - bagwan, 123, asd
+Sun, 31 May 2020 13:21:12 GMT - Debug - auth.service - signup with username: bagwan
+Sun, 31 May 2020 13:21:12 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$VLH8tAyaP9dkkXOzdGC7BeeIWa2pwq48Hou6SxadYOTxC3KkEI5CS","userName":"bagwan","_id":"5ed3af48a5c07953c89472c9"}
+Sun, 31 May 2020 13:21:12 GMT - Debug - auth.service - login with username: bagwan
+Sun, 31 May 2020 13:21:12 GMT - Error - [SIGNUP] MongoError: query selector must be an object
+Sun, 31 May 2020 13:21:49 GMT - Debug - zalmon limon, 123, DSAD
+Sun, 31 May 2020 13:21:49 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 13:21:49 GMT - Debug - auth.route - new account created: {"fullName":"DSAD","password":"$2b$10$4aYQFAg7sZLghIrVwHLzku6Lk3dVeMZuu9Ugs6dRyzia9OXPVCg3.","userName":"zalmon limon","_id":"5ed3af6da5c07953c89472ca"}
+Sun, 31 May 2020 13:21:49 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 13:21:49 GMT - Error - [SIGNUP] MongoError: query selector must be an object
+Sun, 31 May 2020 13:25:32 GMT - Debug - Musa, 123, konate musA
+Sun, 31 May 2020 13:25:32 GMT - Debug - auth.service - signup with username: Musa
+Sun, 31 May 2020 13:25:32 GMT - Debug - auth.route - new account created: {"fullName":"konate musA","password":"$2b$10$ZYPlqeARvOThgU7rvdF71.jwxsjCxu9ImVfGrg285jZHlDOoYkpya","userName":"Musa","_id":"5ed3b04ca5c07953c89472cb"}
+Sun, 31 May 2020 13:25:32 GMT - Debug - auth.service - login with username: Musa
+Sun, 31 May 2020 13:25:32 GMT - Error - [SIGNUP] MongoError: query selector must be an object
+Sun, 31 May 2020 13:25:49 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:26:07 GMT - Debug - shuka, 123, shuka bituach
+Sun, 31 May 2020 13:26:07 GMT - Debug - auth.service - signup with username: shuka
+Sun, 31 May 2020 13:26:10 GMT - Debug - auth.route - new account created: {"fullName":"shuka bituach","password":"$2b$10$E1AMqunSGgaZj5omkgYP7esy16T5eEbrhx6K9FSP6AYGYaVzxf5Nq","userName":"shuka","_id":"5ed3b06f9dbec339a80331a0"}
+Sun, 31 May 2020 13:26:10 GMT - Debug - auth.service - login with username: shuka
+Sun, 31 May 2020 13:26:10 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:28:30 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:28:44 GMT - Debug - zalamonnnn, 123, das
+Sun, 31 May 2020 13:28:44 GMT - Debug - auth.service - signup with username: zalamonnnn
+Sun, 31 May 2020 13:28:46 GMT - Debug - auth.route - new account created: {"fullName":"das","password":"$2b$10$jQ4fphfdt2dpMUBIL9IPfOaXGWJ6E1SypawfxL4Etb338TP7bXVWe","userName":"zalamonnnn","_id":"5ed3b10ccf2980511cf81f34"}
+Sun, 31 May 2020 13:28:46 GMT - Debug - auth.service - login with username: zalamonnnn
+Sun, 31 May 2020 13:28:46 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:34:06 GMT - Debug - aluftnt, 123, aluf acashpn
+Sun, 31 May 2020 13:34:06 GMT - Debug - auth.service - signup with username: aluftnt
+Sun, 31 May 2020 13:34:06 GMT - Debug - auth.route - new account created: {"fullName":"aluf acashpn","password":"$2b$10$bVaVwDsOGLvSFaf5/40s6efK1RcWh5swrDcpWLBVn8/PgIzCFUt1C","userName":"aluftnt","_id":"5ed3b24ecf2980511cf81f35"}
+Sun, 31 May 2020 13:34:06 GMT - Debug - auth.service - login with username: aluftnt
+Sun, 31 May 2020 13:34:06 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:34:18 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:34:34 GMT - Debug - lulu, 123, dsa
+Sun, 31 May 2020 13:34:34 GMT - Debug - auth.service - signup with username: lulu
+Sun, 31 May 2020 13:34:37 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$c4jn24kT1FKuTEFOZh36YOIDaB79k3IVmxYJksM1UT9mdXjIFFl9O","userName":"lulu","_id":"5ed3b26a3c9efd4c40dfecf6"}
+Sun, 31 May 2020 13:34:37 GMT - Debug - auth.service - login with username: lulu
+Sun, 31 May 2020 13:34:37 GMT - Error - [SIGNUP] USER Invalid username or password
+Sun, 31 May 2020 13:37:02 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:37:05 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:37:20 GMT - Debug - shimon , 123, hashachen`
+Sun, 31 May 2020 13:37:20 GMT - Debug - auth.service - signup with username: shimon 
+Sun, 31 May 2020 13:37:23 GMT - Debug - auth.route - new account created: {"fullName":"hashachen`","password":"$2b$10$DhLFqDd6nSFPerhV1I4lS.Tt/U0ydC74FOou.N7s86d2rtgrhqFVK","userName":"shimon ","_id":"5ed3b3108ea7144f1069b6ae"}
+Sun, 31 May 2020 13:37:23 GMT - Debug - auth.service - login with username: shimon 
+Sun, 31 May 2020 13:37:32 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:37:51 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 13:38:30 GMT - Debug - silwan, 123, neheisei
+Sun, 31 May 2020 13:38:30 GMT - Debug - auth.service - signup with username: silwan
+Sun, 31 May 2020 13:38:33 GMT - Debug - auth.route - new account created: {"fullName":"neheisei","password":"$2b$10$uDlGF9wW0FD1sSLWP0rEPuhQzRYvCIishGiphO7bGkt39U3HLExGO","userName":"silwan","_id":"5ed3b356d9087a4944e98cd3"}
+Sun, 31 May 2020 13:38:33 GMT - Debug - auth.service - login with username: silwan
+Sun, 31 May 2020 13:40:57 GMT - Debug - mothefuthe, 123, yes yes
+Sun, 31 May 2020 13:40:57 GMT - Debug - auth.service - signup with username: mothefuthe
+Sun, 31 May 2020 13:40:58 GMT - Debug - auth.route - new account created: {"fullName":"yes yes","password":"$2b$10$oiXtyGq5uEXvucJ2ApUCV.yfCkIhZColi44ixlAoQjxT6MsYzB1yu","userName":"mothefuthe","_id":"5ed3b3e9d9087a4944e98cd4"}
+Sun, 31 May 2020 13:40:58 GMT - Debug - auth.service - login with username: mothefuthe
+Sun, 31 May 2020 13:44:28 GMT - Debug - zalmon limon, 2345, dsa
+Sun, 31 May 2020 13:44:28 GMT - Debug - auth.service - signup with username: zalmon limon
+Sun, 31 May 2020 13:44:29 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$LaqIT6LV0cw7n1c8fMI5KuF1UfWJYRFrVjOxWbhfq6cGbxDFo/1H2","userName":"zalmon limon","_id":"5ed3b4bcd9087a4944e98cd5"}
+Sun, 31 May 2020 13:44:29 GMT - Debug - auth.service - login with username: zalmon limon
+Sun, 31 May 2020 14:10:26 GMT - Debug - shilarwa, 123, gigi kou
+Sun, 31 May 2020 14:10:26 GMT - Debug - auth.service - signup with username: shilarwa
+Sun, 31 May 2020 14:10:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi kou","password":"$2b$10$s3S.zV1GfVftcjCypB6EBOcEUVEDXbHDEN.tv.Blly76ZZLCdr07a","userName":"shilarwa","_id":"5ed3bad2d9087a4944e98cd6"}
+Sun, 31 May 2020 14:10:31 GMT - Debug - auth.service - login with username: shilarwa
