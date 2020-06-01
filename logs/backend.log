@@ -298,127 +298,175 @@ Sun, 31 May 2020 14:10:26 GMT - Debug - shilarwa, 123, gigi kou
 Sun, 31 May 2020 14:10:26 GMT - Debug - auth.service - signup with username: shilarwa
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi kou","password":"$2b$10$s3S.zV1GfVftcjCypB6EBOcEUVEDXbHDEN.tv.Blly76ZZLCdr07a","userName":"shilarwa","_id":"5ed3bad2d9087a4944e98cd6"}
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.service - login with username: shilarwa
-Sun, 31 May 2020 14:19:41 GMT - Info - Server is running on port: 3030
-Sun, 31 May 2020 14:32:46 GMT - Info - Server is running on port: 3030
-Sun, 31 May 2020 14:36:29 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:36:29 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:36:32 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$hU/4OlwUAhgNqnIXKwPDL.t/rDlpA..K6O.S9iEnXOmBB6BolPjx6","userName":"Ran","_id":"5ed3c0edcb155c1c94f3a91f"}
-Sun, 31 May 2020 14:36:32 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 14:37:53 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:37:53 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:37:53 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$SYh0UPnsFK6xp82PDr2/WezS7gfXrSmt1ULXsysYX9nAayZ5qOQ5C","userName":"Ran","_id":"5ed3c141cb155c1c94f3a920"}
-Sun, 31 May 2020 14:37:53 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 14:44:49 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:44:49 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:44:50 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$oecKE3rzDbexMJivemJK.OMn/GBIXywXRj3tZNFJzSDzM0RKP4g0u","userName":"Ran","_id":"5ed3c2e1cb155c1c94f3a921"}
-Sun, 31 May 2020 14:44:50 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 14:47:00 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:47:00 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:47:00 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$RTgHueL0ZwN.qTL2hvOAYeDEXIq5KW2xeIvXbyUlVh.xP.ut2Z27C","userName":"Ran","_id":"5ed3c364cb155c1c94f3a922"}
-Sun, 31 May 2020 14:47:00 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 14:51:14 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:51:14 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:51:14 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$TP8.j7KS6i3ZxbR8yMrUDeZaG.X.SJSjGeeHvR8hw5pVdtkTs5Tqm","userName":"Ran","_id":"5ed3c462cb155c1c94f3a923"}
-Sun, 31 May 2020 14:51:14 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 14:56:32 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 14:56:32 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 14:56:32 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$CZO5dWM7xM.4vztL4C5fgOcQGwO2.T0cHD9iUdIm33TnZiVG7bdsm","userName":"Ran","_id":"5ed3c5a0cb155c1c94f3a924"}
-Sun, 31 May 2020 14:56:32 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:02:53 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:02:53 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:02:55 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$zSjXx.QJuCFL.rbKpwcV8e6sdUPtZB4WUzKRSCzzFxOS.6M0X4JWa","userName":"Ran","_id":"5ed3c71ecb155c1c94f3a925"}
-Sun, 31 May 2020 15:02:55 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:15:55 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:15:55 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:15:57 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$QJzTZN2eYKworUKHtTylG.rcm9yHKvObmljUV2uD/otxkHBXAWNfO","userName":"Ran","_id":"5ed3ca2bcb155c1c94f3a926"}
-Sun, 31 May 2020 15:15:57 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:23:25 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:23:25 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:23:27 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$/YQFCv4rpRC/m6Ax7GUSKeaZToI/PSpqB.VjuuV2UGnKky7qt56W6","userName":"Ran","_id":"5ed3cbeecb155c1c94f3a927"}
-Sun, 31 May 2020 15:23:27 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:32:05 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:32:05 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:32:06 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$CQvVKQFsU1Fhudd80r6BY.vSIA0D4YQO3q9PlG559NhB6Fy7kN4PO","userName":"Ran","_id":"5ed3cdf5cb155c1c94f3a928"}
-Sun, 31 May 2020 15:32:06 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:39:09 GMT - Info - Server is running on port: 3030
-Sun, 31 May 2020 15:40:38 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:40:38 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:40:41 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$bkj.tlHK0J5FESjRvGtVNejSUe6x8jhg8KpRFUtoHrO3U5xYfjuuq","userName":"Ran","_id":"5ed3cff63f007e03bc712e0f"}
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$Gph5l1P09BLvzTjnCe/d5OBybDwJLTij2/KKXkC7Llt97d1M7rQ06","userName":"Ran","_id":"5ed3cff93f007e03bc712e10"}
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:40:41 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:40:42 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$SrdZ4Wh2Vcey0aPITDYoCu9pVuuZiBBkWu1OGyPs9Ijs04Jgbk9bG","userName":"Ran","_id":"5ed3cff93f007e03bc712e11"}
-Sun, 31 May 2020 15:40:42 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 15:48:08 GMT - Info - Server is running on port: 3030
-Sun, 31 May 2020 15:50:21 GMT - Debug - Ran, 123456, Ran Ha Gever
-Sun, 31 May 2020 15:50:21 GMT - Debug - auth.service - signup with username: Ran
-Sun, 31 May 2020 15:50:24 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$RaR0GRqB7qHi4pKqekGgfOAthV1LA0WtI8jpX6b.IH4DL3.B7a95K","userName":"Ran","_id":"5ed3d23d543f88657c9eabcd"}
-Sun, 31 May 2020 15:50:24 GMT - Debug - auth.service - login with username: Ran
-Sun, 31 May 2020 16:28:22 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:09:12 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:23:26 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:23:37 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:23:55 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:25:00 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:25:06 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:26:22 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:26:35 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:28:43 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:29:16 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:29:24 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:29:47 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:29:56 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:30:26 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:30:37 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:30:43 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:30:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:31:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:31:50 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:31:57 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:32:38 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:33:32 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:34:19 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:34:32 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:34:38 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:34:50 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:34:56 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:12 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:16 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:27 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:34 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:37 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:42 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:35:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:00 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:10 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:16 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:22 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:25 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:41 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:44 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:51 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:36:54 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:37:05 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:37:12 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:37:19 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:37:22 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:37:33 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:38:14 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:53:41 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:53:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:54:07 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:54:27 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:54:30 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:54:34 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:54:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:55:03 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:55:18 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:55:24 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:55:46 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:55:48 GMT - Info - Server is running on port: 3030
-Mon, 01 Jun 2020 06:56:29 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 14:24:29 GMT - Debug - gigigigi, 123, gigi hadid
+Sun, 31 May 2020 14:24:29 GMT - Debug - auth.service - signup with username: gigigigi
+Sun, 31 May 2020 14:24:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi hadid","password":"$2b$10$9UiAEnvzezeYWWMkQO01xOeUATBxCUx362J9NggQt2qKxqFK8f/ga","userName":"gigigigi","_id":"5ed3be1dd9087a4944e98cd7"}
+Sun, 31 May 2020 14:24:31 GMT - Debug - auth.service - login with username: gigigigi
+Sun, 31 May 2020 14:25:51 GMT - Debug - gittrraaasa, 123, asdasdas
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.service - signup with username: gittrraaasa
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.route - new account created: {"fullName":"asdasdas","password":"$2b$10$mIy986QBGzUtdeGwxRfrAOEfCK0D4G6bSvAbwbUD3RvqijcG1dsDK","userName":"gittrraaasa","_id":"5ed3be6fd9087a4944e98cd8"}
+Sun, 31 May 2020 14:25:51 GMT - Debug - auth.service - login with username: gittrraaasa
+Sun, 31 May 2020 14:27:24 GMT - Debug - hana banana, 123, gigi
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.service - signup with username: hana banana
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.route - new account created: {"fullName":"gigi","password":"$2b$10$.WZ0Gc4jz/jJ5t5/umHi6uBNuwefVyVfCVbzkHlwZo898eWF7cM6y","userName":"hana banana","_id":"5ed3beccd9087a4944e98cd9"}
+Sun, 31 May 2020 14:27:24 GMT - Debug - auth.service - login with username: hana banana
+Sun, 31 May 2020 14:43:20 GMT - Debug - sadasdsadasd1111, 12345, 123
+Sun, 31 May 2020 14:43:20 GMT - Debug - auth.service - signup with username: sadasdsadasd1111
+Sun, 31 May 2020 14:43:21 GMT - Debug - auth.route - new account created: {"fullName":"123","password":"$2b$10$1ymlEUFF7fp/6b7PZJpTrO4rDjWkx3k4RJRjP1NoP/QQG366hPvx.","userName":"sadasdsadasd1111","_id":"5ed3c288d9087a4944e98cda"}
+Sun, 31 May 2020 14:43:21 GMT - Debug - auth.service - login with username: sadasdsadasd1111
+Sun, 31 May 2020 14:45:49 GMT - Debug - dsadsaq112ed, 12, dsad sda
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.service - signup with username: dsadsaq112ed
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.route - new account created: {"fullName":"dsad sda","password":"$2b$10$wFyas7/73Afqw5j1UfdYY.89lmtFoLjvg/YUiCE5Gdl9jQPwNaG0y","userName":"dsadsaq112ed","_id":"5ed3c31dd9087a4944e98cdb"}
+Sun, 31 May 2020 14:45:49 GMT - Debug - auth.service - login with username: dsadsaq112ed
+Sun, 31 May 2020 14:49:01 GMT - Debug - ertte, 12, tyhgs
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.service - signup with username: ertte
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.route - new account created: {"fullName":"tyhgs","password":"$2b$10$IpVcN7NFdTe4j12osMsPzesy.0oZ6pYlY0dzFqkjgzygBKXUy5Kv6","userName":"ertte","_id":"5ed3c3ddd9087a4944e98cdc"}
+Sun, 31 May 2020 14:49:01 GMT - Debug - auth.service - login with username: ertte
+Sun, 31 May 2020 15:01:11 GMT - Debug - dsadasda, 123, sadas
+Sun, 31 May 2020 15:01:11 GMT - Debug - auth.service - signup with username: dsadasda
+Sun, 31 May 2020 15:01:13 GMT - Debug - auth.route - new account created: {"fullName":"sadas","password":"$2b$10$JQzTgTnipMzjqC6YnZc6gucNJBk1DLZcYpHy1fAH1iDhNYR9O0Zku","userName":"dsadasda","_id":"5ed3c6b7d9087a4944e98cdd"}
+Sun, 31 May 2020 15:01:13 GMT - Debug - auth.service - login with username: dsadasda
+Sun, 31 May 2020 15:17:18 GMT - Debug - dasdasdaqw, 12, wqwda
+Sun, 31 May 2020 15:17:18 GMT - Debug - auth.service - signup with username: dasdasdaqw
+Sun, 31 May 2020 15:17:19 GMT - Debug - auth.route - new account created: {"fullName":"wqwda","password":"$2b$10$z1E8zMQNR0cgc2EJkdhQ3uymaqY.fiKpesYdj3v2sWnyzs6yweuie","userName":"dasdasdaqw","_id":"5ed3ca7ed9087a4944e98cde"}
+Sun, 31 May 2020 15:17:19 GMT - Debug - auth.service - login with username: dasdasdaqw
+Sun, 31 May 2020 15:18:46 GMT - Debug - sda, 12, dsa
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.service - signup with username: sda
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$ID/Bo/nrQbdaSLqp4CF2Pe2azi8ScRWu0RGQCdmmByXo/BryxF/wu","userName":"sda","_id":"5ed3cad6d9087a4944e98cdf"}
+Sun, 31 May 2020 15:18:46 GMT - Debug - auth.service - login with username: sda
+Sun, 31 May 2020 15:19:47 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:19:52 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:20:28 GMT - Debug - sadasf, 12, fa
+Sun, 31 May 2020 15:20:28 GMT - Debug - auth.service - signup with username: sadasf
+Sun, 31 May 2020 15:20:31 GMT - Debug - auth.route - new account created: {"fullName":"fa","password":"$2b$10$jGT3aLV3roNeTLLNzJgicOK81zSAzN4pi8VXLYVcS6USG.Pl4Enii","userName":"sadasf","_id":"5ed3cb3cd47d8b51a0915644"}
+Sun, 31 May 2020 15:20:31 GMT - Debug - auth.service - login with username: sadasf
+Sun, 31 May 2020 15:22:14 GMT - Debug - dsa, 12, sa
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.route - new account created: {"fullName":"sa","password":"$2b$10$zkNuHEjvvjMROhNQ3nGbD.l8WOoSCjzvBZxsEsErZVdvG0bm8liSK","userName":"dsa","_id":"5ed3cba6d47d8b51a0915645"}
+Sun, 31 May 2020 15:22:14 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:22:15 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:22:37 GMT - Debug - dsa, dsa, dsa
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$lGzY/SBPn8X0SlpmHNDutucjtNMufzGc2rNXL./6COjDLcuXM/bea","userName":"dsa","_id":"5ed3cbbdd47d8b51a0915646"}
+Sun, 31 May 2020 15:22:37 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:22:38 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:23:59 GMT - Debug - dsadas, 1212, 12
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.service - signup with username: dsadas
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.route - new account created: {"fullName":"12","password":"$2b$10$XatSg47Vru26LkRfAZFl5O7ZyPZvg9uNsp3sm.9R7FFV2vY1K6bKi","userName":"dsadas","_id":"5ed3cc0fd47d8b51a0915647"}
+Sun, 31 May 2020 15:23:59 GMT - Debug - auth.service - login with username: dsadas
+Sun, 31 May 2020 15:25:45 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:25:58 GMT - Debug - ghpanika, 123, ruli
+Sun, 31 May 2020 15:25:58 GMT - Debug - auth.service - signup with username: ghpanika
+Sun, 31 May 2020 15:26:00 GMT - Debug - auth.route - new account created: {"fullName":"ruli","password":"$2b$10$9yMRt4.QEx30dJO9kPhwjOAua7wjfEcAsXrXERGiK5UvVDqaktBiO","userName":"ghpanika","_id":"5ed3cc8633edad30643d768b"}
+Sun, 31 May 2020 15:26:00 GMT - Debug - auth.service - login with username: ghpanika
+Sun, 31 May 2020 15:26:20 GMT - Debug - dsa, 12, asd
+Sun, 31 May 2020 15:26:20 GMT - Debug - auth.service - signup with username: dsa
+Sun, 31 May 2020 15:26:21 GMT - Debug - auth.route - new account created: {"fullName":"asd","password":"$2b$10$4urZHsZtKIbB1KDhCG0jOuyQkDJCKpOKRu1cc9sF4xvKa5x/hYG1W","userName":"dsa","_id":"5ed3cc9d33edad30643d768c"}
+Sun, 31 May 2020 15:26:21 GMT - Debug - auth.service - login with username: dsa
+Sun, 31 May 2020 15:26:21 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Sun, 31 May 2020 15:27:21 GMT - Debug - zizi halifa, 123, aasssddaaa
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - signup with username: zizi halifa
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.route - new account created: {"fullName":"aasssddaaa","password":"$2b$10$hY51J3QoTIrs50xuiB1bkORttdE6IRd7eKkicmXvpPno4Pao9K2xG","userName":"zizi halifa","_id":"5ed3ccd933edad30643d768d"}
+Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - login with username: zizi halifa
+Mon, 01 Jun 2020 06:10:47 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:11:59 GMT - Debug - gagasa, 123, sad
+Mon, 01 Jun 2020 06:11:59 GMT - Debug - auth.service - signup with username: gagasa
+Mon, 01 Jun 2020 06:12:02 GMT - Debug - auth.route - new account created: {"fullName":"sad","password":"$2b$10$j23feJ0MhndrJksn8qZbteGR5mZrBpvjwgkKRiy1H4SALteDWxZgq","userName":"gagasa","_id":"5ed49c2f9131192cf89fcf2e"}
+Mon, 01 Jun 2020 06:12:02 GMT - Debug - auth.service - login with username: gagasa
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - bagwan, 123, cxz
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.service - signup with username: bagwan
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.route - new account created: {"fullName":"cxz","password":"$2b$10$aBt0MMybV0TClsBJytglJ.Vs5iwybROdekLdfbjhP6ChevFyplRpa","userName":"bagwan","_id":"5ed49c709131192cf89fcf2f"}
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.service - login with username: bagwan
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - gigi, 123, hadid
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.service - signup with username: gigi
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.route - new account created: {"fullName":"hadid","password":"$2b$10$l3L4YQXrqRi7cbL8yOxl1ewuFoyDVXJ82IXdO7sz2cWKVqnudAl7O","userName":"gigi","_id":"5ed49cd69131192cf89fcf30"}
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.service - login with username: gigi
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - girafa, 123, gvohaa
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.service - signup with username: girafa
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.route - new account created: {"fullName":"gvohaa","password":"$2b$10$MzPhz7YhPR/ULPhR6Vv2DuyijVRjRjGw7xP6FdIopJC7BvzKfzG/C","userName":"girafa","_id":"5ed49d009131192cf89fcf31"}
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.service - login with username: girafa
+Mon, 01 Jun 2020 06:16:37 GMT - Debug - fififififi, 123, fifa naalain
+Mon, 01 Jun 2020 06:16:37 GMT - Debug - auth.service - signup with username: fififififi
+Mon, 01 Jun 2020 06:16:38 GMT - Debug - auth.route - new account created: {"fullName":"fifa naalain","password":"$2b$10$Ugek.jDmjE4mB4FbaiRZ7OvJYdAkxrCGQzdwcT3Ok7bSJRrvcM4bi","userName":"fififififi","_id":"5ed49d459131192cf89fcf32"}
+Mon, 01 Jun 2020 06:16:38 GMT - Debug - auth.service - login with username: fififififi
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - zalmon limon, 123, sda
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.service - signup with username: zalmon limon
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.route - new account created: {"fullName":"sda","password":"$2b$10$9wFRT9oYMsUyB4DJIqtZ0.LRARSNtQKfR4zrtiL1HuRJEAx4lXXhO","userName":"zalmon limon","_id":"5ed49db29131192cf89fcf33"}
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 06:18:26 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - vivalsa, 123, dusas sad
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.service - signup with username: vivalsa
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.route - new account created: {"fullName":"dusas sad","password":"$2b$10$nllJ9NeGq6jdunlAHLzzxuiDXuzA1JG2LV/MJfrgdxnZYDw0Bfaau","userName":"vivalsa","_id":"5ed49dd69131192cf89fcf34"}
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.service - login with username: vivalsa
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - giasf, 123, sad asd
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.service - signup with username: giasf
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.route - new account created: {"fullName":"sad asd","password":"$2b$10$pUk224IxpB5mXee66lrTI.6IrQveeP.tVVHhkE4p4ldx7rm8SU00a","userName":"giasf","_id":"5ed49dfd9131192cf89fcf35"}
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.service - login with username: giasf
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - bagifdas, 0.12, baga bagwan
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.service - signup with username: bagifdas
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.route - new account created: {"fullName":"baga bagwan","password":"$2b$10$JOan4ACW6jlArs1onVhE.OrBCRj7ELCHLWo2z7NP1RASQ/OYoN6pu","userName":"bagifdas","_id":"5ed49e129131192cf89fcf36"}
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.service - login with username: bagifdas
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - fgahsas, 123, sad asd
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.service - signup with username: fgahsas
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.route - new account created: {"fullName":"sad asd","password":"$2b$10$/sWcJ/Ki57JA9OK4EQ52T.l0923W76uzRtzWVjNXLN17ab51.yf8m","userName":"fgahsas","_id":"5ed49e429131192cf89fcf37"}
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.service - login with username: fgahsas
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - dsadsawq, 123, das asd
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.service - signup with username: dsadsawq
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.route - new account created: {"fullName":"das asd","password":"$2b$10$ve6QKcI7FHHhEOIBPIYzTOKSdYAXUMpRQRgI8nViAwdIET.ZCtR1y","userName":"dsadsawq","_id":"5ed49e519131192cf89fcf38"}
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.service - login with username: dsadsawq
+Mon, 01 Jun 2020 06:49:05 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:58:53 GMT - Debug - undefined, undefined, BAGI BAGWAN
+Mon, 01 Jun 2020 06:58:53 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:00:01 GMT - Debug - undefined, undefined, undefined
+Mon, 01 Jun 2020 07:00:01 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:03:22 GMT - Debug - undefined, undefined, sdas asd 
+Mon, 01 Jun 2020 07:03:22 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:04:55 GMT - Debug - undefined, undefined, dasd asd
+Mon, 01 Jun 2020 07:15:33 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:15:33 GMT - Debug - undefined, 123, undefined
+Mon, 01 Jun 2020 07:15:33 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:16:29 GMT - Debug - undefined, 123, undefined
+Mon, 01 Jun 2020 07:16:29 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:23:14 GMT - Debug - zalmon limon, 123, bagi baglam
+Mon, 01 Jun 2020 07:23:14 GMT - Debug - auth.service - signup with username: zalmon limon
+Mon, 01 Jun 2020 07:23:16 GMT - Debug - auth.route - new account created: {"fullName":"bagi baglam","password":"$2b$10$dbsCiTFkg.EuwOcL/F41BuNxtRYUjvPuxarJ7dO6yrRYl7RpxI9GC","userName":"zalmon limon","_id":"5ed4ace24d21a82794fca0b3"}
+Mon, 01 Jun 2020 07:23:16 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:38:45 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:39:15 GMT - Debug - tamir, 123, tamir
+Mon, 01 Jun 2020 07:39:15 GMT - Debug - auth.service - signup with username: tamir
+Mon, 01 Jun 2020 07:39:16 GMT - Debug - auth.route - new account created: {"fullName":"tamir","password":"$2b$10$PK4WLur7acyCumA1Axyyj.YIcR9/nduYnQOf.w.0ST/wNck3i3mxa","userName":"tamir","_id":"5ed4b0a34d21a82794fca0b4"}
+Mon, 01 Jun 2020 07:39:16 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:39:26 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:39:42 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:41:36 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:42:32 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:43:13 GMT - Debug - auth.service - login with username: garishi
+Mon, 01 Jun 2020 07:46:01 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:46:41 GMT - Debug - auth.service - login with username: baga
+Mon, 01 Jun 2020 07:53:30 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:31 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:31 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:32 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:07 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:37 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:55 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:55:32 GMT - Debug - auth.service - login with username: dsa
+Mon, 01 Jun 2020 07:56:53 GMT - Debug - auth.service - login with username: dasdsad
+Mon, 01 Jun 2020 07:57:24 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:57:44 GMT - Debug - auth.service - login with username: dsa
+Mon, 01 Jun 2020 07:58:05 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:58:29 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:33 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:40 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:56 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:00:07 GMT - Debug - auth.service - login with username: tamie
+Mon, 01 Jun 2020 08:00:40 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:00 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:06 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:30 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:43 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:02:42 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:02:52 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:03:17 GMT - Debug - auth.service - login with username: ta
+Mon, 01 Jun 2020 08:04:06 GMT - Debug - auth.service - login with username: tam
+Mon, 01 Jun 2020 08:04:15 GMT - Debug - auth.service - login with username: tamir

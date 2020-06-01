@@ -16,7 +16,6 @@ async function login(req, res) {
 async function signup(req, res) {
     try {        
         const { userName, password, fullName } = req.body
-        console.log('req in controller', req.session);
         
         logger.debug(userName + ", " + password + ', ' + fullName)
         const account = await authService.signup(userName, password, fullName)

@@ -42,14 +42,11 @@ async function getById(userId) {
     }
 }
 async function getByUsername(userName) {
-    console.log('username in serviceeeeeeeee', userName);
     
     const collection = await dbService.getCollection('user')
-    console.log('collection',collection);
     
     try {
         const user = await collection.findOne({userName})
-        console.log('user in userservice back',user);
         
         return user
     } catch (err) {
