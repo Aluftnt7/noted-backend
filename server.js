@@ -12,6 +12,7 @@ const io = require('socket.io')(http);
 // const projRoutes = require('./api/proj/proj.routes')
 const authRoutes = require('./api/auth/auth.routes')
 const userRoutes = require('./api/user/user.routes')
+const noteRoutes = require('./api/note/note.routes')
 // const reviewRoutes = require('./api/review/review.routes')
 const connectSockets = require('./api/Socket/SocketRoutes')
 
@@ -40,6 +41,7 @@ if (process.env.NODE_ENV === 'production') {
 // app.use('/api/proj', projRoutes)
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
+app.use('/api/note', noteRoutes)
 connectSockets(io)
 
 
