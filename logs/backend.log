@@ -298,3 +298,127 @@ Sun, 31 May 2020 14:10:26 GMT - Debug - shilarwa, 123, gigi kou
 Sun, 31 May 2020 14:10:26 GMT - Debug - auth.service - signup with username: shilarwa
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.route - new account created: {"fullName":"gigi kou","password":"$2b$10$s3S.zV1GfVftcjCypB6EBOcEUVEDXbHDEN.tv.Blly76ZZLCdr07a","userName":"shilarwa","_id":"5ed3bad2d9087a4944e98cd6"}
 Sun, 31 May 2020 14:10:31 GMT - Debug - auth.service - login with username: shilarwa
+Sun, 31 May 2020 14:19:41 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 14:32:46 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 14:36:29 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:36:29 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:36:32 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$hU/4OlwUAhgNqnIXKwPDL.t/rDlpA..K6O.S9iEnXOmBB6BolPjx6","userName":"Ran","_id":"5ed3c0edcb155c1c94f3a91f"}
+Sun, 31 May 2020 14:36:32 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 14:37:53 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:37:53 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:37:53 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$SYh0UPnsFK6xp82PDr2/WezS7gfXrSmt1ULXsysYX9nAayZ5qOQ5C","userName":"Ran","_id":"5ed3c141cb155c1c94f3a920"}
+Sun, 31 May 2020 14:37:53 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 14:44:49 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:44:49 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:44:50 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$oecKE3rzDbexMJivemJK.OMn/GBIXywXRj3tZNFJzSDzM0RKP4g0u","userName":"Ran","_id":"5ed3c2e1cb155c1c94f3a921"}
+Sun, 31 May 2020 14:44:50 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 14:47:00 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:47:00 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:47:00 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$RTgHueL0ZwN.qTL2hvOAYeDEXIq5KW2xeIvXbyUlVh.xP.ut2Z27C","userName":"Ran","_id":"5ed3c364cb155c1c94f3a922"}
+Sun, 31 May 2020 14:47:00 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 14:51:14 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:51:14 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:51:14 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$TP8.j7KS6i3ZxbR8yMrUDeZaG.X.SJSjGeeHvR8hw5pVdtkTs5Tqm","userName":"Ran","_id":"5ed3c462cb155c1c94f3a923"}
+Sun, 31 May 2020 14:51:14 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 14:56:32 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 14:56:32 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 14:56:32 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$CZO5dWM7xM.4vztL4C5fgOcQGwO2.T0cHD9iUdIm33TnZiVG7bdsm","userName":"Ran","_id":"5ed3c5a0cb155c1c94f3a924"}
+Sun, 31 May 2020 14:56:32 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:02:53 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:02:53 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:02:55 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$zSjXx.QJuCFL.rbKpwcV8e6sdUPtZB4WUzKRSCzzFxOS.6M0X4JWa","userName":"Ran","_id":"5ed3c71ecb155c1c94f3a925"}
+Sun, 31 May 2020 15:02:55 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:15:55 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:15:55 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:15:57 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$QJzTZN2eYKworUKHtTylG.rcm9yHKvObmljUV2uD/otxkHBXAWNfO","userName":"Ran","_id":"5ed3ca2bcb155c1c94f3a926"}
+Sun, 31 May 2020 15:15:57 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:23:25 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:23:25 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:23:27 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$/YQFCv4rpRC/m6Ax7GUSKeaZToI/PSpqB.VjuuV2UGnKky7qt56W6","userName":"Ran","_id":"5ed3cbeecb155c1c94f3a927"}
+Sun, 31 May 2020 15:23:27 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:32:05 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:32:05 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:32:06 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$CQvVKQFsU1Fhudd80r6BY.vSIA0D4YQO3q9PlG559NhB6Fy7kN4PO","userName":"Ran","_id":"5ed3cdf5cb155c1c94f3a928"}
+Sun, 31 May 2020 15:32:06 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:39:09 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:40:38 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:40:38 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:40:41 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$bkj.tlHK0J5FESjRvGtVNejSUe6x8jhg8KpRFUtoHrO3U5xYfjuuq","userName":"Ran","_id":"5ed3cff63f007e03bc712e0f"}
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$Gph5l1P09BLvzTjnCe/d5OBybDwJLTij2/KKXkC7Llt97d1M7rQ06","userName":"Ran","_id":"5ed3cff93f007e03bc712e10"}
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:40:41 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:40:41 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:40:42 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$SrdZ4Wh2Vcey0aPITDYoCu9pVuuZiBBkWu1OGyPs9Ijs04Jgbk9bG","userName":"Ran","_id":"5ed3cff93f007e03bc712e11"}
+Sun, 31 May 2020 15:40:42 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 15:48:08 GMT - Info - Server is running on port: 3030
+Sun, 31 May 2020 15:50:21 GMT - Debug - Ran, 123456, Ran Ha Gever
+Sun, 31 May 2020 15:50:21 GMT - Debug - auth.service - signup with username: Ran
+Sun, 31 May 2020 15:50:24 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$RaR0GRqB7qHi4pKqekGgfOAthV1LA0WtI8jpX6b.IH4DL3.B7a95K","userName":"Ran","_id":"5ed3d23d543f88657c9eabcd"}
+Sun, 31 May 2020 15:50:24 GMT - Debug - auth.service - login with username: Ran
+Sun, 31 May 2020 16:28:22 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:09:12 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:23:26 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:23:37 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:23:55 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:25:00 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:25:06 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:26:22 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:26:35 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:28:43 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:29:16 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:29:24 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:29:47 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:29:56 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:30:26 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:30:37 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:30:43 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:30:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:31:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:31:50 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:31:57 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:32:38 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:33:32 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:34:19 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:34:32 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:34:38 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:34:50 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:34:56 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:12 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:16 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:27 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:34 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:37 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:42 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:35:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:00 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:10 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:16 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:22 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:25 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:41 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:44 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:51 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:36:54 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:37:05 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:37:12 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:37:19 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:37:22 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:37:33 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:38:14 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:53:41 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:53:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:54:07 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:54:27 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:54:30 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:54:34 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:54:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:55:03 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:55:18 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:55:24 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:55:46 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:55:48 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:56:29 GMT - Info - Server is running on port: 3030
