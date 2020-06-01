@@ -368,3 +368,105 @@ Sun, 31 May 2020 15:27:21 GMT - Debug - zizi halifa, 123, aasssddaaa
 Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - signup with username: zizi halifa
 Sun, 31 May 2020 15:27:21 GMT - Debug - auth.route - new account created: {"fullName":"aasssddaaa","password":"$2b$10$hY51J3QoTIrs50xuiB1bkORttdE6IRd7eKkicmXvpPno4Pao9K2xG","userName":"zizi halifa","_id":"5ed3ccd933edad30643d768d"}
 Sun, 31 May 2020 15:27:21 GMT - Debug - auth.service - login with username: zizi halifa
+Mon, 01 Jun 2020 06:10:47 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:11:59 GMT - Debug - gagasa, 123, sad
+Mon, 01 Jun 2020 06:11:59 GMT - Debug - auth.service - signup with username: gagasa
+Mon, 01 Jun 2020 06:12:02 GMT - Debug - auth.route - new account created: {"fullName":"sad","password":"$2b$10$j23feJ0MhndrJksn8qZbteGR5mZrBpvjwgkKRiy1H4SALteDWxZgq","userName":"gagasa","_id":"5ed49c2f9131192cf89fcf2e"}
+Mon, 01 Jun 2020 06:12:02 GMT - Debug - auth.service - login with username: gagasa
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - bagwan, 123, cxz
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.service - signup with username: bagwan
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.route - new account created: {"fullName":"cxz","password":"$2b$10$aBt0MMybV0TClsBJytglJ.Vs5iwybROdekLdfbjhP6ChevFyplRpa","userName":"bagwan","_id":"5ed49c709131192cf89fcf2f"}
+Mon, 01 Jun 2020 06:13:04 GMT - Debug - auth.service - login with username: bagwan
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - gigi, 123, hadid
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.service - signup with username: gigi
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.route - new account created: {"fullName":"hadid","password":"$2b$10$l3L4YQXrqRi7cbL8yOxl1ewuFoyDVXJ82IXdO7sz2cWKVqnudAl7O","userName":"gigi","_id":"5ed49cd69131192cf89fcf30"}
+Mon, 01 Jun 2020 06:14:46 GMT - Debug - auth.service - login with username: gigi
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - girafa, 123, gvohaa
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.service - signup with username: girafa
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.route - new account created: {"fullName":"gvohaa","password":"$2b$10$MzPhz7YhPR/ULPhR6Vv2DuyijVRjRjGw7xP6FdIopJC7BvzKfzG/C","userName":"girafa","_id":"5ed49d009131192cf89fcf31"}
+Mon, 01 Jun 2020 06:15:28 GMT - Debug - auth.service - login with username: girafa
+Mon, 01 Jun 2020 06:16:37 GMT - Debug - fififififi, 123, fifa naalain
+Mon, 01 Jun 2020 06:16:37 GMT - Debug - auth.service - signup with username: fififififi
+Mon, 01 Jun 2020 06:16:38 GMT - Debug - auth.route - new account created: {"fullName":"fifa naalain","password":"$2b$10$Ugek.jDmjE4mB4FbaiRZ7OvJYdAkxrCGQzdwcT3Ok7bSJRrvcM4bi","userName":"fififififi","_id":"5ed49d459131192cf89fcf32"}
+Mon, 01 Jun 2020 06:16:38 GMT - Debug - auth.service - login with username: fififififi
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - zalmon limon, 123, sda
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.service - signup with username: zalmon limon
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.route - new account created: {"fullName":"sda","password":"$2b$10$9wFRT9oYMsUyB4DJIqtZ0.LRARSNtQKfR4zrtiL1HuRJEAx4lXXhO","userName":"zalmon limon","_id":"5ed49db29131192cf89fcf33"}
+Mon, 01 Jun 2020 06:18:26 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 06:18:26 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - vivalsa, 123, dusas sad
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.service - signup with username: vivalsa
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.route - new account created: {"fullName":"dusas sad","password":"$2b$10$nllJ9NeGq6jdunlAHLzzxuiDXuzA1JG2LV/MJfrgdxnZYDw0Bfaau","userName":"vivalsa","_id":"5ed49dd69131192cf89fcf34"}
+Mon, 01 Jun 2020 06:19:02 GMT - Debug - auth.service - login with username: vivalsa
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - giasf, 123, sad asd
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.service - signup with username: giasf
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.route - new account created: {"fullName":"sad asd","password":"$2b$10$pUk224IxpB5mXee66lrTI.6IrQveeP.tVVHhkE4p4ldx7rm8SU00a","userName":"giasf","_id":"5ed49dfd9131192cf89fcf35"}
+Mon, 01 Jun 2020 06:19:41 GMT - Debug - auth.service - login with username: giasf
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - bagifdas, 0.12, baga bagwan
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.service - signup with username: bagifdas
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.route - new account created: {"fullName":"baga bagwan","password":"$2b$10$JOan4ACW6jlArs1onVhE.OrBCRj7ELCHLWo2z7NP1RASQ/OYoN6pu","userName":"bagifdas","_id":"5ed49e129131192cf89fcf36"}
+Mon, 01 Jun 2020 06:20:02 GMT - Debug - auth.service - login with username: bagifdas
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - fgahsas, 123, sad asd
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.service - signup with username: fgahsas
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.route - new account created: {"fullName":"sad asd","password":"$2b$10$/sWcJ/Ki57JA9OK4EQ52T.l0923W76uzRtzWVjNXLN17ab51.yf8m","userName":"fgahsas","_id":"5ed49e429131192cf89fcf37"}
+Mon, 01 Jun 2020 06:20:50 GMT - Debug - auth.service - login with username: fgahsas
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - dsadsawq, 123, das asd
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.service - signup with username: dsadsawq
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.route - new account created: {"fullName":"das asd","password":"$2b$10$ve6QKcI7FHHhEOIBPIYzTOKSdYAXUMpRQRgI8nViAwdIET.ZCtR1y","userName":"dsadsawq","_id":"5ed49e519131192cf89fcf38"}
+Mon, 01 Jun 2020 06:21:05 GMT - Debug - auth.service - login with username: dsadsawq
+Mon, 01 Jun 2020 06:49:05 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 06:58:53 GMT - Debug - undefined, undefined, BAGI BAGWAN
+Mon, 01 Jun 2020 06:58:53 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:00:01 GMT - Debug - undefined, undefined, undefined
+Mon, 01 Jun 2020 07:00:01 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:03:22 GMT - Debug - undefined, undefined, sdas asd 
+Mon, 01 Jun 2020 07:03:22 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:04:55 GMT - Debug - undefined, undefined, dasd asd
+Mon, 01 Jun 2020 07:15:33 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:15:33 GMT - Debug - undefined, 123, undefined
+Mon, 01 Jun 2020 07:15:33 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:16:29 GMT - Debug - undefined, 123, undefined
+Mon, 01 Jun 2020 07:16:29 GMT - Error - [SIGNUP] fullName, username and password are required!
+Mon, 01 Jun 2020 07:23:14 GMT - Debug - zalmon limon, 123, bagi baglam
+Mon, 01 Jun 2020 07:23:14 GMT - Debug - auth.service - signup with username: zalmon limon
+Mon, 01 Jun 2020 07:23:16 GMT - Debug - auth.route - new account created: {"fullName":"bagi baglam","password":"$2b$10$dbsCiTFkg.EuwOcL/F41BuNxtRYUjvPuxarJ7dO6yrRYl7RpxI9GC","userName":"zalmon limon","_id":"5ed4ace24d21a82794fca0b3"}
+Mon, 01 Jun 2020 07:23:16 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:38:45 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:39:15 GMT - Debug - tamir, 123, tamir
+Mon, 01 Jun 2020 07:39:15 GMT - Debug - auth.service - signup with username: tamir
+Mon, 01 Jun 2020 07:39:16 GMT - Debug - auth.route - new account created: {"fullName":"tamir","password":"$2b$10$PK4WLur7acyCumA1Axyyj.YIcR9/nduYnQOf.w.0ST/wNck3i3mxa","userName":"tamir","_id":"5ed4b0a34d21a82794fca0b4"}
+Mon, 01 Jun 2020 07:39:16 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:39:26 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:39:42 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:41:36 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:42:32 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:43:13 GMT - Debug - auth.service - login with username: garishi
+Mon, 01 Jun 2020 07:46:01 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:46:41 GMT - Debug - auth.service - login with username: baga
+Mon, 01 Jun 2020 07:53:30 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:31 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:31 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:53:32 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:07 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:37 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 07:54:55 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:55:32 GMT - Debug - auth.service - login with username: dsa
+Mon, 01 Jun 2020 07:56:53 GMT - Debug - auth.service - login with username: dasdsad
+Mon, 01 Jun 2020 07:57:24 GMT - Debug - auth.service - login with username: zalmon limon
+Mon, 01 Jun 2020 07:57:44 GMT - Debug - auth.service - login with username: dsa
+Mon, 01 Jun 2020 07:58:05 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:58:29 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:33 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:40 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 07:59:56 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:00:07 GMT - Debug - auth.service - login with username: tamie
+Mon, 01 Jun 2020 08:00:40 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:00 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:06 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:30 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:01:43 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:02:42 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:02:52 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:03:17 GMT - Debug - auth.service - login with username: ta
+Mon, 01 Jun 2020 08:04:06 GMT - Debug - auth.service - login with username: tam
+Mon, 01 Jun 2020 08:04:15 GMT - Debug - auth.service - login with username: tamir
