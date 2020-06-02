@@ -567,3 +567,66 @@ Mon, 01 Jun 2020 10:30:46 GMT - Debug - auth.service - login with username: tami
 Mon, 01 Jun 2020 10:30:57 GMT - Debug - auth.service - login with username: tamir
 Mon, 01 Jun 2020 11:09:42 GMT - Debug - auth.service - login with username: tamie
 Mon, 01 Jun 2020 11:11:28 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 11:32:21 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 11:32:38 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 11:32:55 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 11:33:15 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 15:19:38 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 15:21:15 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 15:22:07 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 15:22:17 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 15:26:44 GMT - Debug - auth.service - login with username: baglama
+Mon, 01 Jun 2020 15:30:36 GMT - Debug - auth.service - login with username: fds
+Mon, 01 Jun 2020 15:31:01 GMT - Debug - auth.service - login with username: sa
+Mon, 01 Jun 2020 15:31:52 GMT - Debug - auth.service - login with username: sad
+Mon, 01 Jun 2020 15:34:59 GMT - Debug - auth.service - login with username: dsa
+Mon, 01 Jun 2020 15:35:00 GMT - Debug - auth.service - login with username: 
+Mon, 01 Jun 2020 15:35:47 GMT - Debug - auth.service - login with username: cx
+Mon, 01 Jun 2020 15:37:45 GMT - Debug - auth.service - login with username: ds
+Mon, 01 Jun 2020 15:38:14 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 15:38:51 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 06:40:38 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 06:43:31 GMT - Debug - auth.service - login with username: fa
+Tue, 02 Jun 2020 06:47:17 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 06:47:18 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 06:47:47 GMT - Debug - aluf, 123, aluf n
+Tue, 02 Jun 2020 06:47:47 GMT - Debug - auth.service - signup with username: aluf
+Tue, 02 Jun 2020 06:47:47 GMT - Error - [SIGNUP] ReferenceError: friends is not defined
+Tue, 02 Jun 2020 06:48:04 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 06:48:26 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 06:49:07 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 06:50:22 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 06:50:42 GMT - Debug - aluf, 123, aluf n
+Tue, 02 Jun 2020 06:50:42 GMT - Debug - auth.service - signup with username: aluf
+Tue, 02 Jun 2020 06:50:45 GMT - Debug - auth.route - new account created: {"fullName":"aluf n","password":"$2b$10$VXz3PBuIVSihkTeWtuRfYeb/wChcsNYkRAATP.cSqNeSyvtPsbMl.","userName":"aluf","friends":[],"_id":"5ed5f6c32b839946340f01f4"}
+Tue, 02 Jun 2020 06:50:45 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 06:56:07 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 07:03:03 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 09:56:31 GMT - Debug - tal, 123, tal soffffffi
+Tue, 02 Jun 2020 09:56:31 GMT - Debug - auth.service - signup with username: tal
+Tue, 02 Jun 2020 09:56:34 GMT - Debug - auth.route - new account created: {"fullName":"tal soffffffi","password":"$2b$10$XsGuCstK7XPznDyM8I2DGuoqIuSKArHoaLoVtHf0wrdRHhEK7u5Om","userName":"tal","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591091554/IMG_20200429_190949_984_q0rnsb.jpg","_id":"5ed6224f7afc863d548a6dc3"}
+Tue, 02 Jun 2020 09:56:34 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 10:13:08 GMT - Debug - auth.service - login with username: tamir
+Tue, 02 Jun 2020 10:13:14 GMT - Debug - auth.service - login with username: tamir
+Tue, 02 Jun 2020 10:24:07 GMT - Debug - auth.service - login with username: taln
+Tue, 02 Jun 2020 10:24:13 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 10:26:08 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 10:33:05 GMT - Debug - auth.service - login with username: tamir
+Tue, 02 Jun 2020 10:33:11 GMT - Debug - auth.service - login with username: tamir
+Tue, 02 Jun 2020 10:33:30 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 10:58:20 GMT - Debug - aluf, 123, aluf n
+Tue, 02 Jun 2020 10:58:20 GMT - Debug - auth.service - signup with username: aluf
+Tue, 02 Jun 2020 10:58:21 GMT - Debug - auth.route - new account created: {"fullName":"aluf n","password":"$2b$10$gjtwqhgtjVdssOADgIeiuOSJu2BYtVYxKBQPDhJTWUWY7DO.ZyHOa","userName":"aluf","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591095482/aluf_a6ff4e.jpg","_id":"5ed630cc7afc863d548a6dc4"}
+Tue, 02 Jun 2020 10:58:21 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 10:58:32 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 10:59:46 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 10:59:53 GMT - Debug - auth.service - login with username: aluf
+Tue, 02 Jun 2020 11:00:06 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 11:00:24 GMT - Debug - dog, 123, dog
+Tue, 02 Jun 2020 11:00:24 GMT - Debug - auth.service - signup with username: dog
+Tue, 02 Jun 2020 11:00:24 GMT - Debug - auth.route - new account created: {"fullName":"dog","password":"$2b$10$qPBaYto/GBXl4oPn0SM2Zu86/4Mg29onJmk7RJ2w4jQwrkL0QS7Oi","userName":"dog","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591095618/aluf_ciybh6.jpg","_id":"5ed631487afc863d548a6dc5"}
+Tue, 02 Jun 2020 11:00:24 GMT - Debug - auth.service - login with username: dog
+Tue, 02 Jun 2020 11:00:35 GMT - Debug - auth.service - login with username: dog
+Tue, 02 Jun 2020 11:05:08 GMT - Debug - auth.service - login with username: dog
+Tue, 02 Jun 2020 11:06:45 GMT - Debug - auth.service - login with username: 
+Tue, 02 Jun 2020 12:02:59 GMT - Debug - auth.service - login with username: tal
