@@ -13,19 +13,14 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
     const collection = await dbService.getCollection('user')
-
     try {
-        if(filterBy.count === 'true'){
-            return await collection.find().count()
-        }
-        const users = await collection.find(criteria).toArray();
-        users.forEach(user => delete user.password);
-
-        return users
+        const criteria = await _buildCriteria(filterBy)
+            return filterBy.limit
+            ? await collection.find(criteria).skip( +filterBy.skip > 0 ? ( ( +filterBy.skip) * +filterBy.limit ) + 8 : 0 ).limit(+filterBy.limit).toArray()
+            : await collection.find(criteria).toArray();
     } catch (err) {
-        console.log('ERROR: cannot find users')
+        console.log('ERROR: cannot find projs', err)
         throw err;
     }
 }
@@ -114,12 +109,16 @@ async function add(user) {
 }
 
 function _buildCriteria(filterBy) {
-    const criteria = {};
-    if (filterBy.txt) {
-        criteria.userName = filterBy.txt
+    // ('filter in back service', filterBy);
+
+
+    var criteria = {};
+    if (filterBy.term) {
+        criteria.$or = [{ userName: { $regex: filterBy.term, $options: "i" } }, { fullName: { $regex: filterBy.term, $options: "i" } }]
     }
-    if (filterBy.minBalance) {
-        criteria.balance = { $gte: +filterBy.minBalance }
-    }
+    // if (filterBy.id) {
+    //     criteria['createdBy._id'] = { $in: [filterBy.id, ObjectId(filterBy.id)] } 
+    //     // criteria['createdBy._id'] = filterBy.id; 
+    // }
     return criteria;
 }
