@@ -470,3 +470,19 @@ Mon, 01 Jun 2020 08:02:52 GMT - Debug - auth.service - login with username: tami
 Mon, 01 Jun 2020 08:03:17 GMT - Debug - auth.service - login with username: ta
 Mon, 01 Jun 2020 08:04:06 GMT - Debug - auth.service - login with username: tam
 Mon, 01 Jun 2020 08:04:15 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:08:59 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 08:15:44 GMT - Debug - Ran, 123456, Ran Ha Gever
+Mon, 01 Jun 2020 08:15:44 GMT - Debug - auth.service - signup with username: Ran
+Mon, 01 Jun 2020 08:15:46 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$M541rzrtVOa3WCu7qrfEKO5FoLtOt3k7gdLbxWIRezAJFgnbu7QSi","userName":"Ran","_id":"5ed4b930541bd63678a97fe7"}
+Mon, 01 Jun 2020 08:15:46 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 08:16:15 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 08:20:02 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 09:59:54 GMT - Debug - Ran, 123456, Ran Ha Gever
+Mon, 01 Jun 2020 09:59:54 GMT - Debug - auth.service - signup with username: Ran
+Mon, 01 Jun 2020 09:59:56 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$5zxv35j8aFOFLVVzsua54.152ZzIV0EwxaCmC5datwtz56XIEkLD6","userName":"Ran","_id":"5ed4d19b541bd63678a97fe9"}
+Mon, 01 Jun 2020 09:59:56 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 11:54:55 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 06:08:49 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 06:19:22 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 06:19:24 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 07:01:43 GMT - Info - Server is running on port: 3030
