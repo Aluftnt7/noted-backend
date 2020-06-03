@@ -14,7 +14,6 @@ var dbConn = null;
 
 async function getCollection(collectionName) {
     const db = await connect()
-    console.log('test psik',collectionName);
     return db.collection(collectionName);
 }
 

@@ -12,20 +12,18 @@ module.exports = {
     add
 }
 
+
+
 async function query(filterBy = {}) {
-    const criteria = _buildCriteria(filterBy)
+    if (!filterBy.term) return []
     const collection = await dbService.getCollection('user')
-
     try {
-        if(filterBy.count === 'true'){
-            return await collection.find().count()
-        }
-        const users = await collection.find(criteria).toArray();
-        users.forEach(user => delete user.password);
-
-        return users
+        const criteria = await _buildCriteria(filterBy)
+        return filterBy.limit
+            ? await collection.find(criteria).skip(+filterBy.skip > 0 ? ((+filterBy.skip) * +filterBy.limit) + 8 : 0).limit(+filterBy.limit).toArray()
+            : await collection.find(criteria).toArray();
     } catch (err) {
-        console.log('ERROR: cannot find users')
+        console.log('ERROR: cannot find Users', err)
         throw err;
     }
 }
@@ -42,12 +40,12 @@ async function getById(userId) {
     }
 }
 async function getByUsername(userName) {
-    
+
     const collection = await dbService.getCollection('user')
-    
+
     try {
-        const user = await collection.findOne({userName})
-        
+        const user = await collection.findOne({ userName })
+
         return user
     } catch (err) {
         console.log(`ERROR: while finding user ${userName}`)
@@ -67,32 +65,32 @@ async function remove(userId) {
 
 async function update(user, isSocket = false) {
     const collection = await dbService.getCollection('user')
-    const filterByForUser = {byId: user._id}
-    const filterByForProj = {id: user._id}
+    const filterByForUser = { byId: user._id }
+    const filterByForProj = { id: user._id }
     user._id = ObjectId(user._id);
     try {
         await collection.replaceOne({ "_id": user._id }, { $set: user })
         if (!isSocket) {
             const reviewsByUser = await reviewService.query(filterByForUser)
-            reviewsByUser.forEach(async review=>{
+            reviewsByUser.forEach(async review => {
                 review.by = {
-                        _id:  user._id,
-                        fullName: user.fullName,
-                        imgUrl: user.imgUrl
+                    _id: user._id,
+                    fullName: user.fullName,
+                    imgUrl: user.imgUrl
                 }
                 await reviewService.update(review)
-                } 
+            }
             )
             const projsByUser = await projService.query(filterByForProj)
-            projsByUser.forEach(async proj=>{
+            projsByUser.forEach(async proj => {
                 proj.createdBy = {
-                        _id: user._id,
-                        fullName: user.fullName,
-                        imgUrl: user.imgUrl,
-                        joinAt: user.joinAt
+                    _id: user._id,
+                    fullName: user.fullName,
+                    imgUrl: user.imgUrl,
+                    joinAt: user.joinAt
                 }
                 await projService.update(proj)
-                } 
+            }
             )
         }
         return user
@@ -102,7 +100,7 @@ async function update(user, isSocket = false) {
     }
 }
 async function add(user) {
-    user._id = ObjectId(user._id); 
+    user._id = ObjectId(user._id);
     const collection = await dbService.getCollection('user')
     try {
         await collection.insertOne(user);
@@ -114,12 +112,16 @@ async function add(user) {
 }
 
 function _buildCriteria(filterBy) {
-    const criteria = {};
-    if (filterBy.txt) {
-        criteria.userName = filterBy.txt
+    // ('filter in back service', filterBy);
+
+
+    var criteria = {};
+    if (filterBy.term) {
+        criteria.$or = [{ userName: { $regex: filterBy.term, $options: "i" } }, { fullName: { $regex: filterBy.term, $options: "i" } }]
     }
-    if (filterBy.minBalance) {
-        criteria.balance = { $gte: +filterBy.minBalance }
-    }
+    // if (filterBy.id) {
+    //     criteria['createdBy._id'] = { $in: [filterBy.id, ObjectId(filterBy.id)] } 
+    //     // criteria['createdBy._id'] = filterBy.id; 
+    // }
     return criteria;
 }
