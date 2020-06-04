@@ -645,3 +645,31 @@ Tue, 02 Jun 2020 12:40:22 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:40:39 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:41:42 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:42:43 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 12:46:50 GMT - Debug - auth.service - login with username: 
+Tue, 02 Jun 2020 12:46:59 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 12:47:10 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 12:49:54 GMT - Debug - auth.service - login with username: tal
+Tue, 02 Jun 2020 13:04:42 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 14:28:08 GMT - Info - Server is running on port: 3030
+Tue, 02 Jun 2020 15:10:36 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 06:19:21 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 06:20:13 GMT - Debug - auth.service - login with username: tamir
+Wed, 03 Jun 2020 06:20:21 GMT - Debug - auth.service - login with username: tamir
+Wed, 03 Jun 2020 06:48:38 GMT - Debug - auth.service - login with username: tamir
+Wed, 03 Jun 2020 06:49:28 GMT - Debug - auth.service - login with username: tamir
+Wed, 03 Jun 2020 07:46:59 GMT - Debug - bb, 123, bibi king
+Wed, 03 Jun 2020 07:46:59 GMT - Debug - auth.service - signup with username: bb
+Wed, 03 Jun 2020 07:46:59 GMT - Debug - auth.route - new account created: {"fullName":"bibi king","password":"$2b$10$u.aI2MFvs19VIAorpPcPyeiHIMQbWj3z/a9QNAxwpvzNAvZpN/fP6","userName":"bb","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591170404/WhatsApp_Image_2020-03-22_at_21.23.59_b1qnu8.jpg","_id":"5ed75573a53a9e0e280c482c"}
+Wed, 03 Jun 2020 07:46:59 GMT - Debug - auth.service - login with username: bb
+Wed, 03 Jun 2020 07:49:19 GMT - Debug - sara, 123, sara shel bibi
+Wed, 03 Jun 2020 07:49:19 GMT - Debug - auth.service - signup with username: sara
+Wed, 03 Jun 2020 07:49:20 GMT - Debug - auth.route - new account created: {"fullName":"sara shel bibi","password":"$2b$10$jkWSOHnMKgrZGgsQxBMU7.H.IAkp9FJqOpe1mb/K8OhMYTB5KmkDq","userName":"sara","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591170558/89044510100287640360no_vhykc1.jpg","_id":"5ed75600a53a9e0e280c482d"}
+Wed, 03 Jun 2020 07:49:20 GMT - Debug - auth.service - login with username: sara
+Wed, 03 Jun 2020 08:38:19 GMT - Debug - auth.service - login with username: sara
+Wed, 03 Jun 2020 08:48:53 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 08:50:03 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 08:51:42 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 08:52:26 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 08:52:44 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 09:08:29 GMT - Info - Server is running on port: 3030
+Thu, 04 Jun 2020 07:47:42 GMT - Info - Server is running on port: 3030
