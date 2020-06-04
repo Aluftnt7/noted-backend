@@ -470,6 +470,22 @@ Mon, 01 Jun 2020 08:02:52 GMT - Debug - auth.service - login with username: tami
 Mon, 01 Jun 2020 08:03:17 GMT - Debug - auth.service - login with username: ta
 Mon, 01 Jun 2020 08:04:06 GMT - Debug - auth.service - login with username: tam
 Mon, 01 Jun 2020 08:04:15 GMT - Debug - auth.service - login with username: tamir
+Mon, 01 Jun 2020 08:08:59 GMT - Info - Server is running on port: 3030
+Mon, 01 Jun 2020 08:15:44 GMT - Debug - Ran, 123456, Ran Ha Gever
+Mon, 01 Jun 2020 08:15:44 GMT - Debug - auth.service - signup with username: Ran
+Mon, 01 Jun 2020 08:15:46 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$M541rzrtVOa3WCu7qrfEKO5FoLtOt3k7gdLbxWIRezAJFgnbu7QSi","userName":"Ran","_id":"5ed4b930541bd63678a97fe7"}
+Mon, 01 Jun 2020 08:15:46 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 08:16:15 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 08:20:02 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 09:59:54 GMT - Debug - Ran, 123456, Ran Ha Gever
+Mon, 01 Jun 2020 09:59:54 GMT - Debug - auth.service - signup with username: Ran
+Mon, 01 Jun 2020 09:59:56 GMT - Debug - auth.route - new account created: {"fullName":"Ran Ha Gever","password":"$2b$10$5zxv35j8aFOFLVVzsua54.152ZzIV0EwxaCmC5datwtz56XIEkLD6","userName":"Ran","_id":"5ed4d19b541bd63678a97fe9"}
+Mon, 01 Jun 2020 09:59:56 GMT - Debug - auth.service - login with username: Ran
+Mon, 01 Jun 2020 11:54:55 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 06:08:49 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 06:19:22 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 06:19:24 GMT - Debug - auth.service - login with username: Ran
+Wed, 03 Jun 2020 07:01:43 GMT - Info - Server is running on port: 3030
 Mon, 01 Jun 2020 08:08:17 GMT - Debug - auth.service - login with username: gaga
 Mon, 01 Jun 2020 08:19:44 GMT - Debug - auth.service - login with username: baglama
 Mon, 01 Jun 2020 08:19:46 GMT - Debug - auth.service - login with username: baglama
@@ -645,6 +661,7 @@ Tue, 02 Jun 2020 12:40:22 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:40:39 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:41:42 GMT - Info - Server is running on port: 3030
 Tue, 02 Jun 2020 12:42:43 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Tue, 02 Jun 2020 12:46:50 GMT - Debug - auth.service - login with username: 
 Tue, 02 Jun 2020 12:46:59 GMT - Debug - auth.service - login with username: tal
 Tue, 02 Jun 2020 12:47:10 GMT - Debug - auth.service - login with username: tal
@@ -673,3 +690,23 @@ Wed, 03 Jun 2020 08:52:26 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 08:52:44 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 09:08:29 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 07:47:42 GMT - Info - Server is running on port: 3030
+=======
+Wed, 03 Jun 2020 07:03:44 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:31:36 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:32:02 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:32:10 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:32:16 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:32:20 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:32:56 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:33:15 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 07:53:05 GMT - Debug - MisterBiton, 123456, Yaron Biton
+Wed, 03 Jun 2020 07:53:05 GMT - Debug - auth.service - signup with username: MisterBiton
+Wed, 03 Jun 2020 07:53:05 GMT - Debug - auth.route - new account created: {"fullName":"Yaron Biton","password":"$2b$10$vMCGc.dm1bW7J.K/aT.pneqCez6CnYxxk0ZaICm5S79tS2yuo8LfO","userName":"MisterBiton","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1591170760/yaron_vojyca.jpg","_id":"5ed756e18442c90e8c8ccdc7"}
+Wed, 03 Jun 2020 07:53:05 GMT - Debug - auth.service - login with username: MisterBiton
+Wed, 03 Jun 2020 09:13:19 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 09:13:51 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 09:13:53 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 11:02:16 GMT - Info - Server is running on port: 3030
+Wed, 03 Jun 2020 11:28:05 GMT - Info - Server is running on port: 3030
+>>>>>>> 315799d31c8560350c3629e5a8b6d7875ea1a525
+Thu, 04 Jun 2020 07:54:29 GMT - Info - Server is running on port: 3030

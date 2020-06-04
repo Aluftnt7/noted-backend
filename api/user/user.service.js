@@ -12,15 +12,18 @@ module.exports = {
     add
 }
 
+
+
 async function query(filterBy = {}) {
+    if (!filterBy.term) return []
     const collection = await dbService.getCollection('user')
     try {
         const criteria = await _buildCriteria(filterBy)
-            return filterBy.limit
-            ? await collection.find(criteria).skip( +filterBy.skip > 0 ? ( ( +filterBy.skip) * +filterBy.limit ) + 8 : 0 ).limit(+filterBy.limit).toArray()
+        return filterBy.limit
+            ? await collection.find(criteria).skip(+filterBy.skip > 0 ? ((+filterBy.skip) * +filterBy.limit) + 8 : 0).limit(+filterBy.limit).toArray()
             : await collection.find(criteria).toArray();
     } catch (err) {
-        console.log('ERROR: cannot find projs', err)
+        console.log('ERROR: cannot find Users', err)
         throw err;
     }
 }
@@ -37,12 +40,12 @@ async function getById(userId) {
     }
 }
 async function getByUsername(userName) {
-    
+
     const collection = await dbService.getCollection('user')
-    
+
     try {
-        const user = await collection.findOne({userName})
-        
+        const user = await collection.findOne({ userName })
+
         return user
     } catch (err) {
         console.log(`ERROR: while finding user ${userName}`)
@@ -73,7 +76,7 @@ async function update(user) {
     }
 }
 async function add(user) {
-    user._id = ObjectId(user._id); 
+    user._id = ObjectId(user._id);
     const collection = await dbService.getCollection('user')
     try {
         await collection.insertOne(user);
