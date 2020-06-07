@@ -708,8 +708,12 @@ Wed, 03 Jun 2020 09:13:51 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 09:13:53 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 11:02:16 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 11:28:05 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+Thu, 04 Jun 2020 07:10:10 GMT - Info - Server is running on port: 3030
+=======
 >>>>>>> 315799d31c8560350c3629e5a8b6d7875ea1a525
 Thu, 04 Jun 2020 07:54:29 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Thu, 04 Jun 2020 08:28:44 GMT - Debug - auth.service - login with username: dog
 Thu, 04 Jun 2020 08:32:20 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 08:32:43 GMT - Info - Server is running on port: 3030
@@ -770,3 +774,7 @@ Sun, 07 Jun 2020 11:03:22 GMT - Debug - auth.service - login with username: rick
 Sun, 07 Jun 2020 11:05:30 GMT - Debug - auth.service - login with username: rick
 Sun, 07 Jun 2020 11:06:28 GMT - Debug - auth.service - login with username: rick
 Sun, 07 Jun 2020 11:12:05 GMT - Debug - auth.service - login with username: rick
+=======
+>>>>>>> 6cc640284a66022f7b01c5956528880f8c86124c
+Thu, 04 Jun 2020 08:08:27 GMT - Info - Server is running on port: 3030
+>>>>>>> 97645391e88c761e7df67db76b347f5662b266c3
