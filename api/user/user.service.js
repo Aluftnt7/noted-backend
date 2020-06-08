@@ -29,6 +29,8 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
+;
+    
     const collection = await dbService.getCollection('user')
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })
@@ -67,7 +69,6 @@ async function update(user) {
     const collection = await dbService.getCollection('user')
     try {
         await collection.replaceOne({ "_id": user._id }, { $set: user })
-        console.log('user', user);
         
         return user
     } catch (err) {
