@@ -11,8 +11,8 @@ function connectSockets(io) {
         socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
 
             const notification = {
-                _id: ObjectId(UtilService.makeId()),
-                userId: ObjectId(_id),
+                _id:ObjectId(UtilService.makeId()),
+                userId:ObjectId(_id),
                 // roomId:ObjectId(UtilService.makeId()),
                 createdAt: Date.now(),
                 userName,
