@@ -8,8 +8,7 @@ const UtilService = require('../../services/UtilService')
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
-
+        socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {            
             const notification = {
                 _id:ObjectId(UtilService.makeId()),
                 userId:ObjectId(_id),
@@ -26,7 +25,7 @@ function connectSockets(io) {
                 .then(async user => {
                     console.log(user);
                     user.notifications.push(notification)
-                    const updatedUser = await userService.update(user, true)
+                    const updatedUser = await userService.update(user, true)                    
                     io.emit(`updateUser ${friendId}`, updatedUser)
                 })
         })
