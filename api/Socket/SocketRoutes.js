@@ -8,20 +8,20 @@ const UtilService = require('../../services/UtilService')
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        socket.on('Add Friend', ({friendId, _id, type, userName, fullName, imgUrl}) => {
-            
+        socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
+
             const notification = {
-                userId:ObjectId(_id),
+                _id: ObjectId(UtilService.makeId()),
+                userId: ObjectId(_id),
                 // roomId:ObjectId(UtilService.makeId()),
-                createdAt:Date.now(),
+                createdAt: Date.now(),
                 userName,
                 fullName,
                 imgUrl,
                 type
             }
-            console.log('nofitifiaifasdasjjasjasjjasjjasjas444',notification);
-            
-            
+
+
             userService.getById(friendId)
                 .then(async user => {
                     console.log(user);
@@ -58,7 +58,7 @@ function connectSockets(io) {
         //             const proj = await projService.getById(notification.proj._id);
         //             proj.membersApplyed.push(notification.from);
         //             console.log('notification', notification);
-                    
+
         //             proj.membersNeeded -= notification.memebersApllied;
         //             await projService.update(proj);
         //             const idx = user.notifications.findIndex(
