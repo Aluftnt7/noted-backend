@@ -21,7 +21,6 @@ function connectSockets(io) {
                 type
             }
 
-
             userService.getById(friendId)
                 .then(async user => {
                     console.log(user);
