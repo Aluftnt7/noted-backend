@@ -1,18 +1,35 @@
 module.exports = connectSockets
-// const userService = require('../user/user.service')
+const userService = require('../user/user.service')
+const ObjectId = require('mongodb').ObjectId
+const UtilService = require('../../services/UtilService')
+
 // const projService = require('../proj/projService')
 // const utilService = require('../../services/util.service')
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        // socket.on('applyToProj', request => {
-        //     userService.getById(request.to._id)
-        //         .then(async user => {
-        //             user.notifications.push(request)
-        //             const updatedUser = await userService.update(user, true)
-                    // io.emit(`updatedUser ${user._id}`, updatedUser)
-        //         })
-        // })
+        socket.on('Add Friend', ({friendId, _id, type, userName, fullName, imgUrl}) => {
+            
+            const notification = {
+                userId:ObjectId(_id),
+                // roomId:ObjectId(UtilService.makeId()),
+                createdAt:Date.now(),
+                userName,
+                fullName,
+                imgUrl,
+                type
+            }
+            console.log('nofitifiaifasdasjjasjasjjasjjasjas444',notification);
+            
+            
+            userService.getById(friendId)
+                .then(async user => {
+                    console.log(user);
+                    user.notifications.push(notification)
+                    const updatedUser = await userService.update(user, true)
+                    io.emit(`updateUser ${friendId}`, updatedUser)
+                })
+        })
         // socket.on('decline', notification => {
         //     userService.getById(notification.to._id)
         //         .then(async user => {
