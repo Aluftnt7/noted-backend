@@ -73,10 +73,10 @@ function _buildCriteria(filterBy) {
         query: {},
         sortBy: {}
     };
-    if (filterBy.boardId) {
-        if (filterBy.searchIn === 'genres') critirea.query.boardId = { $in: [filterBy.boardId] };
+    // if (filterBy.boardId) {
+    //     if (filterBy.searchIn === 'genres') critirea.query.boardId = { $in: [filterBy.boardId] };
         // else critirea.query.title = { $regex: filterBy.txt, $options: 'i' };
-    } 
+    // } 
     if (filterBy.sortBy === 'date') critirea.sortBy.createdAt = -1; 
     else critirea.sortBy.title = 1;
     return critirea;
