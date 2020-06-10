@@ -1547,3 +1547,25 @@ Wed, 10 Jun 2020 12:10:55 GMT - Debug - auth.service - login with username: rick
 Wed, 10 Jun 2020 12:10:58 GMT - Debug - auth.service - login with username: morty
 Wed, 10 Jun 2020 12:12:02 GMT - Debug - auth.service - login with username: rick
 Wed, 10 Jun 2020 12:12:06 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 13:00:05 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:01:11 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:01:15 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:01:32 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:01:45 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:01:47 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:02:08 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:02:11 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:02:14 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:02:36 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:03:06 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:03:51 GMT - Debug - yair, 123, yair
+Wed, 10 Jun 2020 13:03:51 GMT - Debug - auth.service - signup with username: yair
+Wed, 10 Jun 2020 13:03:53 GMT - Debug - auth.route - new account created: {"fullName":"yair","password":"$2b$10$yoQFLXChCTaQsl5kE2Rt2OGD3qP.6L2M3alt3TjXEBE5mZoVl4cry","userName":"yair","friends":[],"imgUrl":"","notifications":[],"joinedAt":1591794231137,"_id":"5ee0da38d27eb417803cd0da"}
+Wed, 10 Jun 2020 13:03:53 GMT - Debug - auth.service - login with username: yair
+Wed, 10 Jun 2020 13:04:03 GMT - Debug - abigail, 123, abigail
+Wed, 10 Jun 2020 13:04:03 GMT - Debug - auth.service - signup with username: abigail
+Wed, 10 Jun 2020 13:04:03 GMT - Debug - auth.route - new account created: {"fullName":"abigail","password":"$2b$10$MjfsraBwSov9.FQJrDm8w.s9EukD7aR6BNAzAWj52qWHdzmWz/1.K","userName":"abigail","friends":[],"imgUrl":"","notifications":[],"joinedAt":1591794243083,"_id":"5ee0da43d27eb417803cd0db"}
+Wed, 10 Jun 2020 13:04:03 GMT - Debug - auth.service - login with username: abigail
+Wed, 10 Jun 2020 13:05:26 GMT - Debug - auth.service - login with username: yair
+Wed, 10 Jun 2020 13:10:55 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 13:10:56 GMT - Info - Server is running on port: 3030
