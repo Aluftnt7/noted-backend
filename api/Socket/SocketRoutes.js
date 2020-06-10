@@ -63,7 +63,7 @@ function connectSockets(io) {
             );
             reciveingUser.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(reciveingUser, true)
-            io.emit(`updateUserWithoutAudio ${reciveingUser._id}`, { updatedReciveingUser })
+            io.emit(`updateUserWithoutAudio ${reciveingUser._id}`, { user:updatedReciveingUser })
 
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),

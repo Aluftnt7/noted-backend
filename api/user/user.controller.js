@@ -4,7 +4,7 @@ async function getUser(req, res) {
     const user = await userService.getById(req.params.id)
     res.send(user)
 }
-  
+
 async function getUsers(req, res) {
     const users = await userService.query(req.query)
     if (req.query.count) res.json(users)
@@ -16,9 +16,8 @@ async function deleteUser(req, res) {
 }
 
 async function updateUser(req, res) {
-    const user = req.body; 
-   const updatedUser =  await userService.update(user)
-    
+    const user = req.body;
+    const updatedUser = await userService.update(user)    
     res.send(updatedUser)
 }
 

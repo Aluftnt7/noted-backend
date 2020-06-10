@@ -1266,3 +1266,98 @@ Tue, 09 Jun 2020 08:37:11 GMT - Info - Server is running on port: 3030
 Tue, 09 Jun 2020 08:43:15 GMT - Debug - auth.service - login with username: tammy
 >>>>>>> f919443d073f1eecc17f9fb200da1294ef8ab435
 Tue, 09 Jun 2020 10:34:05 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 10:35:34 GMT - Debug - Shimon, 123, Shimon
+Tue, 09 Jun 2020 10:35:34 GMT - Debug - auth.service - signup with username: Shimon
+Tue, 09 Jun 2020 10:35:37 GMT - Debug - Shimon, 123, Shimon
+Tue, 09 Jun 2020 10:35:37 GMT - Debug - auth.service - signup with username: Shimon
+Tue, 09 Jun 2020 10:35:37 GMT - Debug - auth.route - new account created: {"fullName":"Shimon","password":"$2b$10$QYEWYAu4dca8iqhxgbxWf.hPx1yvZFwNytMc3BBEzWFu2TG/23mN6","userName":"Shimon","friends":[],"imgUrl":"","notifications":[],"_id":"5edf65f753afe34a7034e4cd"}
+Tue, 09 Jun 2020 10:35:37 GMT - Debug - auth.service - login with username: Shimon
+Tue, 09 Jun 2020 10:35:38 GMT - Debug - auth.route - new account created: {"fullName":"Shimon","password":"$2b$10$xyuSjrojkiUfmxllnTB5Jem6JznXKYzl98KVXib2hyiMZz3iSdY5K","userName":"Shimon","friends":[],"imgUrl":"","notifications":[],"_id":"5edf65f953afe34a7034e4ce"}
+Tue, 09 Jun 2020 10:35:38 GMT - Debug - auth.service - login with username: Shimon
+Tue, 09 Jun 2020 10:56:51 GMT - Debug - Ilay, 123, Ilay
+Tue, 09 Jun 2020 10:56:51 GMT - Debug - auth.service - signup with username: Ilay
+Tue, 09 Jun 2020 10:56:52 GMT - Debug - auth.route - new account created: {"fullName":"Ilay","password":"$2b$10$uEZQBU7HaimgoP9ccK1I6.A2j9FgfEIw9KQPteqnUP5esaU4KIoCe","userName":"Ilay","friends":[],"imgUrl":"","notifications":[],"_id":"5edf6af353afe34a7034e4cf"}
+Tue, 09 Jun 2020 10:56:52 GMT - Debug - auth.service - login with username: Ilay
+Tue, 09 Jun 2020 11:32:27 GMT - Debug - dudi, 123, dudi
+Tue, 09 Jun 2020 11:32:27 GMT - Debug - auth.service - signup with username: dudi
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - auth.route - new account created: {"fullName":"dudi","password":"$2b$10$23hy7HKMqAw5ycauwNZnh.SS65oV31qJF7ghUrePCrDurYavc6jHW","userName":"dudi","friends":[],"imgUrl":"","notifications":[],"_id":"5edf734b53afe34a7034e4d1"}
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - auth.service - login with username: dudi
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - almog, 123, almog
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - auth.service - signup with username: almog
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - auth.route - new account created: {"fullName":"almog","password":"$2b$10$ZN1GFutM3g58YqbXslUIP.3BTn7HHvzRSBS56y4cEQg7T7d5f6JVG","userName":"almog","friends":[],"imgUrl":"","notifications":[],"_id":"5edf734d53afe34a7034e4d2"}
+Tue, 09 Jun 2020 11:32:29 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:39:57 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:40:08 GMT - Debug - auth.service - login with username: dudi
+Tue, 09 Jun 2020 11:48:40 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:49:31 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:51:07 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:51:21 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 11:52:08 GMT - Debug - auth.service - login with username: almog
+Tue, 09 Jun 2020 12:01:02 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:05:31 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:05:33 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:07:33 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:08:10 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:08:11 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:13:16 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:13:45 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:13:59 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:14:14 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 12:14:29 GMT - Info - Server is running on port: 3030
+Tue, 09 Jun 2020 14:04:48 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 06:31:37 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:00:00 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:00:06 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:00:27 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:00:29 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:00:38 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:03:22 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:06:14 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:06:26 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:12:34 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:12:53 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:22:03 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:22:41 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:22:48 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:23:18 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:23:31 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:32:46 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:33:06 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:33:27 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:34:31 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:34:36 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:36:27 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 07:37:44 GMT - Debug - auth.service - login with username: birdman
+Wed, 10 Jun 2020 07:37:54 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 07:40:28 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 08:01:38 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 08:01:39 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 08:01:43 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:18:59 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - shay, 123, shay
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - auth.service - signup with username: shay
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - gilad, 123, gilad
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - auth.service - signup with username: gilad
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - gilad, 123, gilad
+Wed, 10 Jun 2020 09:18:59 GMT - Debug - auth.service - signup with username: gilad
+Wed, 10 Jun 2020 09:19:06 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:20:02 GMT - Debug - shay, 123, shay
+Wed, 10 Jun 2020 09:20:02 GMT - Debug - auth.service - signup with username: shay
+Wed, 10 Jun 2020 09:20:05 GMT - Debug - auth.route - new account created: {"fullName":"shay","password":"$2b$10$N/xqI2Suiv8Us89wlxWuTexNnScroRtdv3bObf/72s1z14yJOawI2","userName":"shay","friends":[],"imgUrl":"","notifications":[],"_id":"5ee0a5c2e6339052983a8484"}
+Wed, 10 Jun 2020 09:20:05 GMT - Debug - auth.service - login with username: shay
+Wed, 10 Jun 2020 09:20:15 GMT - Debug - gilad, 123, gilad
+Wed, 10 Jun 2020 09:20:15 GMT - Debug - auth.service - signup with username: gilad
+Wed, 10 Jun 2020 09:20:15 GMT - Debug - auth.route - new account created: {"fullName":"gilad","password":"$2b$10$ADpaOqmnvgV09RY45TkVKOp4J/51HbTJxfKu23ycq9RxCGLVMZp8y","userName":"gilad","friends":[],"imgUrl":"","notifications":[],"_id":"5ee0a5cfe6339052983a8485"}
+Wed, 10 Jun 2020 09:20:15 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:25:34 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:25:38 GMT - Debug - auth.service - login with username: shay
+Wed, 10 Jun 2020 09:28:23 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:32:46 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:32:50 GMT - Debug - auth.service - login with username: shay
+Wed, 10 Jun 2020 09:36:19 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:36:25 GMT - Info - Server is running on port: 3030
