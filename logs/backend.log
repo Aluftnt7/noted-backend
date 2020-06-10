@@ -1487,3 +1487,63 @@ Wed, 10 Jun 2020 09:36:25 GMT - Info - Server is running on port: 3030
 =======
 >>>>>>> 0bb84e6add8254245d622bf005e56af325c9afcc
 >>>>>>> 26e85a086411e257f6fc017204e3853c408dce12
+Wed, 10 Jun 2020 09:42:02 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:42:13 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:43:53 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:44:47 GMT - Debug - auth.service - login with username: gilad
+Wed, 10 Jun 2020 09:44:55 GMT - Debug - auth.service - login with username: shay
+Wed, 10 Jun 2020 10:10:40 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:11:10 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:11:37 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:12:39 GMT - Debug - niv, 123, niv
+Wed, 10 Jun 2020 10:12:39 GMT - Debug - auth.service - signup with username: niv
+Wed, 10 Jun 2020 10:12:42 GMT - Debug - auth.route - new account created: {"fullName":"niv","password":"$2b$10$x.XfaCAPny4OpR.ajHGswuxhVVeEYYiZ4Ufi1sXF1vIdMZCzbVSwe","userName":"niv","friends":[],"imgUrl":"","notifications":[],"joinedAt":1591783959666,"_id":"5ee0b21971810e525ce8b7e3"}
+Wed, 10 Jun 2020 10:12:42 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:12:52 GMT - Debug - shani, 123, shani
+Wed, 10 Jun 2020 10:12:52 GMT - Debug - auth.service - signup with username: shani
+Wed, 10 Jun 2020 10:12:52 GMT - Debug - auth.route - new account created: {"fullName":"shani","password":"$2b$10$d9QPmdhZ.XedBcrEn9CJx.xNti1wX/.YMjvphCCKeQzmYayxMdHIq","userName":"shani","friends":[],"imgUrl":"","notifications":[],"joinedAt":1591783972451,"_id":"5ee0b22471810e525ce8b7e4"}
+Wed, 10 Jun 2020 10:12:52 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:16:04 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:16:12 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:17:29 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:17:34 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:18:35 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:18:39 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:24:25 GMT - Debug - auth.service - login with username: Niv
+Wed, 10 Jun 2020 10:24:31 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:24:42 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:27:00 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:27:04 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:29:59 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:31:06 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:31:10 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:31:15 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:37:20 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:37:25 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:41:21 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:41:33 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:45:34 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:45:38 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:52:36 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:54:26 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:54:29 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 10:55:39 GMT - Debug - auth.service - login with username: ran
+Wed, 10 Jun 2020 10:55:44 GMT - Debug - auth.service - login with username: niv
+Wed, 10 Jun 2020 10:55:49 GMT - Debug - auth.service - login with username: shani
+Wed, 10 Jun 2020 11:53:43 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:53:46 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:53:55 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:53:56 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:54:04 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:54:06 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:54:55 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:54:57 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 11:59:26 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 12:04:20 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 12:07:15 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 12:07:18 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 12:07:27 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 12:10:55 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 12:10:58 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 12:12:02 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 12:12:06 GMT - Debug - auth.service - login with username: morty
