@@ -17,7 +17,9 @@ async function deleteUser(req, res) {
 
 async function updateUser(req, res) {
     const user = req.body;
-    const updatedUser = await userService.update(user)    
+    
+    const updatedUser = await userService.update(user)
+    
     res.send(updatedUser)
 }
 

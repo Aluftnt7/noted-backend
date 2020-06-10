@@ -60,16 +60,19 @@ async function remove(userId) {
     try {
         await collection.deleteOne({ "_id": ObjectId(userId) })
     } catch (err) {
-        console.log(`ERROR: cannot remove user ${userId}`)
+        
         throw err;
     }
 }
 
 async function update(user) {
-    user._id = ObjectId(user._id);
+    console.log('yserrrrrrrrrrrrr', user);
+      
     const collection = await dbService.getCollection('user')
+    user._id = ObjectId(user._id);
     try {
-        await collection.replaceOne({ "_id": user._id }, { $set: user })
+        await collection.replaceOne({ "_id":  user._id }, { $set: user })
+        
         return user
     } catch (err) {
         console.log(`ERROR: cannot update user ${user._id}`)
