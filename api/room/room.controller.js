@@ -1,7 +1,6 @@
 const roomService = require('./room.service')
 
 async function getById(req, res) {
-    console.log('roomController', req.params.id);
     const room = await roomService.getById(req.params.id)
     res.json(room)
 }

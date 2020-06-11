@@ -11,7 +11,7 @@ module.exports = {
 }
 
 async function query(filterBy = {}) {
-    const critirea = _buildCriteria(filterBy);  
+    const critirea = _buildCriteria(filterBy);
     const collection = await dbService.getCollection('room');
     try {
         const rooms = await collection.find(critirea.query).sort(critirea.sortBy).toArray();
@@ -47,7 +47,6 @@ async function remove(roomId) {
 async function update(room) {
     const collection = await dbService.getCollection('room')
     room._id = ObjectId(room._id);
-    
     try {
         await collection.replaceOne({ "_id": room._id }, { $set: room })
         return room;
@@ -60,7 +59,7 @@ async function update(room) {
 async function add(room) {
     const collection = await dbService.getCollection('room');
     try {
-        await collection.insertOne(room);  
+        await collection.insertOne(room);
         return room;
     } catch (err) {
         console.log(`ERROR: cannot insert room`)
@@ -75,9 +74,9 @@ function _buildCriteria(filterBy) {
     };
     // if (filterBy.boardId) {
     //     if (filterBy.searchIn === 'genres') critirea.query.boardId = { $in: [filterBy.boardId] };
-        // else critirea.query.title = { $regex: filterBy.txt, $options: 'i' };
+    // else critirea.query.title = { $regex: filterBy.txt, $options: 'i' };
     // } 
-    if (filterBy.sortBy === 'date') critirea.sortBy.createdAt = -1; 
+    if (filterBy.sortBy === 'date') critirea.sortBy.createdAt = -1;
     else critirea.sortBy.title = 1;
     return critirea;
 }
@@ -91,9 +90,9 @@ function _buildCriteria(filterBy) {
 //         if (filterBy.searchIn === 'genres') critirea.query.labels = { $in: [filterBy.txt] };
 //         else critirea.query.title = { $regex: filterBy.txt, $options: 'i' };
 //     } 
-   
+
 //     if (filterBy.sortBy === 'date') critirea.sortBy.createdAt = -1; 
 //     else critirea.sortBy.title = 1;
-    
+
 //     return critirea;
 // }
