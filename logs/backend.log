@@ -1667,3 +1667,4 @@ Thu, 11 Jun 2020 08:30:57 GMT - Debug - auth.service - login with username: tal
 Thu, 11 Jun 2020 08:39:07 GMT - Debug - auth.service - login with username: baga
 >>>>>>> a70d56c8de8ffb5a494a3f112101b1a47c00234e
 Thu, 11 Jun 2020 10:32:59 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 10:34:31 GMT - Info - Server is running on port: 3030
