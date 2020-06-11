@@ -707,7 +707,6 @@ Wed, 03 Jun 2020 09:13:53 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 11:02:16 GMT - Info - Server is running on port: 3030
 Wed, 03 Jun 2020 11:28:05 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 07:54:29 GMT - Info - Server is running on port: 3030
-<<<<<<< HEAD
 Thu, 04 Jun 2020 08:28:44 GMT - Debug - auth.service - login with username: dog
 Thu, 04 Jun 2020 08:32:20 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 08:32:43 GMT - Info - Server is running on port: 3030
@@ -769,7 +768,6 @@ Sun, 07 Jun 2020 11:05:30 GMT - Debug - auth.service - login with username: rick
 Sun, 07 Jun 2020 11:06:28 GMT - Debug - auth.service - login with username: rick
 Sun, 07 Jun 2020 11:12:05 GMT - Debug - auth.service - login with username: rick
 Thu, 04 Jun 2020 08:08:27 GMT - Info - Server is running on port: 3030
-<<<<<<< HEAD
 Sun, 07 Jun 2020 12:04:59 GMT - Info - Server is running on port: 3030
 Sun, 07 Jun 2020 12:05:09 GMT - Info - Server is running on port: 3030
 Sun, 07 Jun 2020 12:05:27 GMT - Info - Server is running on port: 3030
@@ -836,7 +834,6 @@ Sun, 07 Jun 2020 16:17:57 GMT - Info - Server is running on port: 3030
 Sun, 07 Jun 2020 16:18:00 GMT - Info - Server is running on port: 3030
 Sun, 07 Jun 2020 16:18:21 GMT - Info - Server is running on port: 3030
 Mon, 08 Jun 2020 06:08:57 GMT - Info - Server is running on port: 3030
-=======
 Thu, 04 Jun 2020 09:53:02 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 09:53:27 GMT - Info - Server is running on port: 3030
 Thu, 04 Jun 2020 09:54:30 GMT - Info - Server is running on port: 3030
@@ -867,7 +864,6 @@ Sun, 07 Jun 2020 16:21:33 GMT - Info - Server is running on port: 3030
 Mon, 08 Jun 2020 06:04:16 GMT - Info - Server is running on port: 3030
 Mon, 08 Jun 2020 06:16:28 GMT - Info - Server is running on port: 3030
 =======
->>>>>>> 7bcacdfee9c0d3057508a533a038b79a2b9fe3bf
 Mon, 08 Jun 2020 06:14:44 GMT - Info - Server is running on port: 3030
 >>>>>>> e063896b9d8a8af02a7927fafc53ac584dfd43cc
 Mon, 08 Jun 2020 06:17:17 GMT - Info - Server is running on port: 3030
@@ -1486,6 +1482,32 @@ Wed, 10 Jun 2020 09:36:19 GMT - Info - Server is running on port: 3030
 Wed, 10 Jun 2020 09:36:25 GMT - Info - Server is running on port: 3030
 =======
 >>>>>>> 0bb84e6add8254245d622bf005e56af325c9afcc
+<<<<<<< HEAD
+Wed, 10 Jun 2020 09:44:25 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:44:31 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:45:02 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:46:12 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:49:28 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:52:29 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:52:41 GMT - Debug - auth.service - login with username: baga
+Wed, 10 Jun 2020 09:53:51 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:54:01 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:54:14 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:55:51 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 09:55:57 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:58:14 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 09:58:21 GMT - Debug - auth.service - login with username: baga
+Wed, 10 Jun 2020 09:58:25 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 09:59:47 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:02:15 GMT - Info - Server is running on port: 3030
+Wed, 10 Jun 2020 10:02:44 GMT - Debug - auth.service - login with username: tammy
+Wed, 10 Jun 2020 10:02:55 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 10:04:12 GMT - Debug - auth.service - login with username: morty
+Wed, 10 Jun 2020 10:04:16 GMT - Debug - auth.service - login with username: baga
+Wed, 10 Jun 2020 10:07:18 GMT - Debug - auth.service - login with username: rick
+Wed, 10 Jun 2020 10:46:27 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:16:51 GMT - Info - Server is running on port: 3030
+=======
 >>>>>>> 26e85a086411e257f6fc017204e3853c408dce12
 Wed, 10 Jun 2020 09:42:02 GMT - Info - Server is running on port: 3030
 Wed, 10 Jun 2020 09:42:13 GMT - Info - Server is running on port: 3030
@@ -1569,6 +1591,7 @@ Wed, 10 Jun 2020 13:04:03 GMT - Debug - auth.service - login with username: abig
 Wed, 10 Jun 2020 13:05:26 GMT - Debug - auth.service - login with username: yair
 Wed, 10 Jun 2020 13:10:55 GMT - Info - Server is running on port: 3030
 Wed, 10 Jun 2020 13:10:56 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Wed, 10 Jun 2020 16:26:44 GMT - Info - Server is running on port: 3030
 Thu, 11 Jun 2020 06:11:55 GMT - Info - Server is running on port: 3030
 Thu, 11 Jun 2020 06:13:23 GMT - Debug - auth.service - login with username: abigail
@@ -1592,3 +1615,55 @@ Thu, 11 Jun 2020 09:16:57 GMT - Info - Server is running on port: 3030
 Thu, 11 Jun 2020 09:17:33 GMT - Info - Server is running on port: 3030
 Thu, 11 Jun 2020 09:56:52 GMT - Debug - auth.service - login with username: birdperson
 Thu, 11 Jun 2020 09:57:36 GMT - Debug - auth.service - login with username: baga
+=======
+>>>>>>> 77616125db78a4a5522ffd3fd9c6418e2349613a
+Thu, 11 Jun 2020 06:19:13 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:21:44 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:21:49 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:22:17 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 06:25:11 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:26:12 GMT - Debug - auth.service - login with username: baga
+Thu, 11 Jun 2020 06:29:55 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:31:59 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:40:28 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 06:58:44 GMT - Debug - auth.service - login with username: baga
+Thu, 11 Jun 2020 06:59:11 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:04:37 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:05:54 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:07:46 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:08:27 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:11:22 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:11:43 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:14:56 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:16:29 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:19:50 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:20:54 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:21:20 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:21:41 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:22:14 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:22:47 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:22:58 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:23:10 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:24:13 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:25:06 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:26:01 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:26:48 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:27:02 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:27:31 GMT - Debug - auth.service - login with username: baga
+Thu, 11 Jun 2020 07:27:43 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:29:05 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:30:26 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:31:07 GMT - Info - Server is running on port: 3030
+Thu, 11 Jun 2020 07:32:26 GMT - Debug - auth.service - login with username: birdperson
+Thu, 11 Jun 2020 07:34:26 GMT - Debug - auth.service - login with username: baga
+Thu, 11 Jun 2020 07:36:48 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 07:38:12 GMT - Debug - auth.service - login with username: tal
+Thu, 11 Jun 2020 08:25:11 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 08:25:58 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 08:28:52 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 08:29:42 GMT - Debug - auth.service - login with username: tal
+Thu, 11 Jun 2020 08:30:00 GMT - Debug - auth.service - login with username: rick
+Thu, 11 Jun 2020 08:30:57 GMT - Debug - auth.service - login with username: tal
+Thu, 11 Jun 2020 08:39:07 GMT - Debug - auth.service - login with username: baga
+>>>>>>> a70d56c8de8ffb5a494a3f112101b1a47c00234e
+Thu, 11 Jun 2020 10:32:59 GMT - Info - Server is running on port: 3030
