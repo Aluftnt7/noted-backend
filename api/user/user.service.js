@@ -29,8 +29,8 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
-;
-    
+    ;
+
     const collection = await dbService.getCollection('user')
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })
@@ -72,7 +72,7 @@ async function update(user) {
     user._id = ObjectId(user._id);
     try {
         await collection.replaceOne({ "_id":  user._id }, { $set: user })
-        
+        console.log('user after objectId change', user);
         return user
     } catch (err) {
         console.log(`ERROR: cannot update user ${user._id}`)
@@ -80,7 +80,7 @@ async function update(user) {
     }
 }
 async function add(user) {
-    user._id = ObjectId(user._id);
+    // user._id = ObjectId(user._id);
     const collection = await dbService.getCollection('user')
     try {
         await collection.insertOne(user);

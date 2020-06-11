@@ -3,7 +3,6 @@ const userService = require('../user/user.service')
 const ObjectId = require('mongodb').ObjectId
 const UtilService = require('../../services/UtilService')
 
-
 function connectSockets(io) {
     io.on('connection', socket => {
         socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
@@ -19,8 +18,8 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.push(notification)
-                    const updatedUser = await userService.update(user)
-                    io.emit(`updateUser ${friendId}`, updatedUser)
+                    // const updatedUser = await userService.update(user)
+                    io.emit(`updateUser ${friendId}`, user)
                 })
         })
         socket.on('decline', async ({ notification, _id }) => {
@@ -37,14 +36,14 @@ function connectSockets(io) {
                 isApproved:false
             }  
             sendingUser.notifications.push(newNotification)
-            const updatedUser = await userService.update(sendingUser)
-            io.emit(`updateUser ${sendingUser._id}`, updatedUser)
+            // const updatedUser = await userService.update(sendingUser)
+            io.emit(`updateUser ${sendingUser._id}`, sendingUser)
             const idx = receviengUser.notifications.findIndex(
                 currNotification => currNotification._id === notification._id
             );
             receviengUser.notifications.splice(idx, 1);
-            const updatedReciveingUser = await userService.update(receviengUser)
-            io.emit(`updateUserWithoutAudio ${receviengUser._id}`, { updatedReciveingUser })
+            // const updatedReciveingUser = await userService.update(receviengUser)
+            io.emit(`updateUserWithoutAudio ${receviengUser._id}`, { receviengUser })
         })
         socket.on('approve', async({ notification, _id }) => {
 
@@ -61,8 +60,8 @@ function connectSockets(io) {
                 currNotification => currNotification._id === notification._id
             );
             reciveingUser.notifications.splice(idx, 1);
-            const updatedReciveingUser = await userService.update(reciveingUser)
-            io.emit(`updateUserWithoutAudio ${reciveingUser._id}`, { user:updatedReciveingUser })
+            // const updatedReciveingUser = await userService.update(reciveingUser)
+            io.emit(`updateUserWithoutAudio ${reciveingUser._id}`, { user:reciveingUser })
 
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
@@ -87,8 +86,8 @@ function connectSockets(io) {
                 imgUrl: reciveingUser.imgUrl,
             })
             sendingUser.notifications.push(newNotification)
-            const updatedSendingUser = await userService.update(sendingUser)
-            io.emit(`updateUser ${sendingUser._id}`, updatedSendingUser)
+            // const updatedSendingUser = await userService.update(sendingUser)
+            io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
 
 
