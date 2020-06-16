@@ -1922,3 +1922,24 @@ Tue, 16 Jun 2020 07:38:46 GMT - Debug - yossi, 123, yossi
 Tue, 16 Jun 2020 07:38:46 GMT - Debug - auth.service - signup with username: yossi
 Tue, 16 Jun 2020 07:38:47 GMT - Debug - auth.route - new account created: {"fullName":"yossi","password":"$2b$10$cHegB336EXqmaeMyV63VJu6derBxQZogMh4yv4uJKC.mQCACge/Si","userName":"yossi","friends":[],"notifications":[],"joinedAt":1592293126906,"_id":"5ee87707772c32462cf79229"}
 Tue, 16 Jun 2020 07:38:47 GMT - Debug - auth.service - login with username: yossi
+=======
+Tue, 16 Jun 2020 07:29:37 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 07:35:28 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 07:35:31 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 07:57:34 GMT - Debug - princess kenny, 123, kenny mccormick
+Tue, 16 Jun 2020 07:57:34 GMT - Debug - auth.service - signup with username: princess kenny
+Tue, 16 Jun 2020 07:57:35 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$MnjNt0fVKpc0H9fT/z1rFO8uRCLvanIMF/xpy4qaK205LJRLYLlua","userName":"princess kenny","friends":[],"imgUrl":"","notifications":[],"joinedAt":1592294254294,"_id":"5ee87b6e3d08e347f034b195"}
+Tue, 16 Jun 2020 07:57:35 GMT - Debug - auth.service - login with username: princess kenny
+Tue, 16 Jun 2020 07:59:06 GMT - Debug - princess kenny, 123, kenny mccormick
+Tue, 16 Jun 2020 07:59:06 GMT - Debug - auth.service - signup with username: princess kenny
+Tue, 16 Jun 2020 07:59:07 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$y9T.N3Yu0fu8XTSKDrCSnueW0sXMtsI6VxC/44fe6kBmMXE7kor8u","userName":"princess kenny","friends":[],"imgUrl":"","notifications":[],"joinedAt":1592294346879,"_id":"5ee87bcb3d08e347f034b196"}
+Tue, 16 Jun 2020 07:59:07 GMT - Debug - auth.service - login with username: princess kenny
+Tue, 16 Jun 2020 08:00:16 GMT - Debug - princess kenny, 123, kenny mccormick
+Tue, 16 Jun 2020 08:00:16 GMT - Debug - auth.service - signup with username: princess kenny
+Tue, 16 Jun 2020 08:00:17 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$UZhe9yGbEMGP5k9te1AGo.IW3yJoZGxDuTSLIuxvsMkHPZv4kBbAe","userName":"princess kenny","friends":[],"imgUrl":"","notifications":[],"joinedAt":1592294416837,"_id":"5ee87c103d08e347f034b197"}
+Tue, 16 Jun 2020 08:00:17 GMT - Debug - auth.service - login with username: princess kenny
+Tue, 16 Jun 2020 08:02:49 GMT - Debug - princess kenny, 123, kenny mccormick
+Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - signup with username: princess kenny
+Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$QA1dcaDeqxWvnbnR55kkGuRXrBTDT42YlSljyLFn8wAmsS8sH64um","userName":"princess kenny","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592294569483,"_id":"5ee87ca93d08e347f034b198"}
+Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - login with username: princess kenny
+>>>>>>> e110e04093537f279c83ac04bd90b11a49ddb69e
