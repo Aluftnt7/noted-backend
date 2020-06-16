@@ -26,6 +26,7 @@ async function getById(roomId) {
     const collection = await dbService.getCollection('room')
     try {
         const room = await collection.findOne({ "_id": ObjectId(roomId) })
+        
         return room;
     } catch (err) {
         console.log(`ERROR: while finding room ${roomId}`)
@@ -60,6 +61,8 @@ async function add(room) {
     const collection = await dbService.getCollection('room');
     try {
         await collection.insertOne(room);
+        console.log('backend room returned', room);
+        
         return room;
     } catch (err) {
         console.log(`ERROR: cannot insert room`)

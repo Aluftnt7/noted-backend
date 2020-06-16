@@ -2,6 +2,8 @@ module.exports = connectSockets
 const userService = require('../user/user.service')
 const ObjectId = require('mongodb').ObjectId
 const UtilService = require('../../services/UtilService')
+const RoomService = require('../room/room.service')
+
 
 function connectSockets(io) {
     io.on('connection', socket => {
@@ -18,24 +20,24 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.push(notification)
-                    // const updatedUser = await userService.update(user)
+                        // const updatedUser = await userService.update(user)
                     io.emit(`updateUser ${friendId}`, user)
                 })
         })
-        socket.on('decline', async ({ notification, user }) => {
+        socket.on('decline', async({ notification, user }) => {
             let sendingUser = await userService.getById(notification.userId)
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
                 userId: user._id,
                 createdAt: Date.now(),
-                userName:user.userName,
-                fullName:user.fullName,
-                imgUrl:user.imgUrl,
-                type:'NotificationResponse',
-                isApproved:false
-            }  
+                userName: user.userName,
+                fullName: user.fullName,
+                imgUrl: user.imgUrl,
+                type: 'NotificationResponse',
+                isApproved: false
+            }
             sendingUser.notifications.push(newNotification)
-            // const updatedUser = await userService.update(sendingUser)
+                // const updatedUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
             const idx = user.notifications.findIndex(
                 currNotification => currNotification._id === notification._id
@@ -45,7 +47,6 @@ function connectSockets(io) {
             io.emit(`updateUserWithoutAudio ${user._id}`, { user })
         })
         socket.on('approve', async({ notification, user }) => {
-
             const roomId = ObjectId(UtilService.makeId())
             user.friends.push({
                 roomId,
@@ -74,8 +75,8 @@ function connectSockets(io) {
             }
 
             const sendingUser = await userService.getById(notification.userId)
-              console.log('sendingUser', sendingUser);
-              
+            console.log('sendingUser', sendingUser);
+
             sendingUser.friends.push({
                 roomId,
                 _id: ObjectId(user._id),
@@ -84,8 +85,30 @@ function connectSockets(io) {
                 imgUrl: user.imgUrl,
             })
             sendingUser.notifications.push(newNotification)
-            // const updatedSendingUser = await userService.update(sendingUser)
+                // const updatedSendingUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
+
+            let room = {
+                _id: roomId,
+                notes: [],
+                createdAt: Date.now()
+            }
+            RoomService.add(room)
+
+        })
+        socket.on('added note', async({ room, user, friendId }) => {
+            const friend = await userService.getById(friendId)
+            const notification = {
+                _id: ObjectId(UtilService.makeId()),
+                roomId:room._id,
+                userName: user.userName,
+                createdAt: Date.now(),
+                imgUrl: user.imgUrl,
+                type: 'NotificationNote',
+            }
+            friend.notifications.push(notification)
+            io.emit(`updateUser ${friend._id}`, friend)
+            io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
 
         })
     })

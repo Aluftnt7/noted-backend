@@ -22,7 +22,6 @@ async function connect() {
     try {
         
         const client = await MongoClient.connect(config.dbURL, { useUnifiedTopology: true });
-        console.log('here, inside conect inside Dbservice, inside something');
         const db = client.db(dbName);
         dbConn = db;
         return db;
