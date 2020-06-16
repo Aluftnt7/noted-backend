@@ -1918,3 +1918,14 @@ Tue, 16 Jun 2020 08:02:49 GMT - Debug - princess kenny, 123, kenny mccormick
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - signup with username: princess kenny
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$QA1dcaDeqxWvnbnR55kkGuRXrBTDT42YlSljyLFn8wAmsS8sH64um","userName":"princess kenny","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592294569483,"_id":"5ee87ca93d08e347f034b198"}
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - login with username: princess kenny
+Tue, 16 Jun 2020 13:37:51 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 13:38:34 GMT - Debug - auth.service - login with username: princesskenny
+Tue, 16 Jun 2020 13:38:51 GMT - Debug - auth.service - login with username: princesskenny
+Tue, 16 Jun 2020 13:39:02 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 13:40:32 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:13:18 GMT - Debug - auth.service - login with username: rick
+Tue, 16 Jun 2020 15:13:39 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 15:14:35 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:15:56 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:16:26 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 15:49:48 GMT - Info - Server is running on port: 3030
