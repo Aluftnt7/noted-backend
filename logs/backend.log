@@ -1969,3 +1969,8 @@ Thu, 18 Jun 2020 06:55:11 GMT - Info - Server is running on port: 3030
 Thu, 18 Jun 2020 06:58:29 GMT - Debug - auth.service - login with username: kenny
 Thu, 18 Jun 2020 06:58:50 GMT - Debug - auth.service - login with username: primcesskenny
 Thu, 18 Jun 2020 06:58:57 GMT - Debug - auth.service - login with username: aluf
+Thu, 18 Jun 2020 07:03:00 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:03:34 GMT - Debug - auth.service - login with username: rick
+Thu, 18 Jun 2020 07:04:10 GMT - Debug - auth.service - login with username: cartman
+Thu, 18 Jun 2020 07:04:49 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:07:01 GMT - Info - Server is running on port: 3030
