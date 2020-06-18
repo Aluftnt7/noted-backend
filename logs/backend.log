@@ -1942,6 +1942,19 @@ Tue, 16 Jun 2020 08:02:49 GMT - Debug - princess kenny, 123, kenny mccormick
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - signup with username: princess kenny
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.route - new account created: {"fullName":"kenny mccormick","password":"$2b$10$QA1dcaDeqxWvnbnR55kkGuRXrBTDT42YlSljyLFn8wAmsS8sH64um","userName":"princess kenny","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592294569483,"_id":"5ee87ca93d08e347f034b198"}
 Tue, 16 Jun 2020 08:02:49 GMT - Debug - auth.service - login with username: princess kenny
+<<<<<<< HEAD
+Tue, 16 Jun 2020 13:37:51 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 13:38:34 GMT - Debug - auth.service - login with username: princesskenny
+Tue, 16 Jun 2020 13:38:51 GMT - Debug - auth.service - login with username: princesskenny
+Tue, 16 Jun 2020 13:39:02 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 13:40:32 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:13:18 GMT - Debug - auth.service - login with username: rick
+Tue, 16 Jun 2020 15:13:39 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 15:14:35 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:15:56 GMT - Info - Server is running on port: 3030
+Tue, 16 Jun 2020 15:16:26 GMT - Debug - auth.service - login with username: aluf
+Tue, 16 Jun 2020 15:49:48 GMT - Info - Server is running on port: 3030
+=======
 >>>>>>> e110e04093537f279c83ac04bd90b11a49ddb69e
 Tue, 16 Jun 2020 08:14:49 GMT - Debug - dani, 123, dani
 Tue, 16 Jun 2020 08:14:49 GMT - Debug - auth.service - signup with username: dani
@@ -1969,3 +1982,74 @@ Tue, 16 Jun 2020 12:14:12 GMT - Info - Server is running on port: 3030
 Tue, 16 Jun 2020 12:15:37 GMT - Info - Server is running on port: 3030
 Tue, 16 Jun 2020 13:01:01 GMT - Info - Server is running on port: 3030
 Wed, 17 Jun 2020 07:29:48 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> ae42b5d16c65a0fd255bc5ac22696b9712bb337f
+>>>>>>> 14e76f7a9f10f4905b769bda78ff7f4704f4ebc8
+Wed, 17 Jun 2020 07:34:30 GMT - Debug - auth.service - login with username: dalit
+Wed, 17 Jun 2020 07:34:32 GMT - Debug - auth.service - login with username: dalit
+Wed, 17 Jun 2020 07:34:46 GMT - Debug - dalit, 123, dalit
+Wed, 17 Jun 2020 07:34:46 GMT - Debug - auth.service - signup with username: dalit
+Wed, 17 Jun 2020 07:34:46 GMT - Debug - auth.route - new account created: {"fullName":"dalit","password":"$2b$10$b8WDMcqWSGJUrPhJ/T.IAe2cR5XzrAvWaPww4bhuYLEFD7jvdGcte","userName":"dalit","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592379285980,"_id":"5ee9c7964c503e4118cd84a2"}
+Wed, 17 Jun 2020 07:34:46 GMT - Debug - auth.service - login with username: dalit
+Wed, 17 Jun 2020 07:34:46 GMT - Error - [SIGNUP] MATCH Invalid username or password
+Wed, 17 Jun 2020 07:40:10 GMT - Debug - shimon, 123, shimon
+Wed, 17 Jun 2020 07:40:10 GMT - Debug - auth.service - signup with username: shimon
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - auth.route - new account created: {"fullName":"shimon","password":"$2b$10$lObKuvk7IRMQO7LwL2n4ZusavyRL8cU.8QOGoJyaPFzBQnPIJRJiy","userName":"shimon","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592379610648,"_id":"5ee9c8da4c503e4118cd84a3"}
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - auth.service - login with username: shimon
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - shimon, 123, shimon
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - auth.service - signup with username: shimon
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - auth.route - new account created: {"fullName":"shimon","password":"$2b$10$xDfWGbkEgy7cjWk7r2Gu8e8vOjF4ZGTL8ax9I8m3s/nItu944ud4K","userName":"shimon","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592379612257,"_id":"5ee9c8dc4c503e4118cd84a4"}
+Wed, 17 Jun 2020 07:40:12 GMT - Debug - auth.service - login with username: shimon
+Wed, 17 Jun 2020 07:41:41 GMT - Debug - pare, 123, pare
+Wed, 17 Jun 2020 07:41:41 GMT - Debug - auth.service - signup with username: pare
+Wed, 17 Jun 2020 07:41:43 GMT - Debug - auth.route - new account created: {"fullName":"pare","password":"$2b$10$jXCfcHoU/aSTs7QpoRi7TeOFMnjTJQR6p.av1CPEm0bg5L60LH1XO","userName":"pare","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592379701846,"_id":"5ee9c9364c503e4118cd84a5"}
+Wed, 17 Jun 2020 07:41:43 GMT - Debug - auth.service - login with username: pare
+Wed, 17 Jun 2020 08:11:51 GMT - Debug - auth.service - login with username: shimon
+Wed, 17 Jun 2020 08:12:14 GMT - Debug - yoav, 123, yoav
+Wed, 17 Jun 2020 08:12:14 GMT - Debug - auth.service - signup with username: yoav
+Wed, 17 Jun 2020 08:12:15 GMT - Debug - auth.route - new account created: {"fullName":"yoav","password":"$2b$10$6Dq9NRQuaTjmKj.xPwi6n.lq8ssD1l6llDfbjTmI0wjkZsnJmCgxu","userName":"yoav","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592381534588,"_id":"5ee9d05e4c503e4118cd84a6"}
+Wed, 17 Jun 2020 08:12:15 GMT - Debug - auth.service - login with username: yoav
+Wed, 17 Jun 2020 08:12:33 GMT - Debug - kamah, 123, kamah
+Wed, 17 Jun 2020 08:12:33 GMT - Debug - auth.service - signup with username: kamah
+Wed, 17 Jun 2020 08:12:33 GMT - Debug - auth.route - new account created: {"fullName":"kamah","password":"$2b$10$j5BIliI/OjL00daxtXaTk.bjseqo5UPxie19pjFSICrhGuhDjaoOS","userName":"kamah","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592381553414,"_id":"5ee9d0714c503e4118cd84a7"}
+Wed, 17 Jun 2020 08:12:33 GMT - Debug - auth.service - login with username: kamah
+Wed, 17 Jun 2020 08:14:15 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:15:16 GMT - Debug - auth.service - login with username: yoav
+Wed, 17 Jun 2020 08:15:24 GMT - Debug - auth.service - login with username: kamah
+Wed, 17 Jun 2020 08:15:46 GMT - Debug - auth.service - login with username: kamah
+Wed, 17 Jun 2020 08:28:10 GMT - Debug - auth.service - login with username: kamah
+Wed, 17 Jun 2020 08:31:23 GMT - Debug - oz, 123, oz
+Wed, 17 Jun 2020 08:31:23 GMT - Debug - auth.service - signup with username: oz
+Wed, 17 Jun 2020 08:31:23 GMT - Debug - auth.route - new account created: {"fullName":"oz","password":"$2b$10$jNHtIsFuFGIE9kv8y3Az.u4yYesPNElr0kBXkZuYjOOhRfVEhZhle","userName":"oz","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592382683513,"_id":"5ee9d4dbb9f2bb2820b09e0b"}
+Wed, 17 Jun 2020 08:31:23 GMT - Debug - auth.service - login with username: oz
+Wed, 17 Jun 2020 08:31:32 GMT - Debug - guy, 123, guy
+Wed, 17 Jun 2020 08:31:32 GMT - Debug - auth.service - signup with username: guy
+Wed, 17 Jun 2020 08:31:32 GMT - Debug - auth.route - new account created: {"fullName":"guy","password":"$2b$10$ySsF0IvuMo2oeEO0hLQkBujeVO22RbeRuK1SFSc1QKnBXqYDv02sO","userName":"guy","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592382692370,"_id":"5ee9d4e4b9f2bb2820b09e0c"}
+Wed, 17 Jun 2020 08:31:32 GMT - Debug - auth.service - login with username: guy
+Wed, 17 Jun 2020 08:44:07 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:46:30 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:47:30 GMT - Debug - kyle, 123, kyle
+Wed, 17 Jun 2020 08:47:30 GMT - Debug - auth.service - signup with username: kyle
+Wed, 17 Jun 2020 08:47:34 GMT - Debug - auth.route - new account created: {"fullName":"kyle","password":"$2b$10$ALTIw5keSGHrwpb87j1.nuuBJfEJEn4nmyeT80COh1bf3x8zQztOS","userName":"kyle","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592383650712,"_id":"5ee9d8a44a4c5247ec8f270c"}
+Wed, 17 Jun 2020 08:47:34 GMT - Debug - auth.service - login with username: kyle
+Wed, 17 Jun 2020 08:47:43 GMT - Debug - stan, 123, stan
+Wed, 17 Jun 2020 08:47:43 GMT - Debug - auth.service - signup with username: stan
+Wed, 17 Jun 2020 08:47:43 GMT - Debug - auth.route - new account created: {"fullName":"stan","password":"$2b$10$4FILSwxbMI6Ck8BDp8wqneT80gre2xd92qesx.iBA5ldEOQHYkt2y","userName":"stan","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592383663061,"_id":"5ee9d8af4a4c5247ec8f270d"}
+Wed, 17 Jun 2020 08:47:43 GMT - Debug - auth.service - login with username: stan
+Wed, 17 Jun 2020 08:55:14 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:55:32 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:56:22 GMT - Debug - cartman, 123, cartman
+Wed, 17 Jun 2020 08:56:22 GMT - Debug - auth.service - signup with username: cartman
+Wed, 17 Jun 2020 08:56:22 GMT - Debug - auth.route - new account created: {"fullName":"cartman","password":"$2b$10$QLlpvz8sPZystFDZdZnCCuWXKeXQJrK9M37eSrw3B4gf3kffZBxpa","userName":"cartman","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592384182536,"_id":"5ee9dab6f1f9f9046ca105be"}
+Wed, 17 Jun 2020 08:56:22 GMT - Debug - auth.service - login with username: cartman
+Wed, 17 Jun 2020 08:58:01 GMT - Debug - john, 123, john
+Wed, 17 Jun 2020 08:58:01 GMT - Debug - auth.service - signup with username: john
+Wed, 17 Jun 2020 08:58:01 GMT - Debug - auth.route - new account created: {"fullName":"john","password":"$2b$10$W2Zr.Njw/KDiOUT8LytYSe3coJ67b0KVt3wCTPreozlQaAnrBN6n.","userName":"john","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592384281212,"_id":"5ee9db19f1f9f9046ca105bf"}
+Wed, 17 Jun 2020 08:58:01 GMT - Debug - auth.service - login with username: john
+Wed, 17 Jun 2020 08:58:10 GMT - Debug - paul, 123, paul
+Wed, 17 Jun 2020 08:58:10 GMT - Debug - auth.service - signup with username: paul
+Wed, 17 Jun 2020 08:58:11 GMT - Debug - auth.route - new account created: {"fullName":"paul","password":"$2b$10$qqJh6t/GD3f2xR4heK1HH.Yk7tjavLUmW.e7tIO2JSNXAIJP0FAs.","userName":"paul","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592384290818,"_id":"5ee9db22f1f9f9046ca105c0"}
+Wed, 17 Jun 2020 08:58:11 GMT - Debug - auth.service - login with username: paul
+Thu, 18 Jun 2020 07:14:52 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:30:08 GMT - Debug - auth.service - login with username: paul
+Thu, 18 Jun 2020 07:30:11 GMT - Debug - auth.service - login with username: paul
