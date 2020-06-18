@@ -1984,6 +1984,7 @@ Tue, 16 Jun 2020 13:01:01 GMT - Info - Server is running on port: 3030
 Wed, 17 Jun 2020 07:29:48 GMT - Info - Server is running on port: 3030
 =======
 >>>>>>> ae42b5d16c65a0fd255bc5ac22696b9712bb337f
+<<<<<<< HEAD
 >>>>>>> 14e76f7a9f10f4905b769bda78ff7f4704f4ebc8
 Wed, 17 Jun 2020 07:34:30 GMT - Debug - auth.service - login with username: dalit
 Wed, 17 Jun 2020 07:34:32 GMT - Debug - auth.service - login with username: dalit
@@ -2053,3 +2054,23 @@ Wed, 17 Jun 2020 08:58:11 GMT - Debug - auth.service - login with username: paul
 Thu, 18 Jun 2020 07:14:52 GMT - Info - Server is running on port: 3030
 Thu, 18 Jun 2020 07:30:08 GMT - Debug - auth.service - login with username: paul
 Thu, 18 Jun 2020 07:30:11 GMT - Debug - auth.service - login with username: paul
+=======
+Wed, 17 Jun 2020 07:58:40 GMT - Info - Server is running on port: 3030
+Wed, 17 Jun 2020 08:00:17 GMT - Debug - cartman, 123, eric cartman
+Wed, 17 Jun 2020 08:00:17 GMT - Debug - auth.service - signup with username: cartman
+Wed, 17 Jun 2020 08:00:20 GMT - Debug - auth.route - new account created: {"fullName":"eric cartman","password":"$2b$10$rzLw.L0.6UMQyxN5Ek70re.7Nr/u6zysr.8ROqupqTwc2xdtqullG","userName":"cartman","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592380817228,"_id":"5ee9cd93ce9463358cd00240"}
+Wed, 17 Jun 2020 08:00:20 GMT - Debug - auth.service - login with username: cartman
+Wed, 17 Jun 2020 08:02:49 GMT - Debug - auth.service - login with username: rick
+Wed, 17 Jun 2020 08:03:51 GMT - Debug - auth.service - login with username: cartman
+Wed, 17 Jun 2020 08:04:23 GMT - Debug - auth.service - login with username: cartman
+Thu, 18 Jun 2020 06:55:11 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 06:58:29 GMT - Debug - auth.service - login with username: kenny
+Thu, 18 Jun 2020 06:58:50 GMT - Debug - auth.service - login with username: primcesskenny
+Thu, 18 Jun 2020 06:58:57 GMT - Debug - auth.service - login with username: aluf
+Thu, 18 Jun 2020 07:03:00 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:03:34 GMT - Debug - auth.service - login with username: rick
+Thu, 18 Jun 2020 07:04:10 GMT - Debug - auth.service - login with username: cartman
+Thu, 18 Jun 2020 07:04:49 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:07:01 GMT - Info - Server is running on port: 3030
+>>>>>>> 261fcc1b45d925682f92f3a8446f849baff58e73
+Thu, 18 Jun 2020 07:36:10 GMT - Info - Server is running on port: 3030

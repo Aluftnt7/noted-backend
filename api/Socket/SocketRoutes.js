@@ -36,7 +36,7 @@ function connectSockets(io) {
                 type: 'NotificationResponse',
                 isApproved: false
             }
-            sendingUser.notifications.push(newNotification)
+            sendingUser.notifications.unshift(newNotification)
                 // const updatedUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
             const idx = user.notifications.findIndex(
@@ -106,9 +106,9 @@ function connectSockets(io) {
                 imgUrl: user.imgUrl,
                 type: 'NotificationNote',
             }
-            friend.notifications.push(notification)
-            io.emit(`updateUser ${friend._id}`, friend)
+            friend.notifications.unshift(notification)
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
+            io.emit(`updateUser ${friend._id}`, friend)
 
         })
     })
