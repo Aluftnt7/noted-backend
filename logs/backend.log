@@ -2104,3 +2104,4 @@ Sun, 21 Jun 2020 13:29:16 GMT - Info - Server is running on port: 3030
 Sun, 21 Jun 2020 13:29:30 GMT - Info - Server is running on port: 3030
 >>>>>>> c9176994085b1c5127bf20045ff3e95fc2ec55e7
 Mon, 22 Jun 2020 07:52:18 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 07:53:55 GMT - Debug - auth.service - login with username: paul
