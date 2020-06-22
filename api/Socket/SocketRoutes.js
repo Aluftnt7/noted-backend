@@ -111,10 +111,9 @@ function connectSockets(io) {
             io.emit(`updateUser ${friend._id}`, friend)
 
         })
-        socket.on('roomUpdated', ({ room , isDeleted  }) => {
-            console.log('isDeleted',isDeleted);
-              
-            io.emit(`updateRoom ${room._id}`, { updatedRoom: room,isDeleted })
+        socket.on('roomUpdated', ({ room , userId  }) => {   
+                       
+            io.emit(`updateRoom ${room._id}`, { updatedRoom: room , userId })
         })
     })
 }

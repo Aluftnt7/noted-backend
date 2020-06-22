@@ -2150,8 +2150,30 @@ Mon, 22 Jun 2020 08:51:32 GMT - Info - Server is running on port: 3030
 Mon, 22 Jun 2020 09:20:20 GMT - Debug - auth.service - login with username: rick
 Mon, 22 Jun 2020 09:20:26 GMT - Debug - auth.service - login with username: rick
 Mon, 22 Jun 2020 09:20:30 GMT - Debug - auth.service - login with username: aluf
+<<<<<<< HEAD
 >>>>>>> e5ef6618540ca70252b48e67567c4f6eedb9efce
 Mon, 22 Jun 2020 09:44:10 GMT - Info - Server is running on port: 3030
 Mon, 22 Jun 2020 10:01:20 GMT - Info - Server is running on port: 3030
 Mon, 22 Jun 2020 10:01:25 GMT - Info - Server is running on port: 3030
 Mon, 22 Jun 2020 10:21:41 GMT - Info - Server is running on port: 3030
+=======
+Mon, 22 Jun 2020 09:42:13 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:42:18 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:43:46 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:45:50 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:46:51 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:47:27 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:47:36 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:50:55 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:50:59 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:52:25 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:53:36 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 09:59:13 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:04:39 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:08:31 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:08:37 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:09:09 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:17:54 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:18:36 GMT - Info - Server is running on port: 3030
+>>>>>>> d65fba25b41cdafbb260f8a455380473f90e2da0
+Mon, 22 Jun 2020 11:27:44 GMT - Info - Server is running on port: 3030
