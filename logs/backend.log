@@ -1974,3 +1974,14 @@ Thu, 18 Jun 2020 07:03:34 GMT - Debug - auth.service - login with username: rick
 Thu, 18 Jun 2020 07:04:10 GMT - Debug - auth.service - login with username: cartman
 Thu, 18 Jun 2020 07:04:49 GMT - Info - Server is running on port: 3030
 Thu, 18 Jun 2020 07:07:01 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 07:41:59 GMT - Debug - auth.service - login with username: rick
+Thu, 18 Jun 2020 08:57:32 GMT - Debug - auth.service - login with username: rick
+Thu, 18 Jun 2020 10:03:47 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 13:22:32 GMT - Info - Server is running on port: 3030
+Thu, 18 Jun 2020 13:37:52 GMT - Info - Server is running on port: 3030
+Fri, 19 Jun 2020 13:56:53 GMT - Info - Server is running on port: 3030
+Fri, 19 Jun 2020 13:58:06 GMT - Debug - auth.service - login with username: rick
+Fri, 19 Jun 2020 13:58:33 GMT - Debug - auth.service - login with username: jhon
+Fri, 19 Jun 2020 13:58:38 GMT - Debug - auth.service - login with username: john
+Fri, 19 Jun 2020 13:58:44 GMT - Debug - auth.service - login with username: paul
+Mon, 22 Jun 2020 07:47:00 GMT - Info - Server is running on port: 3030
