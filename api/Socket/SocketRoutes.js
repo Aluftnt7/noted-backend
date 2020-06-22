@@ -107,11 +107,12 @@ function connectSockets(io) {
                 type: 'NotificationNote',
             }
             friend.notifications.unshift(notification)
+            console.log('%%%about to emit updateRoom');
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
             io.emit(`updateUser ${friend._id}`, friend)
 
         })
-        socket.on('roomUpdated', async ({ room }) => {
+        socket.on('roomUpdated', ({ room }) => {
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
         })
     })
