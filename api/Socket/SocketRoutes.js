@@ -111,7 +111,7 @@ function connectSockets(io) {
             io.emit(`updateUser ${friend._id}`, friend)
 
         })
-        socket.on('updateRoom', async ({ room }) => {
+        socket.on('roomUpdated', async ({ room }) => {
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
         })
     })
