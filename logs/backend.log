@@ -2152,3 +2152,6 @@ Mon, 22 Jun 2020 09:20:26 GMT - Debug - auth.service - login with username: rick
 Mon, 22 Jun 2020 09:20:30 GMT - Debug - auth.service - login with username: aluf
 >>>>>>> e5ef6618540ca70252b48e67567c4f6eedb9efce
 Mon, 22 Jun 2020 09:44:10 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:01:20 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:01:25 GMT - Info - Server is running on port: 3030
+Mon, 22 Jun 2020 10:21:41 GMT - Info - Server is running on port: 3030
