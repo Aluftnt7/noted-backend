@@ -20,11 +20,11 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.push(notification)
-                        // const updatedUser = await userService.update(user)
+                    // const updatedUser = await userService.update(user)
                     io.emit(`updateUser ${friendId}`, user)
                 })
         })
-        socket.on('decline', async({ notification, user }) => {
+        socket.on('decline', async ({ notification, user }) => {
             let sendingUser = await userService.getById(notification.userId)
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
@@ -37,7 +37,7 @@ function connectSockets(io) {
                 isApproved: false
             }
             sendingUser.notifications.unshift(newNotification)
-                // const updatedUser = await userService.update(sendingUser)
+            // const updatedUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
             const idx = user.notifications.findIndex(
                 currNotification => currNotification._id === notification._id
@@ -46,7 +46,7 @@ function connectSockets(io) {
             // const updatedReciveingUser = await userService.update(receviengUser)
             io.emit(`updateUserWithoutAudio ${user._id}`, { user })
         })
-        socket.on('approve', async({ notification, user }) => {
+        socket.on('approve', async ({ notification, user }) => {
             const roomId = ObjectId(UtilService.makeId())
             user.friends.push({
                 roomId,
@@ -85,7 +85,7 @@ function connectSockets(io) {
                 imgUrl: user.imgUrl,
             })
             sendingUser.notifications.push(newNotification)
-                // const updatedSendingUser = await userService.update(sendingUser)
+            // const updatedSendingUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
             let room = {
@@ -96,11 +96,11 @@ function connectSockets(io) {
             RoomService.add(room)
 
         })
-        socket.on('added note', async({ room, user, friendId }) => {
+        socket.on('added note', async ({ room, user, friendId }) => {
             const friend = await userService.getById(friendId)
             const notification = {
                 _id: ObjectId(UtilService.makeId()),
-                roomId:room._id,
+                roomId: room._id,
                 userName: user.userName,
                 createdAt: Date.now(),
                 imgUrl: user.imgUrl,
@@ -110,6 +110,9 @@ function connectSockets(io) {
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
             io.emit(`updateUser ${friend._id}`, friend)
 
+        })
+        socket.on('todoUpdated', async ({ room }) => {
+            io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
         })
     })
 }
