@@ -30,7 +30,6 @@ async function query(filterBy = {}) {
 
 async function getById(userId) {
     ;
-
     const collection = await dbService.getCollection('user')
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })

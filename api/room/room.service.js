@@ -22,12 +22,14 @@ async function query(filterBy = {}) {
     }
 }
 
-async function getById(roomId) {
+async function getById(filterBy) {
+    console.log('filterBy',filterBy);
+    
     const collection = await dbService.getCollection('room')
     try {
-        const room = await collection.findOne({ "_id": ObjectId(roomId) })
-        
-        return room;
+        const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId)}) 
+        room.notes =  (filterBy.term) ? room.notes.filter(note => note.header.includes(filterBy.term)) : room.notes
+        return room
     } catch (err) {
         console.log(`ERROR: while finding room ${roomId}`)
         throw err;
