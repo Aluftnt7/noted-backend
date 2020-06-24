@@ -2183,7 +2183,112 @@ Tue, 23 Jun 2020 06:09:29 GMT - Info - Server is running on port: 3030
 =======
 Mon, 22 Jun 2020 10:20:04 GMT - Info - Server is running on port: 3030
 Mon, 22 Jun 2020 14:16:12 GMT - Info - Server is running on port: 3030
->>>>>>> da4fdf817d71e8416733ceb15f3ece79167f6e65
+<<<<<<< HEAD
+Mon, 22 Jun 2020 15:50:38 GMT - Info - Server is running on port: 3030
+Tue, 23 Jun 2020 06:24:53 GMT - Info - Server is running on port: 3030
+Tue, 23 Jun 2020 06:36:51 GMT - Debug - auth.service - login with username: cartman
+Tue, 23 Jun 2020 06:36:52 GMT - Debug - auth.service - login with username: cartman
+Tue, 23 Jun 2020 06:37:08 GMT - Debug - auth.service - login with username: cartman
+Wed, 24 Jun 2020 07:06:46 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 07:29:55 GMT - Debug - auth.service - login with username: rick
+Wed, 24 Jun 2020 07:29:57 GMT - Debug - auth.service - login with username: rick
+Wed, 24 Jun 2020 07:59:34 GMT - Debug - yaish, 123, yaish
+Wed, 24 Jun 2020 07:59:34 GMT - Debug - auth.service - signup with username: yaish
+Wed, 24 Jun 2020 07:59:35 GMT - Debug - auth.route - new account created: {"fullName":"yaish","password":"$2b$10$x5qRxl9DL944Eewh9Idc4OhdaCl1WS0QRzrupBT.os7dtlAOf/fHS","userName":"yaish","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592985574569,"_id":"5ef307e646b8b73dd8ff4b4f"}
+Wed, 24 Jun 2020 07:59:35 GMT - Debug - auth.service - login with username: yaish
+Wed, 24 Jun 2020 07:59:49 GMT - Debug - nags, 123, nags
+Wed, 24 Jun 2020 07:59:49 GMT - Debug - auth.service - signup with username: nags
+Wed, 24 Jun 2020 07:59:50 GMT - Debug - auth.route - new account created: {"fullName":"nags","password":"$2b$10$iBMMrHtehgRzYZzbm9fbderu4pXWOc6pOt6s3rDYYlJ5vyYCilYfW","userName":"nags","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592985589985,"_id":"5ef307f646b8b73dd8ff4b50"}
+Wed, 24 Jun 2020 07:59:50 GMT - Debug - auth.service - login with username: nags
+Wed, 24 Jun 2020 08:08:38 GMT - Debug - charley, 123, charley
+Wed, 24 Jun 2020 08:08:38 GMT - Debug - auth.service - signup with username: charley
+Wed, 24 Jun 2020 08:08:38 GMT - Debug - auth.route - new account created: {"fullName":"charley","password":"$2b$10$gXL.68rUrWjHBUUPLdMFLulKC69rHaHnZIw/VuABcu6eQgYlS.Zrm","userName":"charley","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592986118372,"_id":"5ef30a0646b8b73dd8ff4b51"}
+Wed, 24 Jun 2020 08:08:38 GMT - Debug - auth.service - login with username: charley
+Wed, 24 Jun 2020 08:08:46 GMT - Debug - hezi, 123, hezi
+Wed, 24 Jun 2020 08:08:46 GMT - Debug - auth.service - signup with username: hezi
+Wed, 24 Jun 2020 08:08:46 GMT - Debug - auth.route - new account created: {"fullName":"hezi","password":"$2b$10$0w7GaUb.RkxqtX.QL2tRMe4CujaLOF15yp55Q92A7dBBDN6dO0T0m","userName":"hezi","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592986126557,"_id":"5ef30a0e46b8b73dd8ff4b52"}
+Wed, 24 Jun 2020 08:08:46 GMT - Debug - auth.service - login with username: hezi
+Wed, 24 Jun 2020 08:32:02 GMT - Debug - auth.service - login with username: rick
+Wed, 24 Jun 2020 08:32:06 GMT - Debug - auth.service - login with username: aluf
+Wed, 24 Jun 2020 08:33:20 GMT - Debug - shush, 123, shush
+Wed, 24 Jun 2020 08:33:20 GMT - Debug - auth.service - signup with username: shush
+Wed, 24 Jun 2020 08:33:20 GMT - Debug - auth.route - new account created: {"fullName":"shush","password":"$2b$10$VmzXij90QVXX9/Rd049EluoE99q5QvX0dnE/4X/9TxU.OHe1bsey2","userName":"shush","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592987600552,"_id":"5ef30fd046b8b73dd8ff4b53"}
+Wed, 24 Jun 2020 08:33:20 GMT - Debug - auth.service - login with username: shush
+Wed, 24 Jun 2020 08:33:27 GMT - Debug - ygi, 123, ugi
+Wed, 24 Jun 2020 08:33:27 GMT - Debug - auth.service - signup with username: ygi
+Wed, 24 Jun 2020 08:33:27 GMT - Debug - auth.route - new account created: {"fullName":"ugi","password":"$2b$10$IXZAjDnYd3TEdPk.k.0cp.exmwPsluH79bjY54gi/H3AUXfOlc1W6","userName":"ygi","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592987607400,"_id":"5ef30fd746b8b73dd8ff4b54"}
+Wed, 24 Jun 2020 08:33:27 GMT - Debug - auth.service - login with username: ygi
+Wed, 24 Jun 2020 10:35:47 GMT - Debug - shush, 123, shush
+Wed, 24 Jun 2020 10:35:47 GMT - Debug - auth.service - signup with username: shush
+Wed, 24 Jun 2020 10:35:48 GMT - Debug - auth.route - new account created: {"fullName":"shush","password":"$2b$10$Z3azcpvFhCG.ofwqGsGOguZRDdwrVOm4imEnVCkH5.QUExjX/ZHpm","userName":"shush","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592994947302,"_id":"5ef32c8346b8b73dd8ff4b55"}
+Wed, 24 Jun 2020 10:35:48 GMT - Debug - auth.service - login with username: shush
+Wed, 24 Jun 2020 10:35:54 GMT - Debug - bamba, 123, bamba
+Wed, 24 Jun 2020 10:35:54 GMT - Debug - auth.service - signup with username: bamba
+Wed, 24 Jun 2020 10:35:54 GMT - Debug - auth.route - new account created: {"fullName":"bamba","password":"$2b$10$z4OenS2S3hnLyWAE3Vd74eB0Uz.Jo/fX4Z8hN6WRZz6sC0xgvIeam","userName":"bamba","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592994954192,"_id":"5ef32c8a46b8b73dd8ff4b56"}
+Wed, 24 Jun 2020 10:35:54 GMT - Debug - auth.service - login with username: bamba
+Wed, 24 Jun 2020 10:36:28 GMT - Debug - dsa, 123, dsa
+Wed, 24 Jun 2020 10:36:28 GMT - Debug - auth.service - signup with username: dsa
+Wed, 24 Jun 2020 10:36:28 GMT - Debug - auth.route - new account created: {"fullName":"dsa","password":"$2b$10$u3jTlmEQNxMjLZYn7/4lCuGd9Kg4fd787H2/SFcCiFz6mbXozRn3O","userName":"dsa","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592994988106,"_id":"5ef32cac46b8b73dd8ff4b57"}
+Wed, 24 Jun 2020 10:36:28 GMT - Debug - auth.service - login with username: dsa
+Wed, 24 Jun 2020 10:41:26 GMT - Debug - lalala, 123, lalala
+Wed, 24 Jun 2020 10:41:26 GMT - Debug - auth.service - signup with username: lalala
+Wed, 24 Jun 2020 10:41:27 GMT - Debug - auth.route - new account created: {"fullName":"lalala","password":"$2b$10$hN3X8aQtVquXWNDicG5d9eT1zteaYVtrNSUscoyqJI5zTyWGz8CAW","userName":"lalala","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995286862,"_id":"5ef32dd646b8b73dd8ff4b58"}
+Wed, 24 Jun 2020 10:41:27 GMT - Debug - auth.service - login with username: lalala
+Wed, 24 Jun 2020 10:42:27 GMT - Debug - fds, 123, fds
+Wed, 24 Jun 2020 10:42:27 GMT - Debug - auth.service - signup with username: fds
+Wed, 24 Jun 2020 10:42:28 GMT - Debug - auth.route - new account created: {"fullName":"fds","password":"$2b$10$nXp8Rs9tz0efpGBk2JjVqeo/Y7.HVTpAMzBl8KqBweWB9XsFippJa","userName":"fds","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995347870,"_id":"5ef32e1346b8b73dd8ff4b59"}
+Wed, 24 Jun 2020 10:42:28 GMT - Debug - auth.service - login with username: fds
+Wed, 24 Jun 2020 10:43:22 GMT - Debug - ddd, 123, dsaddd
+Wed, 24 Jun 2020 10:43:22 GMT - Debug - auth.service - signup with username: ddd
+Wed, 24 Jun 2020 10:43:22 GMT - Debug - auth.route - new account created: {"fullName":"dsaddd","password":"$2b$10$muusY.8845sF7Me7EmhOkueS5/Rt7zDjhjYeGwj2xzctU8EuMLPDu","userName":"ddd","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995402096,"_id":"5ef32e4a46b8b73dd8ff4b5a"}
+Wed, 24 Jun 2020 10:43:22 GMT - Debug - auth.service - login with username: ddd
+Wed, 24 Jun 2020 10:44:48 GMT - Debug - lala, 123, LALA
+Wed, 24 Jun 2020 10:44:48 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:44:48 GMT - Debug - auth.route - new account created: {"fullName":"LALA","password":"$2b$10$nYdUSSc74CGMGrUfnZzHK.d01khj1GXLlyooVLD7a9ypqUEZ9LN2q","userName":"lala","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995488459,"_id":"5ef32ea046b8b73dd8ff4b5b"}
+Wed, 24 Jun 2020 10:44:48 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:45:56 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:46:33 GMT - Debug - lala, 123, lala
+Wed, 24 Jun 2020 10:46:33 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:46:33 GMT - Debug - auth.route - new account created: {"fullName":"lala","password":"$2b$10$KQlplFpRP9GvrDpeCwnDHO2b5deycfY7TTbx4eDKjZXPP5pr2Er0e","userName":"lala","imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995593341,"_id":"5ef32f0946b8b73dd8ff4b5c"}
+Wed, 24 Jun 2020 10:46:33 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:48:30 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 10:48:35 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 10:48:49 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 10:48:57 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 10:49:06 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 10:49:14 GMT - Debug - lala, 123, lala
+Wed, 24 Jun 2020 10:49:14 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:49:17 GMT - Debug - auth.route - new account created: {"fullName":"lala","password":"$2b$10$9giAgOXZ9xbCFlHx1.QUXu5ao9Bw4iL2iXH46xIykj/7OXPOEJB2u","userName":"lala","imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995754882,"pinnedNotes":[],"_id":"5ef32fac792035321cbe6667"}
+Wed, 24 Jun 2020 10:49:17 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:49:38 GMT - Debug - dada, 123, dada
+Wed, 24 Jun 2020 10:49:38 GMT - Debug - auth.service - signup with username: dada
+Wed, 24 Jun 2020 10:49:38 GMT - Debug - auth.route - new account created: {"fullName":"dada","password":"$2b$10$sDeKRopflOMra8VnetR8X.ES/V.7Okm7yxhTmqH2fSgaObhB9Ieja","userName":"dada","imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995778630,"pinnedNotes":[],"_id":"5ef32fc2792035321cbe6668"}
+Wed, 24 Jun 2020 10:49:38 GMT - Debug - auth.service - login with username: dada
+Wed, 24 Jun 2020 10:51:47 GMT - Debug - lala, 123, lala
+Wed, 24 Jun 2020 10:51:47 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:51:47 GMT - Debug - auth.route - new account created: {"fullName":"lala","password":"$2b$10$yOxRGynrAA3Svwcv1/m3IeJEEVIMEMj/9Q3Bh7NVNfNK0y4Rt303S","userName":"lala","imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995907125,"pinnedNotes":[],"_id":"5ef33043792035321cbe6669"}
+Wed, 24 Jun 2020 10:51:47 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:51:52 GMT - Debug - dada, 123, dada
+Wed, 24 Jun 2020 10:51:52 GMT - Debug - auth.service - signup with username: dada
+Wed, 24 Jun 2020 10:51:52 GMT - Debug - auth.route - new account created: {"fullName":"dada","password":"$2b$10$fVAAHAF72hVnPTQhWlHwxuYJv2menUtBUnh9fzEJAmu3iZzQoFgq6","userName":"dada","imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995912540,"pinnedNotes":[],"_id":"5ef33048792035321cbe666a"}
+Wed, 24 Jun 2020 10:51:52 GMT - Debug - auth.service - login with username: dada
+Wed, 24 Jun 2020 10:52:43 GMT - Debug - lala, 123, lala
+Wed, 24 Jun 2020 10:52:43 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:52:43 GMT - Debug - auth.route - new account created: {"fullName":"lala","password":"$2b$10$whwIgl.pcWMEzvziEApmnu0QY8xsIhCeeRclFfvfLgr8/smy3NgZ6","userName":"lala","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995963266,"pinnedNotes":[],"_id":"5ef3307b792035321cbe666b"}
+Wed, 24 Jun 2020 10:52:43 GMT - Debug - auth.service - login with username: lala
+Wed, 24 Jun 2020 10:52:48 GMT - Debug - dada, 123, dada
+Wed, 24 Jun 2020 10:52:48 GMT - Debug - auth.service - signup with username: dada
+Wed, 24 Jun 2020 10:52:48 GMT - Debug - auth.route - new account created: {"fullName":"dada","password":"$2b$10$OaekmL3npYuN29KnZ3iZ9umQTu7gq1/YhPWPyd.EU6P7fQ5po9R9e","userName":"dada","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592995968615,"pinnedNotes":[],"_id":"5ef33080792035321cbe666c"}
+Wed, 24 Jun 2020 10:52:48 GMT - Debug - auth.service - login with username: dada
+Wed, 24 Jun 2020 10:56:04 GMT - Debug - dada, 123, dada
+Wed, 24 Jun 2020 10:56:04 GMT - Debug - auth.service - signup with username: dada
+Wed, 24 Jun 2020 10:56:04 GMT - Debug - auth.route - new account created: {"fullName":"dada","password":"$2b$10$nK.KzUMYVQBRtA4UEjX1a.YnH/iJSrKWwpCEfdc0OM0gHZYJZbV5G","userName":"dada","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592996164322,"pinnedNotes":[],"_id":"5ef33144792035321cbe666d"}
+Wed, 24 Jun 2020 10:56:04 GMT - Debug - auth.service - login with username: dada
+Wed, 24 Jun 2020 10:56:09 GMT - Debug - lala, 123, lala
+Wed, 24 Jun 2020 10:56:09 GMT - Debug - auth.service - signup with username: lala
+Wed, 24 Jun 2020 10:56:09 GMT - Debug - auth.route - new account created: {"fullName":"lala","password":"$2b$10$h5OIUbtA49fXc9Pw4Vg8Qe9uuWA8tVGnS8W.wRwpM1o2a2QA/pkG6","userName":"lala","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1592996169473,"pinnedNotes":[],"_id":"5ef33149792035321cbe666e"}
+Wed, 24 Jun 2020 10:56:09 GMT - Debug - auth.service - login with username: lala
+=======
 Tue, 23 Jun 2020 06:23:02 GMT - Info - Server is running on port: 3030
 Tue, 23 Jun 2020 10:19:20 GMT - Debug - matan, 123, matan
 Tue, 23 Jun 2020 10:19:20 GMT - Debug - auth.service - signup with username: matan
@@ -2210,3 +2315,10 @@ Wed, 24 Jun 2020 07:57:52 GMT - Debug - auth.route - new account created: {"full
 Wed, 24 Jun 2020 07:57:52 GMT - Debug - auth.service - login with username: kith
 Wed, 24 Jun 2020 08:06:20 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 14:25:10 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> 0d809511fa35b70879335341a9d219a3dd3a5c59
+Wed, 24 Jun 2020 11:30:39 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 13:12:19 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 13:21:03 GMT - Debug - auth.service - login with username: lala
+>>>>>>> 74731367f352b894b8b835c587f9f7720254cd19
+Wed, 24 Jun 2020 14:28:19 GMT - Info - Server is running on port: 3030
