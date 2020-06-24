@@ -2292,3 +2292,6 @@ Wed, 24 Jun 2020 10:56:09 GMT - Debug - auth.service - login with username: lala
 >>>>>>> da4fdf817d71e8416733ceb15f3ece79167f6e65
 Tue, 23 Jun 2020 06:23:02 GMT - Info - Server is running on port: 3030
 >>>>>>> 0d809511fa35b70879335341a9d219a3dd3a5c59
+Wed, 24 Jun 2020 11:30:39 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 13:12:19 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 13:21:03 GMT - Debug - auth.service - login with username: lala
