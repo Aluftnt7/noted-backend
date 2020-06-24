@@ -2322,3 +2322,15 @@ Wed, 24 Jun 2020 13:12:19 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 13:21:03 GMT - Debug - auth.service - login with username: lala
 >>>>>>> 74731367f352b894b8b835c587f9f7720254cd19
 Wed, 24 Jun 2020 14:28:19 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 14:30:56 GMT - Debug - auth.service - login with username: kith
+Wed, 24 Jun 2020 14:31:06 GMT - Debug - auth.service - login with username: keith
+Wed, 24 Jun 2020 14:31:11 GMT - Debug - auth.service - login with username: keith
+Wed, 24 Jun 2020 14:31:16 GMT - Debug - auth.service - login with username: kith
+Wed, 24 Jun 2020 14:32:12 GMT - Debug - keith, 123, keith
+Wed, 24 Jun 2020 14:32:12 GMT - Debug - auth.service - signup with username: keith
+Wed, 24 Jun 2020 14:32:13 GMT - Debug - auth.route - new account created: {"fullName":"keith","password":"$2b$10$oyLjrcIHOTxiPQxPO..idewU04z/GxgfbUmHYwx0R9Nrh/8hHi8qS","userName":"keith","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1593009132719,"pinnedNotes":[],"_id":"5ef363eca28c230520002365"}
+Wed, 24 Jun 2020 14:32:13 GMT - Debug - auth.service - login with username: keith
+Wed, 24 Jun 2020 14:35:57 GMT - Debug - brian, 123, brian
+Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.service - signup with username: brian
+Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.route - new account created: {"fullName":"brian","password":"$2b$10$pggBHhoIhKhm/MfdKi59fO0gfSxfmc9e8zFIXMynQxsoOVY0mFNTa","userName":"brian","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1593009356958,"pinnedNotes":[],"_id":"5ef364cda28c230520002366"}
+Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.service - login with username: brian
