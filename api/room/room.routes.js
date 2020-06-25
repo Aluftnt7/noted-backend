@@ -8,8 +8,8 @@ const router = express.Router()
 
 
 
-router.get('/', query)
-router.get('/:id', getById)
+// router.get('/', query)
+router.get('/', getById)
 router.put('/:id', update)
 router.post('/', add)
 router.delete('/:id', remove)

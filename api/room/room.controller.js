@@ -1,9 +1,19 @@
 const roomService = require('./room.service')
 
+
+
 async function getById(req, res) {
-    const room = await roomService.getById(req.params.id)
+    console.log('req.query', req.query);
+    
+    const room = await roomService.getById(req.query)
     res.json(room)
 }
+
+
+// async function getById(req, res) {
+//     const room = await roomService.getById(req.params.id)
+//     res.json(room)
+// }
 
 async function query(req, res) {
     const filterBy = req.query;
