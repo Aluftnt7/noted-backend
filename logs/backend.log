@@ -2334,7 +2334,6 @@ Wed, 24 Jun 2020 14:35:57 GMT - Debug - brian, 123, brian
 Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.service - signup with username: brian
 Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.route - new account created: {"fullName":"brian","password":"$2b$10$pggBHhoIhKhm/MfdKi59fO0gfSxfmc9e8zFIXMynQxsoOVY0mFNTa","userName":"brian","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1593009356958,"pinnedNotes":[],"_id":"5ef364cda28c230520002366"}
 Wed, 24 Jun 2020 14:35:57 GMT - Debug - auth.service - login with username: brian
-=======
 Wed, 24 Jun 2020 14:37:16 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 14:38:31 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 14:38:38 GMT - Info - Server is running on port: 3030
@@ -2375,6 +2374,7 @@ Wed, 24 Jun 2020 15:31:16 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 15:31:51 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 15:33:13 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 15:33:29 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 >>>>>>> ae582f5764897cbd50e213ab7f1bc2eb2af7643c
 Wed, 24 Jun 2020 16:00:27 GMT - Info - Server is running on port: 3030
 Wed, 24 Jun 2020 16:07:42 GMT - Info - Server is running on port: 3030
@@ -2384,3 +2384,15 @@ Thu, 25 Jun 2020 10:14:43 GMT - Info - Server is running on port: 3030
 Thu, 25 Jun 2020 10:14:47 GMT - Info - Server is running on port: 3030
 Thu, 25 Jun 2020 10:14:49 GMT - Info - Server is running on port: 3030
 Thu, 25 Jun 2020 10:15:12 GMT - Info - Server is running on port: 3030
+=======
+Wed, 24 Jun 2020 16:04:30 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 16:04:39 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 16:05:58 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 16:07:03 GMT - Info - Server is running on port: 3030
+Wed, 24 Jun 2020 16:07:16 GMT - Info - Server is running on port: 3030
+Thu, 25 Jun 2020 07:19:31 GMT - Info - Server is running on port: 3030
+Thu, 25 Jun 2020 07:21:12 GMT - Info - Server is running on port: 3030
+Thu, 25 Jun 2020 07:22:03 GMT - Debug - auth.service - login with username: lala
+Thu, 25 Jun 2020 07:22:39 GMT - Info - Server is running on port: 3030
+Thu, 25 Jun 2020 07:23:03 GMT - Info - Server is running on port: 3030
+>>>>>>> 81ea95573c9dced7cc9f5ab853912883ef7c58b5
