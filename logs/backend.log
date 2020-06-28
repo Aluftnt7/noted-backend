@@ -2431,3 +2431,7 @@ Sun, 28 Jun 2020 10:17:34 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 08:24:49 GMT - Debug - auth.service - login with username: lala
 Sun, 28 Jun 2020 08:51:37 GMT - Debug - auth.service - login with username: lala
 >>>>>>> e38c76e9875916ca22c2393f0c67ddbe01ef657d
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - ray, 123, ray
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.service - signup with username: ray
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.route - new account created: {"fullName":"ray","password":"$2b$10$.JalZwg40rPA6Ava.mQ8cuMkrkKeoe6rLRnLAOdooPYAiM.dVRu1q","userName":"ray","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1593355471174,"pinnedNotes":[],"_id":"5ef8accf49f0b631cc9805d2"}
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.service - login with username: ray
