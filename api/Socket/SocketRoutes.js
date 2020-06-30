@@ -19,7 +19,7 @@ function connectSockets(io) {
             }
             userService.getById(friendId)
                 .then(async user => {
-                    user.notifications.push(notification)
+                    user.notifications.unshift(notification)
                     const updatedUser = await userService.update(user)
                     io.emit(`updateUser ${friendId}`, user)
                 })
@@ -84,7 +84,7 @@ function connectSockets(io) {
                 fullName: user.fullName,
                 imgUrl: user.imgUrl,
             })
-            sendingUser.notifications.push(newNotification)
+            sendingUser.notifications.unshift(newNotification)
             const updatedSendingUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
