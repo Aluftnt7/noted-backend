@@ -2495,3 +2495,5 @@ Tue, 30 Jun 2020 08:26:07 GMT - Debug - auth.service - login with username: Tami
 >>>>>>> ffbd34a4637b4a95e0b4f0ecb6be272ee83391f2
 Sun, 28 Jun 2020 15:06:15 GMT - Info - Server is running on port: 3030
 >>>>>>> e9f96893176a32d9cb93f7e00d03e8aef4d650af
+Tue, 30 Jun 2020 08:29:40 GMT - Info - Server is running on port: 3030
+Tue, 30 Jun 2020 08:29:42 GMT - Info - Server is running on port: 3030
