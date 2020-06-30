@@ -894,7 +894,6 @@ Mon, 08 Jun 2020 07:16:57 GMT - Debug - auth.service - login with username: aluf
 =======
 Mon, 08 Jun 2020 08:29:16 GMT - Debug - auth.service - login with username: morty
 Mon, 08 Jun 2020 08:30:01 GMT - Debug - auth.service - login with username: tal
->>>>>>> 4a98c13882acf134c9231d2eea1b533e422fa7c3
 Mon, 08 Jun 2020 08:36:47 GMT - Info - Server is running on port: 3030
 Mon, 08 Jun 2020 08:37:21 GMT - Debug - Alon, 123, Alon
 Mon, 08 Jun 2020 08:37:21 GMT - Debug - auth.service - signup with username: Alon
@@ -2431,10 +2430,17 @@ Sun, 28 Jun 2020 10:17:34 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 08:24:49 GMT - Debug - auth.service - login with username: lala
 Sun, 28 Jun 2020 08:51:37 GMT - Debug - auth.service - login with username: lala
 >>>>>>> e38c76e9875916ca22c2393f0c67ddbe01ef657d
+<<<<<<< HEAD
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - ray, 123, ray
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.service - signup with username: ray
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.route - new account created: {"fullName":"ray","password":"$2b$10$.JalZwg40rPA6Ava.mQ8cuMkrkKeoe6rLRnLAOdooPYAiM.dVRu1q","userName":"ray","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1593355471174,"pinnedNotes":[],"_id":"5ef8accf49f0b631cc9805d2"}
+Sun, 28 Jun 2020 14:44:31 GMT - Debug - auth.service - login with username: ray
+=======
 Sun, 28 Jun 2020 10:21:56 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 10:23:40 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 10:33:37 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 11:18:15 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Sun, 28 Jun 2020 15:23:31 GMT - Info - Server is running on port: 3030
 Sun, 28 Jun 2020 15:24:07 GMT - Debug - auth.service - login with username: lala
 Sun, 28 Jun 2020 15:37:03 GMT - Info - Server is running on port: 3030
@@ -2485,3 +2491,7 @@ Tue, 30 Jun 2020 08:23:18 GMT - Debug - auth.service - login with username: Tami
 Tue, 30 Jun 2020 08:23:41 GMT - Debug - auth.service - login with username: Tamir
 Tue, 30 Jun 2020 08:25:38 GMT - Debug - auth.service - login with username: Tamir
 Tue, 30 Jun 2020 08:26:07 GMT - Debug - auth.service - login with username: Tamir
+=======
+>>>>>>> ffbd34a4637b4a95e0b4f0ecb6be272ee83391f2
+Sun, 28 Jun 2020 15:06:15 GMT - Info - Server is running on port: 3030
+>>>>>>> e9f96893176a32d9cb93f7e00d03e8aef4d650af
