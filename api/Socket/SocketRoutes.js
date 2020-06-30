@@ -20,7 +20,7 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.push(notification)
-                    // const updatedUser = await userService.update(user)
+                    const updatedUser = await userService.update(user)
                     io.emit(`updateUser ${friendId}`, user)
                 })
         })
@@ -37,13 +37,13 @@ function connectSockets(io) {
                 isApproved: false
             }
             sendingUser.notifications.unshift(newNotification)
-            // const updatedUser = await userService.update(sendingUser)
+            const updatedUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
             const idx = user.notifications.findIndex(
                 currNotification => currNotification._id === notification._id
             );
             user.notifications.splice(idx, 1);
-            // const updatedReciveingUser = await userService.update(receviengUser)
+            const updatedReciveingUser = await userService.update(user)
             io.emit(`updateUserWithoutAudio ${user._id}`, { user })
         })
         socket.on('approve', async ({ notification, user }) => {
@@ -59,7 +59,7 @@ function connectSockets(io) {
                 currNotification => currNotification._id === notification._id
             );
             user.notifications.splice(idx, 1);
-            // const updatedReciveingUser = await userService.update(reciveingUser)
+            const updatedReciveingUser = await userService.update(user)
             io.emit(`updateUserWithoutAudio ${user._id}`, { user })
 
             let newNotification = {
@@ -85,7 +85,7 @@ function connectSockets(io) {
                 imgUrl: user.imgUrl,
             })
             sendingUser.notifications.push(newNotification)
-            // const updatedSendingUser = await userService.update(sendingUser)
+            const updatedSendingUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
             let room = {
@@ -108,6 +108,7 @@ function connectSockets(io) {
             }
             friend.notifications.unshift(notification)
             io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
+            const updatedSendingUser = await userService.update(friend)
             io.emit(`updateUser ${friend._id}`, friend)
 
         })
