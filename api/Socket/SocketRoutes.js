@@ -20,8 +20,12 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.unshift(notification)
-                    const updatedUser = await userService.update(user)
-                    io.emit(`updateUser ${friendId}`, user)
+                    const updatedUser = await userService.update(user) 
+                    // console.log('user in socket', updatedUser);
+                    console.log('friendId',friendId );
+                    
+                                       
+                    io.emit(`updateUser ${friendId}`, updatedUser)
                 })
         })
         socket.on('decline', async ({ notification, user }) => {
