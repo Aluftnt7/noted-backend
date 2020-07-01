@@ -21,6 +21,8 @@ function connectSockets(io) {
                 .then(async user => {
                     user.notifications.unshift(notification)
                     const updatedUser = await userService.update(user) 
+                    console.log('updatedUser in sicket $$$$', updatedUser);
+                    
                     // console.log('user in socket', updatedUser);
                     console.log('friendId',friendId );
                     
