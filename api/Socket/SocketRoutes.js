@@ -7,7 +7,10 @@ const RoomService = require('../room/room.service')
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
+        // socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
+
+        socket.on('Add Friend', (addFriendNotifictaion) => {
+            let { friendId, _id, type, userName, fullName, imgUrl } = addFriendNotifictaion;
             let notification = {
                 _id: ObjectId(UtilService.makeId()),
                 userId: ObjectId(_id),
@@ -20,11 +23,10 @@ function connectSockets(io) {
             userService.getById(friendId)
                 .then(async user => {
                     user.notifications.unshift(notification)
-                    const updatedUser = await userService.update(user) 
-                    // console.log('user in socket', updatedUser);
-                    console.log('friendId',friendId );  
-                    io.emit(`updateUser ${friendId}`, updatedUser)
-                                       
+                    const updatedUser = await userService.update(user)
+                    console.log('@@@@@@@@@@@updated user:', updatedUser._id)
+                    console.log('@@@@@@@@@@@friendId:', friendId)
+                    io.emit(`updateUser ${updatedUser._id}`, user)
                 })
         })
         socket.on('decline', async ({ notification, user }) => {
