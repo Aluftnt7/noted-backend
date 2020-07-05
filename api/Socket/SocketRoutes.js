@@ -7,7 +7,10 @@ const RoomService = require('../room/room.service')
 
 function connectSockets(io) {
     io.on('connection', socket => {
-        socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
+        // socket.on('Add Friend', ({ friendId, _id, type, userName, fullName, imgUrl }) => {
+
+        socket.on('Add Friend', (addFriendNotifictaion) => {
+            let { friendId, _id, type, userName, fullName, imgUrl } = addFriendNotifictaion;
             let notification = {
                 _id: ObjectId(UtilService.makeId()),
                 userId: ObjectId(_id),
@@ -19,9 +22,11 @@ function connectSockets(io) {
             }
             userService.getById(friendId)
                 .then(async user => {
-                    user.notifications.push(notification)
+                    user.notifications.unshift(notification)
                     const updatedUser = await userService.update(user)
-                    io.emit(`updateUser ${friendId}`, user)
+                    console.log('@@@@@@@@@@@updated user:', updatedUser._id)
+                    console.log('@@@@@@@@@@@friendId:', friendId)
+                    io.emit(`updateUser ${updatedUser._id}`, user)
                 })
         })
         socket.on('decline', async ({ notification, user }) => {
@@ -60,7 +65,7 @@ function connectSockets(io) {
             );
             user.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(user)
-            io.emit(`updateUserWithoutAudio ${user._id}`, { user })
+            socket.emit(`updateUserWithoutAudio ${user._id}`, { user })
 
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
@@ -84,7 +89,7 @@ function connectSockets(io) {
                 fullName: user.fullName,
                 imgUrl: user.imgUrl,
             })
-            sendingUser.notifications.push(newNotification)
+            sendingUser.notifications.unshift(newNotification)
             const updatedSendingUser = await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
