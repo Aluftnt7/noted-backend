@@ -24,9 +24,9 @@ function connectSockets(io) {
                 .then(async user => {
                     user.notifications.unshift(notification)
                     const updatedUser = await userService.update(user)
-                    console.log('@@@@@@@@@@@updated user:', updatedUser._id)
+                    console.log('@@@@@@@@@@@updated user:', user._id)
                     console.log('@@@@@@@@@@@friendId:', friendId)
-                    io.emit(`updateUser ${updatedUser._id}`, user)
+                    io.emit(`updateUser ${user._id}`, user)
                 })
         })
         socket.on('decline', async ({ notification, user }) => {
