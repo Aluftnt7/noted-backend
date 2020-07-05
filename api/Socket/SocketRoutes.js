@@ -21,13 +21,10 @@ function connectSockets(io) {
                 .then(async user => {
                     user.notifications.unshift(notification)
                     const updatedUser = await userService.update(user) 
-                    console.log('updatedUser in sicket $$$$', updatedUser);
-                    
                     // console.log('user in socket', updatedUser);
-                    console.log('friendId',friendId );
-                    
-                                       
+                    console.log('friendId',friendId );  
                     io.emit(`updateUser ${friendId}`, updatedUser)
+                                       
                 })
         })
         socket.on('decline', async ({ notification, user }) => {
@@ -50,7 +47,7 @@ function connectSockets(io) {
             );
             user.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(user)
-            io.emit(`updateUserWithoutAudio ${user._id}`, { user })
+            io.emit(`updateUserWithoutAudio ${user._id}`,updatedReciveingUser)
         })
         socket.on('approve', async ({ notification, user }) => {
             const roomId = ObjectId(UtilService.makeId())
@@ -66,7 +63,7 @@ function connectSockets(io) {
             );
             user.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(user)
-            io.emit(`updateUserWithoutAudio ${user._id}`, { user })
+            io.emit(`updateUserWithoutAudio ${user._id}`, updatedReciveingUser)
 
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
