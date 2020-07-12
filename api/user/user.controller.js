@@ -20,9 +20,7 @@ async function updateUser(req, res) {
     const updatedUser = await userService.update(user)
     res.send(updatedUser)
 }
-async function updateImgAtContacts(req, res) {
-    console.log('req.body', req.body);
-    
+async function updateImgAtContacts(req, res) {    
     const {userId, imgUrl} = req.body;
     const user = await userService.updateImgAtContacts(userId, imgUrl)
     res.send(user)

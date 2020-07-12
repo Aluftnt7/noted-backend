@@ -66,6 +66,7 @@ async function remove(userId) {
 }
 
 async function update(user) {
+      console.log('!@#$$$$$$$$$$$$%^',user.fullName);
       
     const collection = await dbService.getCollection('user')
     user._id = ObjectId(user._id);
@@ -94,14 +95,14 @@ async function updateImgAtContacts(userId, imgUrl){
     const collection = await dbService.getCollection('user')
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })
-        
-        user.friends.forEach(async friend => {
-            let currFriend = await getById(friend._id)
-            console.log('currFriend', currFriend);
-            currFriend.friends.find(friend =>{
-             if(friend._id === userId) {
+        user.friends.forEach(async userFriend => {
+            let currFriend = await getById(userFriend._id)
+            console.log('currFriend', currFriend.userName);
+            currFriend.friends.find(async friend =>{
+                console.log('friend', friend.userName);
+             if(friend._id === userId) {   
                 friend.imgUrl = imgUrl
-                update(friend)
+                await update(currFriend)
              }  
             }) 
         })

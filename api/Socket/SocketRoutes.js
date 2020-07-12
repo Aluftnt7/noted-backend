@@ -72,7 +72,6 @@ function connectSockets(io) {
             }
 
             const sendingUser = await userService.getById(notification.userId)
-            console.log('sendingUser', sendingUser);
 
             sendingUser.friends.push({
                 roomId,
