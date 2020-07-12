@@ -3495,3 +3495,10 @@ Sun, 05 Jul 2020 11:42:04 GMT - Debug - auth.service - login with username: Tami
 Sun, 05 Jul 2020 11:42:08 GMT - Debug - auth.service - login with username: Tamir
 Sun, 05 Jul 2020 11:42:17 GMT - Debug - auth.service - login with username: cartman
 Sun, 12 Jul 2020 09:02:17 GMT - Info - Server is running on port: 3030
+Sun, 12 Jul 2020 09:40:57 GMT - Debug - 123, , jones
+Sun, 12 Jul 2020 09:40:58 GMT - Error - [SIGNUP] fullName, username and password are required!
+Sun, 12 Jul 2020 09:41:33 GMT - Debug - auth.service - login with username: jones
+Sun, 12 Jul 2020 09:41:48 GMT - Debug - jones, 123, jones
+Sun, 12 Jul 2020 09:41:48 GMT - Debug - auth.service - signup with username: jones
+Sun, 12 Jul 2020 09:41:48 GMT - Debug - auth.route - new account created: {"fullName":"jones","password":"$2b$10$5p2c1EYdxqYtouRHUagegO3MNbakMzbacIiGKoFYdQyurcW9Y/ln2","userName":"jones","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1594546908134,"pinnedNotes":[],"_id":"5f0adadc00166466d4fee646"}
+Sun, 12 Jul 2020 09:41:48 GMT - Debug - auth.service - login with username: jones
