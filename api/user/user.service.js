@@ -70,6 +70,7 @@ async function update(user) {
     user._id = ObjectId(user._id);
     try {
         await collection.replaceOne({ "_id":  user._id }, { $set: user })
+        console.log('user', user);
         
         return user
     } catch (err) {
