@@ -97,14 +97,9 @@ async function updateImgAtContacts(userId, imgUrl){
         const user = await collection.findOne({ "_id": ObjectId(userId) })
         user.friends.forEach(async userFriend => {
             let currFriend = await getById(userFriend._id)
-            console.log('currFriend', currFriend.userName);
-            currFriend.friends.find(async friend =>{
-                console.log('friend', friend.userName);
-             if(friend._id === userId) {   
-                friend.imgUrl = imgUrl
-                await update(currFriend)
-             }  
-            }) 
+            const userToUpdate = currFriend.friends.find( friend => friend._id === userId);
+            userToUpdate.imgUrl = imgUrl
+            update(currFriend)
         })
         return user
     } catch (err) {
