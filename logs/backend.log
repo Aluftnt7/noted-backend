@@ -3654,3 +3654,5 @@ Sun, 12 Jul 2020 10:10:36 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:10:44 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:10:45 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:11:40 GMT - Info - Server is running on port: 3030
+Sun, 12 Jul 2020 10:22:34 GMT - Debug - auth.service - login with username: lala
+Sun, 12 Jul 2020 10:22:40 GMT - Debug - auth.service - login with username: dada
