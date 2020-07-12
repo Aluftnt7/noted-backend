@@ -72,7 +72,6 @@ function connectSockets(io) {
             }
 
             const sendingUser = await userService.getById(notification.userId)
-            console.log('sendingUser', sendingUser);
 
             sendingUser.friends.push({
                 roomId,
@@ -105,9 +104,9 @@ function connectSockets(io) {
                 type: 'NotificationNote',
             }
             friend.notifications.unshift(notification)
-            io.emit(`updateRoom ${room._id}`, { updatedRoom: room })
             const updatedSendingUser = await userService.update(friend)
-            io.emit(`updateUser ${friend._id}`, friend)
+            io.emit(`updateRoom ${room._id}`, { updatedRoom: room, userId:user._id  })
+            io.emit(`updateUser ${friend._id}`, updatedSendingUser)
 
         })
 

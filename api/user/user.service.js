@@ -9,7 +9,8 @@ module.exports = {
     getByUsername,
     remove,
     update,
-    add
+    add,
+    updateImgAtContacts
 }
 
 
@@ -65,12 +66,12 @@ async function remove(userId) {
 }
 
 async function update(user) {
+      console.log('!@#$$$$$$$$$$$$%^',user.fullName);
       
     const collection = await dbService.getCollection('user')
     user._id = ObjectId(user._id);
     try {
-        await collection.replaceOne({ "_id":  user._id }, { $set: user })
-        
+        await collection.replaceOne({ "_id":  user._id }, { $set: user })        
         return user
     } catch (err) {
         console.log(`ERROR: cannot update user ${user._id}`)
@@ -85,6 +86,24 @@ async function add(user) {
         return user;
     } catch (err) {
         console.log(`ERROR: cannot insert user`)
+        throw err;
+    }
+}
+
+async function updateImgAtContacts(userId, imgUrl){
+    
+    const collection = await dbService.getCollection('user')
+    try {
+        const user = await collection.findOne({ "_id": ObjectId(userId) })
+        user.friends.forEach(async userFriend => {
+            let currFriend = await getById(userFriend._id)
+            const userToUpdate = currFriend.friends.find( friend => friend._id === userId);
+            userToUpdate.imgUrl = imgUrl
+            update(currFriend)
+        })
+        return user
+    } catch (err) {
+        console.log(`Something went wrong ${userId}`)
         throw err;
     }
 }
