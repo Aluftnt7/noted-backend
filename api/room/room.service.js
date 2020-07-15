@@ -23,12 +23,12 @@ async function query(filterBy = {}) {
 }
 
 async function getById(filterBy) {
-    console.log('filterBy',filterBy.roomId);
-    
+    console.log('filterBy', filterBy.roomId);
+
     const collection = await dbService.getCollection('room')
     try {
-        const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId)}) 
-        room.notes =  (filterBy.term) ?  room.notes.filter(note => {return note.header.includes(filterBy.term) || note.data.includes(filterBy.term) } ) : room.notes
+        const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId) })
+        room.notes = (filterBy.term) ? room.notes.filter(note => { return note.header.includes(filterBy.term) || note.data.includes(filterBy.term) }) : room.notes
         return room
     } catch (err) {
         console.log(`ERROR: while finding room ${roomId}`)
@@ -64,7 +64,7 @@ async function add(room) {
     try {
         await collection.insertOne(room);
         console.log('backend room returned', room);
-        
+
         return room;
     } catch (err) {
         console.log(`ERROR: cannot insert room`)
@@ -85,6 +85,8 @@ function _buildCriteria(filterBy) {
     else critirea.sortBy.title = 1;
     return critirea;
 }
+
+
 
 // function _buildCriteria(filterBy) {
 //     const critirea = {
