@@ -3664,6 +3664,15 @@ Sun, 12 Jul 2020 10:10:45 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:11:40 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:22:34 GMT - Debug - auth.service - login with username: lala
 Sun, 12 Jul 2020 10:22:40 GMT - Debug - auth.service - login with username: dada
+<<<<<<< HEAD
+Sun, 12 Jul 2020 10:29:34 GMT - Debug - auth.service - login with username: lala
+Sun, 12 Jul 2020 10:29:38 GMT - Debug - auth.service - login with username: dada
+Sun, 12 Jul 2020 10:32:21 GMT - Debug - auth.service - login with username: dada
+Sun, 12 Jul 2020 10:34:00 GMT - Debug - auth.service - login with username: lala
+Sun, 12 Jul 2020 16:03:13 GMT - Info - Server is running on port: 3030
+Wed, 15 Jul 2020 14:23:28 GMT - Info - Server is running on port: 3030
+Wed, 15 Jul 2020 14:29:38 GMT - Debug - auth.service - login with username: Tamir
+=======
 >>>>>>> 2d0d0efc54644dc6ef444ec258675af7658848bb
 Sun, 12 Jul 2020 10:24:51 GMT - Info - Server is running on port: 3030
 Sun, 12 Jul 2020 10:26:02 GMT - Info - Server is running on port: 3030
@@ -3780,5 +3789,17 @@ Tue, 14 Jul 2020 14:33:13 GMT - Debug - auth.service - login with username: shuk
 Tue, 14 Jul 2020 15:56:16 GMT - Debug - auth.service - login with username: puk
 Wed, 15 Jul 2020 09:27:16 GMT - Info - Server is running on port: 3030
 Wed, 15 Jul 2020 11:52:20 GMT - Debug - auth.service - login with username: puk
+<<<<<<< HEAD
 Wed, 15 Jul 2020 19:01:45 GMT - Info - Server is running on port: 3030
 Thu, 16 Jul 2020 09:16:54 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> e332ed3a197b3cd65372bac316f96c7cbd16e3ec
+Wed, 15 Jul 2020 14:30:14 GMT - Info - Server is running on port: 3030
+Wed, 15 Jul 2020 15:47:12 GMT - Debug - auth.service - login with username: cartman
+Wed, 15 Jul 2020 15:47:19 GMT - Debug - auth.service - login with username: cartman
+Wed, 15 Jul 2020 16:36:16 GMT - Info - Server is running on port: 3030
+Wed, 15 Jul 2020 16:36:18 GMT - Info - Server is running on port: 3030
+Thu, 16 Jul 2020 09:15:43 GMT - Info - Server is running on port: 3030
+Thu, 16 Jul 2020 09:26:14 GMT - Info - Server is running on port: 3030
+>>>>>>> 2d373048563e97f12a3ea806ec6e617d50e8d2d2
+Thu, 16 Jul 2020 12:12:16 GMT - Info - Server is running on port: 3030
