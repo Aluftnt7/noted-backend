@@ -3789,6 +3789,10 @@ Tue, 14 Jul 2020 14:33:13 GMT - Debug - auth.service - login with username: shuk
 Tue, 14 Jul 2020 15:56:16 GMT - Debug - auth.service - login with username: puk
 Wed, 15 Jul 2020 09:27:16 GMT - Info - Server is running on port: 3030
 Wed, 15 Jul 2020 11:52:20 GMT - Debug - auth.service - login with username: puk
+<<<<<<< HEAD
+Wed, 15 Jul 2020 19:01:45 GMT - Info - Server is running on port: 3030
+Thu, 16 Jul 2020 09:16:54 GMT - Info - Server is running on port: 3030
+=======
 >>>>>>> e332ed3a197b3cd65372bac316f96c7cbd16e3ec
 Wed, 15 Jul 2020 14:30:14 GMT - Info - Server is running on port: 3030
 Wed, 15 Jul 2020 15:47:12 GMT - Debug - auth.service - login with username: cartman
@@ -3797,6 +3801,11 @@ Wed, 15 Jul 2020 16:36:16 GMT - Info - Server is running on port: 3030
 Wed, 15 Jul 2020 16:36:18 GMT - Info - Server is running on port: 3030
 Thu, 16 Jul 2020 09:15:43 GMT - Info - Server is running on port: 3030
 Thu, 16 Jul 2020 09:26:14 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Thu, 16 Jul 2020 12:14:34 GMT - Info - Server is running on port: 3030
 Thu, 16 Jul 2020 13:35:01 GMT - Info - Server is running on port: 3030
 Sun, 19 Jul 2020 08:05:36 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> 2d373048563e97f12a3ea806ec6e617d50e8d2d2
+Thu, 16 Jul 2020 12:12:16 GMT - Info - Server is running on port: 3030
+>>>>>>> a909333ec165d199c2f60247f6be263c4348abe3
