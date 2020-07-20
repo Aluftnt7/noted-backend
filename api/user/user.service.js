@@ -108,6 +108,7 @@ async function updateImgAtContacts(userId, imgUrl){
     }
 }
 
+
 function _buildCriteria(filterBy) {
     // ('filter in back service', filterBy);
 

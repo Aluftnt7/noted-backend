@@ -4,7 +4,7 @@ const roomService = require('./room.service')
 
 async function getById(req, res) {
     console.log('req.query', req.query);
-    
+
     const room = await roomService.getById(req.query)
     res.json(room)
 }
@@ -36,7 +36,6 @@ async function update(req, res) {
 
 async function add(req, res) {
     const room = req.body;
-    room.createdAt = Date.now();
     // const user = req.session.user;
     // if (user) {
     //     room.owners = { _id: user._id, userName: user.userName, fullName: user.fullName } //MAYBE LATER
@@ -45,6 +44,11 @@ async function add(req, res) {
     res.json(savedRoom);
 }
 
+async function checkIsForbidden(req, res) {
+    const { userId, roomId } = req.body;
+    const isForbidden = await roomService.isForbidden(userId, roomId)
+    res.json(isForbidden);
+}
 
 
 module.exports = {
@@ -53,4 +57,5 @@ module.exports = {
     remove,
     update,
     add,
+    checkIsForbidden
 }
