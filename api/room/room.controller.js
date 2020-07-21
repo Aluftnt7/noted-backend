@@ -45,8 +45,9 @@ async function add(req, res) {
 }
 
 async function checkIsForbidden(req, res) {
+    console.log('roomId controller bitch', req.body);
     const { userId, roomId } = req.body;
-    const isForbidden = await roomService.isForbidden(userId, roomId)
+    const isForbidden = await roomService.checkIsForbidden(userId, roomId)
     res.json(isForbidden);
 }
 

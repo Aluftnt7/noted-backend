@@ -24,7 +24,7 @@ async function query(filterBy = {}) {
 }
 
 async function getById(filterBy) {
-    console.log('filterBy', filterBy.roomId);
+    console.log('filterBy', filterBy);
 
     const collection = await dbService.getCollection('room')
     try {
@@ -75,7 +75,8 @@ async function add(room) {
 }
 
 async function checkIsForbidden(userId, roomId) {
-    const room = await getById({ roomId })
+    console.log('roomId', roomId);
+    const room = await getById({roomId} )
     return room.members.some(member => member._id === userId)
 }
 
