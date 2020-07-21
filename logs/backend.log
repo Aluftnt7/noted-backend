@@ -3809,3 +3809,31 @@ Sun, 19 Jul 2020 08:05:36 GMT - Info - Server is running on port: 3030
 >>>>>>> 2d373048563e97f12a3ea806ec6e617d50e8d2d2
 Thu, 16 Jul 2020 12:12:16 GMT - Info - Server is running on port: 3030
 >>>>>>> a909333ec165d199c2f60247f6be263c4348abe3
+Sun, 19 Jul 2020 10:53:52 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:02:57 GMT - Debug - auth.service - login with username: Tamir
+Sun, 19 Jul 2020 12:17:11 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:17:23 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:24:23 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:24:26 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:24:36 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:25:02 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 12:35:28 GMT - Debug - auth.service - login with username: Tamir
+Sun, 19 Jul 2020 12:49:57 GMT - Debug - auth.service - login with username: lala
+Sun, 19 Jul 2020 12:50:02 GMT - Debug - auth.service - login with username: dada
+Mon, 20 Jul 2020 08:51:25 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 08:56:55 GMT - Debug - ragsfs, 123, Rajaddd
+Mon, 20 Jul 2020 08:56:55 GMT - Debug - auth.service - signup with username: ragsfs
+Mon, 20 Jul 2020 08:56:55 GMT - Debug - auth.route - new account created: {"fullName":"Rajaddd","password":"$2b$10$ydc8RAtzTm2C.J8Dvy3gTuHsle3ATI7Rm2dA9vKKc16lriASwL.Ay","userName":"ragsfs","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595235414941,"pinnedNotes":[],"_id":"5f155c570694ac35943b3fd2"}
+Mon, 20 Jul 2020 08:56:55 GMT - Debug - auth.service - login with username: ragsfs
+Mon, 20 Jul 2020 08:57:58 GMT - Debug - auth.service - login with username: Tamir
+Mon, 20 Jul 2020 09:10:45 GMT - Debug - auth.service - login with username: tamir
+Mon, 20 Jul 2020 09:11:13 GMT - Debug - auth.service - login with username: tamir
+Mon, 20 Jul 2020 09:11:29 GMT - Debug - auth.service - login with username: tamir
+Mon, 20 Jul 2020 09:11:50 GMT - Debug - auth.service - login with username: tamir
+Mon, 20 Jul 2020 09:11:57 GMT - Debug - auth.service - login with username: Tamir
+Mon, 20 Jul 2020 09:39:35 GMT - Debug - auth.service - login with username: Tamir
+Mon, 20 Jul 2020 09:44:56 GMT - Debug - auth.service - login with username: Tamir
+Mon, 20 Jul 2020 09:45:31 GMT - Debug - auth.service - login with username: Tamir
+Mon, 20 Jul 2020 09:49:09 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 09:49:24 GMT - Info - Server is running on port: 3030
+Tue, 21 Jul 2020 08:35:56 GMT - Info - Server is running on port: 3030
