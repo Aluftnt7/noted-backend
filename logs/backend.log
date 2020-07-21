@@ -3808,6 +3808,7 @@ Sun, 19 Jul 2020 08:05:36 GMT - Info - Server is running on port: 3030
 =======
 >>>>>>> 2d373048563e97f12a3ea806ec6e617d50e8d2d2
 Thu, 16 Jul 2020 12:12:16 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 >>>>>>> a909333ec165d199c2f60247f6be263c4348abe3
 Sun, 19 Jul 2020 10:53:52 GMT - Info - Server is running on port: 3030
 Sun, 19 Jul 2020 12:02:57 GMT - Debug - auth.service - login with username: Tamir
@@ -3837,3 +3838,60 @@ Mon, 20 Jul 2020 09:45:31 GMT - Debug - auth.service - login with username: Tami
 Mon, 20 Jul 2020 09:49:09 GMT - Info - Server is running on port: 3030
 Mon, 20 Jul 2020 09:49:24 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 08:35:56 GMT - Info - Server is running on port: 3030
+=======
+Thu, 16 Jul 2020 15:54:37 GMT - Info - Server is running on port: 3030
+Sat, 18 Jul 2020 09:07:55 GMT - Info - Server is running on port: 3030
+Sat, 18 Jul 2020 14:13:22 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 07:54:03 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 11:52:35 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 11:53:01 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 11:54:21 GMT - Info - Server is running on port: 3030
+Sun, 19 Jul 2020 11:55:27 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 08:07:35 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 09:13:43 GMT - Debug - auth.service - login with username: Shuk
+Mon, 20 Jul 2020 09:13:48 GMT - Debug - auth.service - login with username: shuk
+Mon, 20 Jul 2020 09:26:11 GMT - Debug - pwa, 123, pwa
+Mon, 20 Jul 2020 09:26:11 GMT - Debug - auth.service - signup with username: pwa
+Mon, 20 Jul 2020 09:26:12 GMT - Debug - auth.route - new account created: {"fullName":"pwa","password":"$2b$10$U9oESNTqHwLQql8yYJOUy.PGyycsPYeSNRtPfTgCE3ykGPOR9OoHW","userName":"pwa","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595237171673,"pinnedNotes":[],"_id":"5f156333396db038ac889526"}
+Mon, 20 Jul 2020 09:26:12 GMT - Debug - auth.service - login with username: pwa
+Mon, 20 Jul 2020 10:12:50 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:14:16 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:14:18 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:14:49 GMT - Debug - member, 123, member
+Mon, 20 Jul 2020 10:14:50 GMT - Debug - auth.service - signup with username: member
+Mon, 20 Jul 2020 10:14:50 GMT - Debug - auth.route - new account created: {"fullName":"member","password":"$2b$10$0NV89wY17OxaC4UoSRaToe4KejrV4lwsAniLLD8ZuEX43yVDXXNN.","userName":"member","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595240089876,"pinnedNotes":[],"_id":"5f156e9a505b4b48485bef91"}
+Mon, 20 Jul 2020 10:14:50 GMT - Debug - auth.service - login with username: member
+Mon, 20 Jul 2020 10:25:44 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:26:56 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:27:29 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 10:28:30 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:06:37 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:06:45 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:09:42 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:09:45 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:10:13 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:10:21 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:10:25 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:11:13 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:11:33 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:11:40 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:14:24 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:14:35 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:15:52 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:15:54 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:16:04 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:19:18 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:19:35 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:19:40 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:19:43 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:20:03 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:20:16 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:20:33 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:28:49 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:29:01 GMT - Info - Server is running on port: 3030
+Mon, 20 Jul 2020 16:38:06 GMT - Debug - shukolit, 123, shukolit
+Mon, 20 Jul 2020 16:38:06 GMT - Debug - auth.service - signup with username: shukolit
+Mon, 20 Jul 2020 16:38:06 GMT - Debug - auth.route - new account created: {"fullName":"shukolit","password":"$2b$10$dPB7Ak74mH.zcBcouN1/BexKAM9FpLxUUFEJoMSVicxP2m5yDLP.u","userName":"shukolit","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595263086076,"pinnedNotes":[],"_id":"5f15c86e56c3a456a84d8a76"}
+Mon, 20 Jul 2020 16:38:06 GMT - Debug - auth.service - login with username: shukolit
+>>>>>>> 4202ea8ed18ecf06ab16172fc2ae90f4a283a36c
+Tue, 21 Jul 2020 08:37:10 GMT - Info - Server is running on port: 3030

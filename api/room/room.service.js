@@ -8,6 +8,7 @@ module.exports = {
     remove,
     update,
     add,
+    checkIsForbidden
 }
 
 async function query(filterBy = {}) {
@@ -60,6 +61,7 @@ async function update(room) {
 }
 
 async function add(room) {
+    room.createdAt = Date.now();
     const collection = await dbService.getCollection('room');
     try {
         await collection.insertOne(room);
@@ -70,6 +72,11 @@ async function add(room) {
         console.log(`ERROR: cannot insert room`)
         throw err;
     }
+}
+
+async function checkIsForbidden(userId, roomId) {
+    const room = await getById({ roomId })
+    return room.members.some(member => member._id === userId)
 }
 
 function _buildCriteria(filterBy) {

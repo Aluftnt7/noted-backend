@@ -40,7 +40,7 @@ function connectSockets(io) {
             );
             user.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(user)
-            io.emit(`updateUserWithoutAudio ${user._id}`,updatedReciveingUser)
+            io.emit(`updateUserWithoutAudio ${user._id}`, updatedReciveingUser)
         })
 
         socket.on('approve', async ({ notification, user }) => {
@@ -87,7 +87,8 @@ function connectSockets(io) {
             let room = {
                 _id: roomId,
                 notes: [],
-                createdAt: Date.now()
+                createdAt: Date.now(),
+                members: [user._id, sendingUser._id]
             }
             RoomService.add(room)
 
@@ -105,7 +106,7 @@ function connectSockets(io) {
             }
             friend.notifications.unshift(notification)
             const updatedSendingUser = await userService.update(friend)
-            io.emit(`updateRoom ${room._id}`, { updatedRoom: room, userId:user._id  })
+            io.emit(`updateRoom ${room._id}`, { updatedRoom: room, userId: user._id })
             io.emit(`updateUser ${friend._id}`, updatedSendingUser)
 
         })
