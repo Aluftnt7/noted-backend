@@ -1,6 +1,6 @@
 const express = require('express')
 // const {requireAuth, requireAdmin} = require('../../middlewares/requireAuth.middleware')
-const {getById, query, remove, update, add, checkIsForbidden} = require('./room.controller')
+const {getById, query, remove, update, add, checkIsValidUser} = require('./room.controller')
 const router = express.Router()
 
 // middleware that is specific to this router
@@ -11,7 +11,7 @@ const router = express.Router()
 // router.get('/', query)
 router.get('/', getById)
 router.put('/:id', update)
-router.get('/:id/validate', checkIsForbidden)
+router.post('/:id/validate', checkIsValidUser)
 router.post('/', add)
 router.delete('/:id', remove)
 

@@ -8,7 +8,7 @@ module.exports = {
     remove,
     update,
     add,
-    checkIsForbidden
+    checkIsValidUser
 }
 
 async function query(filterBy = {}) {
@@ -74,9 +74,9 @@ async function add(room) {
     }
 }
 
-async function checkIsForbidden(userId, roomId) {
+async function checkIsValidUser(userId, roomId) {
     const room = await getById({ roomId })
-    return room.members.some(member => member._id === userId)
+    return room.members.some(memberId => memberId.toString() === userId)
 }
 
 function _buildCriteria(filterBy) {

@@ -44,10 +44,10 @@ async function add(req, res) {
     res.json(savedRoom);
 }
 
-async function checkIsForbidden(req, res) {
+async function checkIsValidUser(req, res) {
     const { userId, roomId } = req.body;
-    const isForbidden = await roomService.isForbidden(userId, roomId)
-    res.json(isForbidden);
+    const isValid = await roomService.checkIsValidUser(userId, roomId)
+    res.json(isValid);
 }
 
 
@@ -57,5 +57,5 @@ module.exports = {
     remove,
     update,
     add,
-    checkIsForbidden
+    checkIsValidUser
 }
