@@ -9,6 +9,7 @@ const router = express.Router()
 
 
 // router.get('/', query)
+router.get('/:id/validate', checkIsForbidden)
 router.get('/', getById)
 router.put('/:id', update)
 router.post('/:id/validate', checkIsValidUser)

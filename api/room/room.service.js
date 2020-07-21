@@ -24,7 +24,7 @@ async function query(filterBy = {}) {
 }
 
 async function getById(filterBy) {
-    console.log('filterBy', filterBy.roomId);
+    console.log('filterBy', filterBy);
 
     const collection = await dbService.getCollection('room')
     try {
