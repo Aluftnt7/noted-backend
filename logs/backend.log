@@ -3978,3 +3978,7 @@ Tue, 21 Jul 2020 13:41:07 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 13:43:03 GMT - Debug - auth.service - login with username: Tamir
 Tue, 21 Jul 2020 13:43:11 GMT - Debug - auth.service - login with username: Tamir
 Tue, 21 Jul 2020 13:47:16 GMT - Debug - auth.service - login with username: Tamir
+Tue, 21 Jul 2020 17:21:47 GMT - Debug - bagi, 123, raji
+Tue, 21 Jul 2020 17:21:47 GMT - Debug - auth.service - signup with username: bagi
+Tue, 21 Jul 2020 17:21:48 GMT - Debug - auth.route - new account created: {"fullName":"raji","password":"$2b$10$q9yE1xLC2Gysb9mkeXjOmO07G11RnWET.g0CfQwpuj58zB/xr4QFG","userName":"bagi","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595352107105,"pinnedNotes":[],"_id":"5f17242b38a28c25ac9cd764"}
+Tue, 21 Jul 2020 17:21:48 GMT - Debug - auth.service - login with username: bagi
