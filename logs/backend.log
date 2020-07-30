@@ -3973,3 +3973,18 @@ Tue, 21 Jul 2020 09:16:01 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 09:16:21 GMT - Info - Server is running on port: 3030
 >>>>>>> aac8f46a4d7ea48e8fccf73f52f7760560d73124
 Tue, 21 Jul 2020 10:36:32 GMT - Info - Server is running on port: 3030
+Tue, 21 Jul 2020 13:57:08 GMT - Debug - Ran, 123, Ran
+Tue, 21 Jul 2020 13:57:08 GMT - Debug - auth.service - signup with username: Ran
+Tue, 21 Jul 2020 13:57:08 GMT - Debug - auth.route - new account created: {"fullName":"Ran","password":"$2b$10$qE7o0XAky.L1R8zxgazdpOuYNYybJL6Wk2Cz8BqTfIholBI0ZBAWu","userName":"Ran","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595339828623,"pinnedNotes":[],"_id":"5f16f434f18a3832d8ab3ae8"}
+Tue, 21 Jul 2020 13:57:09 GMT - Debug - auth.service - login with username: Ran
+Tue, 21 Jul 2020 14:19:52 GMT - Debug - Shir, 123, Shir
+Tue, 21 Jul 2020 14:19:52 GMT - Debug - auth.service - signup with username: Shir
+Tue, 21 Jul 2020 14:19:53 GMT - Debug - auth.route - new account created: {"fullName":"Shir","password":"$2b$10$6wu1k.TW7axclorhgci0p.aJ9B2NN.tjKl3dhhflzRQ45qfmOL7kK","userName":"Shir","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595341192831,"pinnedNotes":[],"_id":"5f16f988f18a3832d8ab3ae9"}
+Tue, 21 Jul 2020 14:19:53 GMT - Debug - auth.service - login with username: Shir
+Tue, 21 Jul 2020 16:20:17 GMT - Debug - auth.service - login with username: Ran
+Tue, 21 Jul 2020 16:31:33 GMT - Debug - Shani, 123, Shani
+Tue, 21 Jul 2020 16:31:33 GMT - Debug - auth.service - signup with username: Shani
+Tue, 21 Jul 2020 16:31:33 GMT - Debug - auth.route - new account created: {"fullName":"Shani","password":"$2b$10$of.HbPjcC3cOMTFHN.WdYe1VyNHIYYaw5ciToypn6vnxtM4i41IsO","userName":"Shani","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595349093456,"pinnedNotes":[],"_id":"5f171865f18a3832d8ab3aea"}
+Tue, 21 Jul 2020 16:31:33 GMT - Debug - auth.service - login with username: Shani
+Tue, 21 Jul 2020 17:54:37 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 08:33:37 GMT - Info - Server is running on port: 3030
