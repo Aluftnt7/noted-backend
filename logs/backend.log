@@ -3982,3 +3982,17 @@ Tue, 21 Jul 2020 17:21:47 GMT - Debug - bagi, 123, raji
 Tue, 21 Jul 2020 17:21:47 GMT - Debug - auth.service - signup with username: bagi
 Tue, 21 Jul 2020 17:21:48 GMT - Debug - auth.route - new account created: {"fullName":"raji","password":"$2b$10$q9yE1xLC2Gysb9mkeXjOmO07G11RnWET.g0CfQwpuj58zB/xr4QFG","userName":"bagi","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595352107105,"pinnedNotes":[],"_id":"5f17242b38a28c25ac9cd764"}
 Tue, 21 Jul 2020 17:21:48 GMT - Debug - auth.service - login with username: bagi
+Wed, 22 Jul 2020 11:08:32 GMT - Info - Server is running on port: 3030
+Wed, 22 Jul 2020 11:25:59 GMT - Debug - jack, 123, jack
+Wed, 22 Jul 2020 11:25:59 GMT - Debug - auth.service - signup with username: jack
+Wed, 22 Jul 2020 11:26:00 GMT - Debug - auth.route - new account created: {"fullName":"jack","password":"$2b$10$JKUnOCqbpwiS66nUou/4Uus8EU0YuOrVvRWlrkQgtC8SinDIBLS3C","userName":"jack","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595417159391,"pinnedNotes":[],"_id":"5f18224769a7a62e94cba0a0"}
+Wed, 22 Jul 2020 11:26:00 GMT - Debug - auth.service - login with username: jack
+Thu, 30 Jul 2020 10:06:50 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 10:07:40 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 10:11:23 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 10:17:22 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 10:18:59 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 10:23:13 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 13:16:47 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 13:27:35 GMT - Info - Server is running on port: 3030
+Thu, 30 Jul 2020 13:28:04 GMT - Info - Server is running on port: 3030

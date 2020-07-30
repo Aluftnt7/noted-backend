@@ -2,10 +2,15 @@ const express = require('express')
 const bodyParser = require('body-parser')
 const cors = require('cors')
 const path = require('path')
+const webpush = require('web-push')
 const cookieParser = require('cookie-parser')
 const session = require('express-session')
 
+const publicVapidKey = 'BKI-aqafkAri4f-LlboMRat6zOionC0Qq5kuZcp6hkbXlbx0aYDKBzWoTrjnYzDn5yOkheC2Wp3gHVqFBtPomas';
+const privateVapidKey = 'gHLTxAcDYnNogegF6YsDmDhg6p3ZmKBvPcGFHqJLoFc'
+
 const app = express()
+webpush.setVapidDetails('mailto:test@test.com', publicVapidKey, privateVapidKey);
 const http = require('http').createServer(app);
 const io = require('socket.io')(http);
 
@@ -44,6 +49,7 @@ connectSockets(io)
 
 
 const logger = require('./services/LoggerService')
+const { WebPushError } = require('web-push')
 const port = process.env.PORT || 3030;
 http.listen(port, () => {
     logger.info('Server is running on port: ' + port)
