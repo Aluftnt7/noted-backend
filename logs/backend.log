@@ -4021,3 +4021,10 @@ Mon, 03 Aug 2020 13:57:54 GMT - Debug - auth.service - login with username: Tami
 Mon, 03 Aug 2020 14:01:07 GMT - Debug - auth.service - login with username: Tals
 Mon, 03 Aug 2020 14:01:11 GMT - Debug - auth.service - login with username: Tamir
 Mon, 03 Aug 2020 14:05:01 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:08:04 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - rasta, 123, boby
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.service - signup with username: rasta
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.route - new account created: {"fullName":"boby","password":"$2b$10$NcMnJnhtiAXPx4Bhfffnv.XYd27vw0GTMdLzEbsMWckGPXuPW3DHe","userName":"rasta","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1596464078366,"pinnedNotes":[],"_id":"5f281bcea6086e2dd83705e1"}
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.service - login with username: rasta
+Mon, 03 Aug 2020 14:22:47 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:22:48 GMT - Info - Server is running on port: 3030
