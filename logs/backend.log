@@ -4003,3 +4003,13 @@ Sun, 02 Aug 2020 15:14:02 GMT - Info - Server is running on port: 3030
 Sun, 02 Aug 2020 15:57:28 GMT - Info - Server is running on port: 3030
 Sun, 02 Aug 2020 16:01:44 GMT - Info - Server is running on port: 3030
 Sun, 02 Aug 2020 16:01:50 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 11:48:28 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:16:54 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:28:08 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:46:45 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:51:46 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:54:08 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:54:14 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:54:19 GMT - Debug - auth.service - login with username: tamir
+Mon, 03 Aug 2020 12:54:33 GMT - Debug - auth.service - login with username: tamir
+Mon, 03 Aug 2020 13:14:31 GMT - Info - Server is running on port: 3030
