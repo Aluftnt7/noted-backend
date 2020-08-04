@@ -3970,9 +3970,7 @@ Tue, 21 Jul 2020 09:12:22 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 09:15:45 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 09:16:01 GMT - Info - Server is running on port: 3030
 Tue, 21 Jul 2020 09:16:21 GMT - Info - Server is running on port: 3030
->>>>>>> aac8f46a4d7ea48e8fccf73f52f7760560d73124
 Tue, 21 Jul 2020 10:36:32 GMT - Info - Server is running on port: 3030
-<<<<<<< HEAD
 Tue, 21 Jul 2020 13:57:08 GMT - Debug - Ran, 123, Ran
 Tue, 21 Jul 2020 13:57:08 GMT - Debug - auth.service - signup with username: Ran
 Tue, 21 Jul 2020 13:57:08 GMT - Debug - auth.route - new account created: {"fullName":"Ran","password":"$2b$10$qE7o0XAky.L1R8zxgazdpOuYNYybJL6Wk2Cz8BqTfIholBI0ZBAWu","userName":"Ran","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1595339828623,"pinnedNotes":[],"_id":"5f16f434f18a3832d8ab3ae8"}
@@ -4012,6 +4010,7 @@ Thu, 30 Jul 2020 10:23:13 GMT - Info - Server is running on port: 3030
 Thu, 30 Jul 2020 13:16:47 GMT - Info - Server is running on port: 3030
 Thu, 30 Jul 2020 13:27:35 GMT - Info - Server is running on port: 3030
 Thu, 30 Jul 2020 13:28:04 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 >>>>>>> 68641a2a7356f1891461eb63a2b4d2150a54eb1c
 Thu, 30 Jul 2020 15:51:19 GMT - Info - Server is running on port: 3030
 Thu, 30 Jul 2020 15:55:51 GMT - Info - Server is running on port: 3030
@@ -4029,3 +4028,39 @@ Sun, 02 Aug 2020 14:46:15 GMT - Info - Server is running on port: 3030
 Sun, 02 Aug 2020 15:10:55 GMT - Info - Server is running on port: 3030
 Sun, 02 Aug 2020 16:56:06 GMT - Info - Server is running on port: 3030
 Tue, 04 Aug 2020 09:04:40 GMT - Info - Server is running on port: 3030
+=======
+Thu, 30 Jul 2020 14:45:25 GMT - Info - Server is running on port: 3030
+Fri, 31 Jul 2020 14:01:30 GMT - Info - Server is running on port: 3030
+Fri, 31 Jul 2020 14:17:54 GMT - Info - Server is running on port: 3030
+Sun, 02 Aug 2020 15:14:02 GMT - Info - Server is running on port: 3030
+Sun, 02 Aug 2020 15:57:28 GMT - Info - Server is running on port: 3030
+Sun, 02 Aug 2020 16:01:44 GMT - Info - Server is running on port: 3030
+Sun, 02 Aug 2020 16:01:50 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 11:48:28 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:16:54 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:28:08 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:46:45 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:51:46 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 12:54:08 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:54:14 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 12:54:19 GMT - Debug - auth.service - login with username: tamir
+Mon, 03 Aug 2020 12:54:33 GMT - Debug - auth.service - login with username: tamir
+Mon, 03 Aug 2020 13:14:31 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 13:54:03 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 13:56:29 GMT - Debug - auth.service - login with username: Tals
+Mon, 03 Aug 2020 13:56:33 GMT - Debug - auth.service - login with username: tamir
+Mon, 03 Aug 2020 13:56:40 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 13:57:54 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 14:01:07 GMT - Debug - auth.service - login with username: Tals
+Mon, 03 Aug 2020 14:01:11 GMT - Debug - auth.service - login with username: Tamir
+Mon, 03 Aug 2020 14:05:01 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:08:04 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - rasta, 123, boby
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.service - signup with username: rasta
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.route - new account created: {"fullName":"boby","password":"$2b$10$NcMnJnhtiAXPx4Bhfffnv.XYd27vw0GTMdLzEbsMWckGPXuPW3DHe","userName":"rasta","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1596464078366,"pinnedNotes":[],"_id":"5f281bcea6086e2dd83705e1"}
+Mon, 03 Aug 2020 14:14:38 GMT - Debug - auth.service - login with username: rasta
+Mon, 03 Aug 2020 14:22:47 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:22:48 GMT - Info - Server is running on port: 3030
+Mon, 03 Aug 2020 14:26:00 GMT - Info - Server is running on port: 3030
+>>>>>>> f6fb04821c57662b8e5325f9632d1ff18dae690a
+Tue, 04 Aug 2020 09:09:27 GMT - Info - Server is running on port: 3030
