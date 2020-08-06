@@ -4033,3 +4033,9 @@ Tue, 04 Aug 2020 16:20:49 GMT - Info - Server is running on port: 3030
 Tue, 04 Aug 2020 16:23:12 GMT - Info - Server is running on port: 3030
 Thu, 06 Aug 2020 13:19:49 GMT - Info - Server is running on port: 3030
 Thu, 06 Aug 2020 14:45:04 GMT - Info - Server is running on port: 3030
+Thu, 06 Aug 2020 14:49:00 GMT - Info - Server is running on port: 3030
+Thu, 06 Aug 2020 15:34:31 GMT - Debug - shuki, 123, shuki
+Thu, 06 Aug 2020 15:34:31 GMT - Debug - auth.service - signup with username: shuki
+Thu, 06 Aug 2020 15:34:32 GMT - Debug - auth.route - new account created: {"fullName":"shuki","password":"$2b$10$d2rNP9xFe2WNmCBZzKeaLOmRaMqznQ1ms55l7L3AIBOXXTjY9170q","userName":"shuki","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1596728071894,"pinnedNotes":[],"_id":"5f2c2307b90dc343b49acf1f"}
+Thu, 06 Aug 2020 15:34:32 GMT - Debug - auth.service - login with username: shuki
+Thu, 06 Aug 2020 15:35:09 GMT - Info - Server is running on port: 3030
