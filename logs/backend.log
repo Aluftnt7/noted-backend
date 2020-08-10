@@ -4107,3 +4107,32 @@ Mon, 10 Aug 2020 10:48:05 GMT - Debug - auth.service - login with username: Tami
 Mon, 10 Aug 2020 10:48:42 GMT - Debug - auth.service - login with username: Tamir
 Mon, 10 Aug 2020 11:05:38 GMT - Info - Server is running on port: 3030
 Mon, 10 Aug 2020 11:05:41 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:46:48 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:48:33 GMT - Debug - jay, 123, jay 
+Mon, 10 Aug 2020 13:48:33 GMT - Debug - auth.service - signup with username: jay
+Mon, 10 Aug 2020 13:48:33 GMT - Debug - auth.route - new account created: {"fullName":"jay ","password":"$2b$10$ml5N/TUaWHUIvNWW8glJ8uJxb6J5hz5kV..VP6cPcatr7lEG/EHIC","userName":"jay","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1597067313465,"pinnedNotes":[],"_id":"5f315031f2d6364aa4bbfcbb"}
+Mon, 10 Aug 2020 13:48:33 GMT - Debug - auth.service - login with username: jay
+Mon, 10 Aug 2020 13:48:52 GMT - Debug - SilentBob, 123, silent bob
+Mon, 10 Aug 2020 13:48:52 GMT - Debug - auth.service - signup with username: SilentBob
+Mon, 10 Aug 2020 13:48:52 GMT - Debug - auth.route - new account created: {"fullName":"silent bob","password":"$2b$10$VUAObFZ8H3Oo0EBLyJmad.P2Z9PIArD3QlxQxTwmv6jhvhMaeZKPe","userName":"SilentBob","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1597067332360,"pinnedNotes":[],"_id":"5f315044f2d6364aa4bbfcbc"}
+Mon, 10 Aug 2020 13:48:52 GMT - Debug - auth.service - login with username: SilentBob
+Mon, 10 Aug 2020 13:52:04 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 13:52:42 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 13:54:02 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:54:15 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:56:41 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:57:40 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:58:00 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:58:09 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:58:18 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:58:33 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:58:38 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 13:59:45 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 14:00:13 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 14:07:37 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 14:08:14 GMT - Debug - auth.service - login with username: SilentBob
+Mon, 10 Aug 2020 14:08:46 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 14:15:24 GMT - Debug - auth.service - login with username: Tamir
+Mon, 10 Aug 2020 14:15:38 GMT - Debug - auth.service - login with username: jay
+Mon, 10 Aug 2020 14:17:35 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 14:17:37 GMT - Info - Server is running on port: 3030

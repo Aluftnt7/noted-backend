@@ -9,18 +9,18 @@ const { add } = require('../user/user.service')
 function connectSockets(io) {
     io.on('connection', socket => {
 
-        socket.on('Add Friend', async ({ notification, userId, friendId }) => {
+        socket.on('Add Friend', async({ notification, userId, friendId }) => {
             notification._id = ObjectId(UtilService.makeId())
             notification.userId = ObjectId(userId)
             notification.createdAt = Date.now()
             let user = await userService.getById(friendId)
             user.notifications.unshift(notification)
             const updatedUser = await userService.update(user)
-            // io.emit(`updateUser ${updatedUser._id}`, 'stam string')
+                // io.emit(`updateUser ${updatedUser._id}`, 'stam string')
             io.emit(`updateUser ${updatedUser._id}`, updatedUser)
         })
 
-        socket.on('decline', async ({ notification, user }) => {
+        socket.on('decline', async({ notification, user }) => {
             let sendingUser = await userService.getById(notification.userId)
             let newNotification = {
                 _id: ObjectId(UtilService.makeId()),
@@ -43,7 +43,7 @@ function connectSockets(io) {
             io.emit(`updateUserWithoutAudio ${user._id}`, updatedReciveingUser)
         })
 
-        socket.on('approve', async ({ notification, user }) => {
+        socket.on('approve', async({ notification, user }) => {
             const roomId = ObjectId(UtilService.makeId())
             user.friends.push({
                 roomId,
@@ -94,8 +94,9 @@ function connectSockets(io) {
 
         })
 
-        socket.on('added note', async ({ room, user, friendId }) => {
+        socket.on('added note', async({ room, user, friendId }) => {
             const friend = await userService.getById(friendId)
+            console.log('frienddddAFTERRRRRRRRRRRRRRRR', friend);
             const notification = {
                 _id: ObjectId(UtilService.makeId()),
                 roomId: room._id,
