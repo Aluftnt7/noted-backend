@@ -24,17 +24,6 @@ async function query(filterBy = {}) {
 }
 
 async function getById(filterBy) {
-<<<<<<< HEAD
-    console.log('FILTER BYYYYYYYYYYY', filterBy);
-
-    const collection = await dbService.getCollection('room')
-    try {
-        const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId) })
-        console.log('rooooooom', room);
-        console.log('notes before', room.notes.length)
-        room.notes = (filterBy.term) ? room.notes.filter(note => { return note.header.includes(filterBy.term) || note.data.includes(filterBy.term) }) : room.notes
-=======
-    console.log('filterBy IS:', filterBy);
     const collection = await dbService.getCollection('room')
     try {
         const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId) })
@@ -52,8 +41,7 @@ async function getById(filterBy) {
                 }
             })
         }
->>>>>>> 75ef28017e8830bc6c8ef2c3f29e23843c962fa1
-        room.notes = (filterBy.type) ? room.notes.filter(note => note.type === filterBy.type) : room.notes
+       room.notes = (filterBy.type) ? room.notes.filter(note => note.type === filterBy.type) : room.notes
         return room
     } catch (err) {
         console.log(`ERROR: while finding room ${filterBy.roomId}`)

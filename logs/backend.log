@@ -4368,3 +4368,11 @@ Wed, 12 Aug 2020 13:12:53 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 13:14:05 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 13:17:09 GMT - Info - Server is running on port: 3030
 >>>>>>> 75ef28017e8830bc6c8ef2c3f29e23843c962fa1
+Wed, 12 Aug 2020 13:22:21 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:22:26 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:23:10 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:33:44 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - sara, 123, sara
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - signup with username: sara
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.route - new account created: {"fullName":"sara","password":"$2b$10$K2fQZjqqiWeqviu75PPYB.BIcCi4a/4BDpI6v5b4pzqxRAoWYobxC","userName":"sara","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1597240610/sara_irbqbg.jpg","notifications":[],"joinedAt":1597240616459,"pinnedNotes":[],"_id":"5f33f5281919872ed4245240"}
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - login with username: sara
