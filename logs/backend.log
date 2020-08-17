@@ -4376,3 +4376,9 @@ Wed, 12 Aug 2020 13:56:56 GMT - Debug - sara, 123, sara
 Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - signup with username: sara
 Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.route - new account created: {"fullName":"sara","password":"$2b$10$K2fQZjqqiWeqviu75PPYB.BIcCi4a/4BDpI6v5b4pzqxRAoWYobxC","userName":"sara","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1597240610/sara_irbqbg.jpg","notifications":[],"joinedAt":1597240616459,"pinnedNotes":[],"_id":"5f33f5281919872ed4245240"}
 Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - login with username: sara
+Sun, 16 Aug 2020 13:30:07 GMT - Info - Server is running on port: 3030
+Sun, 16 Aug 2020 13:32:33 GMT - Debug - auth.service - login with username: SilentBob
+Sun, 16 Aug 2020 14:58:55 GMT - Info - Server is running on port: 3030
+Mon, 17 Aug 2020 16:00:42 GMT - Info - Server is running on port: 3030
+Mon, 17 Aug 2020 16:06:53 GMT - Info - Server is running on port: 3030
+Mon, 17 Aug 2020 16:43:21 GMT - Info - Server is running on port: 3030
