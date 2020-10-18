@@ -72,6 +72,15 @@ async function updateNote(req, res) {
     res.json(updatedRoom)
 }
 
+
+async function getStarredNotes(req, res) {
+    const userId = req.query;
+    console.log('8**userId***', userId);
+    // const rooms = await roomService.query(filterBy)
+    // res.json(rooms)
+}
+
+// getStarredNotes
 module.exports = {
     getById,
     query,
@@ -82,5 +91,6 @@ module.exports = {
     removeNote,
     changeNoteColor,
     toggleNotePin,
-    updateNote
+    updateNote,
+    getStarredNotes
 }

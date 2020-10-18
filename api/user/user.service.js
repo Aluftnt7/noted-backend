@@ -10,7 +10,8 @@ module.exports = {
     remove,
     update,
     add,
-    updateImgAtContacts
+    updateImgAtContacts,
+    toggleStarredNote
 }
 
 
@@ -107,6 +108,23 @@ async function updateImgAtContacts(userId, imgUrl) {
         throw err;
     }
 }
+
+
+async function toggleStarredNote(userId, roomId, noteId) {
+    const collection = await dbService.getCollection('user')
+    try {
+        const user = await collection.findOne({ "_id": ObjectId(userId) })
+        let idx = user.starredNotes.findIndex(currNote => noteId === currNote.noteId);
+        (idx === -1) ? user.starredNotes.push({roomId, noteId}) : user.starredNotes.splice(idx, 1)
+        let updatedUser = await update(JSON.parse(JSON.stringify(user)))
+        return updatedUser
+    } catch (err) {
+        console.log(`Something went wrong ${userId}`)
+        throw err;
+    }
+}
+
+
 
 
 function _buildCriteria(filterBy) {
