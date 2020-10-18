@@ -4798,3 +4798,4 @@ Sun, 18 Oct 2020 10:11:30 GMT - Debug - auth.route - new account created: {"full
 Sun, 18 Oct 2020 10:11:30 GMT - Debug - auth.service - login with username: sadio
 >>>>>>> 2ee9f68f01cc501a200127f5859e6dc19a2a3b1d
 Sun, 18 Oct 2020 10:24:59 GMT - Info - Server is running on port: 3030
+Sun, 18 Oct 2020 12:33:25 GMT - Debug - auth.service - login with username: Jhonny
