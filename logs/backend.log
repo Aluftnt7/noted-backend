@@ -4251,6 +4251,11 @@ Mon, 10 Aug 2020 14:15:38 GMT - Debug - auth.service - login with username: jay
 Mon, 10 Aug 2020 14:17:35 GMT - Info - Server is running on port: 3030
 Mon, 10 Aug 2020 14:17:37 GMT - Info - Server is running on port: 3030
 Mon, 10 Aug 2020 14:19:27 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+Mon, 10 Aug 2020 16:38:20 GMT - Info - Server is running on port: 3030
+Mon, 10 Aug 2020 16:39:47 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:08:21 GMT - Info - Server is running on port: 3030
+=======
 >>>>>>> d68db98b88ef1c28a4d9359579b7b8db8db3315b
 Mon, 10 Aug 2020 16:30:51 GMT - Info - Server is running on port: 3030
 Mon, 10 Aug 2020 17:58:21 GMT - Info - Server is running on port: 3030
@@ -4287,6 +4292,36 @@ Tue, 11 Aug 2020 11:52:00 GMT - Info - Server is running on port: 3030
 Tue, 11 Aug 2020 11:52:06 GMT - Info - Server is running on port: 3030
 Tue, 11 Aug 2020 16:10:04 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 12:04:39 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+>>>>>>> c5c74e18315d0d47944af0d52b1c00b2a4d2b736
+Wed, 12 Aug 2020 12:11:51 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:12:56 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:13:02 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:17:15 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:17:15 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:17:39 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:17:42 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:18:54 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:19:09 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:19:17 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:22:03 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:23:41 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:25:30 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:26:15 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:26:22 GMT - Debug - auth.service - login with username: Tamir
+Wed, 12 Aug 2020 12:27:28 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:27:35 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:27:51 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:31:50 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:31:58 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:32:02 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:32:44 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:33:02 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:33:59 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:34:40 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:35:43 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 12:36:53 GMT - Info - Server is running on port: 3030
+=======
 Wed, 12 Aug 2020 12:17:34 GMT - Debug - auth.service - login with username: Ran
 Wed, 12 Aug 2020 12:18:05 GMT - Debug - auth.service - login with username: Ran
 Wed, 12 Aug 2020 12:25:09 GMT - Info - Server is running on port: 3030
@@ -4332,6 +4367,7 @@ Wed, 12 Aug 2020 13:12:51 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 13:12:53 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 13:14:05 GMT - Info - Server is running on port: 3030
 Wed, 12 Aug 2020 13:17:09 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Wed, 12 Aug 2020 14:54:06 GMT - Info - Server is running on port: 3030
 Sun, 16 Aug 2020 08:57:10 GMT - Info - Server is running on port: 3030
 Mon, 17 Aug 2020 12:41:27 GMT - Info - Server is running on port: 3030
@@ -4597,3 +4633,15 @@ Sun, 11 Oct 2020 11:36:05 GMT - Info - Server is running on port: 3030
 Mon, 12 Oct 2020 08:33:18 GMT - Info - Server is running on port: 3030
 Mon, 12 Oct 2020 08:54:45 GMT - Debug - auth.service - login with username: firmino
 Sun, 18 Oct 2020 07:57:53 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> 75ef28017e8830bc6c8ef2c3f29e23843c962fa1
+Wed, 12 Aug 2020 13:22:21 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:22:26 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:23:10 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:33:44 GMT - Info - Server is running on port: 3030
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - sara, 123, sara
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - signup with username: sara
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.route - new account created: {"fullName":"sara","password":"$2b$10$K2fQZjqqiWeqviu75PPYB.BIcCi4a/4BDpI6v5b4pzqxRAoWYobxC","userName":"sara","friends":[],"imgUrl":"https://res.cloudinary.com/tamir/image/upload/v1597240610/sara_irbqbg.jpg","notifications":[],"joinedAt":1597240616459,"pinnedNotes":[],"_id":"5f33f5281919872ed4245240"}
+Wed, 12 Aug 2020 13:56:56 GMT - Debug - auth.service - login with username: sara
+>>>>>>> 32c555c2bd17c3a729f363ba4d5c02828f551a8a
+Sun, 18 Oct 2020 08:07:11 GMT - Info - Server is running on port: 3030

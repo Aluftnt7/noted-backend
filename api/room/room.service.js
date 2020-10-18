@@ -45,7 +45,7 @@ async function getById(filterBy) {
                 }
             })
         }
-        room.notes = (filterBy.type) ? room.notes.filter(note => note.type === filterBy.type) : room.notes
+       room.notes = (filterBy.type) ? room.notes.filter(note => note.type === filterBy.type) : room.notes
         return room
     } catch (err) {
         console.log(`ERROR: while finding room ${filterBy.roomId}`)
