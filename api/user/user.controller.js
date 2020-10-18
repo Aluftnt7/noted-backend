@@ -20,9 +20,15 @@ async function updateUser(req, res) {
     const updatedUser = await userService.update(user)
     res.send(updatedUser)
 }
-async function updateImgAtContacts(req, res) {    
-    const {userId, imgUrl} = req.body;
+async function updateImgAtContacts(req, res) {
+    const { userId, imgUrl } = req.body;
     const user = await userService.updateImgAtContacts(userId, imgUrl)
+    res.send(user)
+}
+
+async function toggleStarredNote(req, res) {
+    const { userId, roomId, noteId } = req.body;
+    const user = await userService.toggleStarredNote(userId, roomId, noteId)
     res.send(user)
 }
 
@@ -31,5 +37,6 @@ module.exports = {
     getUsers,
     deleteUser,
     updateUser,
-    updateImgAtContacts
+    updateImgAtContacts,
+    toggleStarredNote
 }
