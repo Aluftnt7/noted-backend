@@ -131,12 +131,20 @@ async function toggleNotePin(roomId, noteId) {
 }
 
 async function updateNote(roomId, note) {
+<<<<<<< HEAD
   console.log("note", note);
   const room = await getById({ roomId });
   const idx = room.notes.findIndex((currNote) => currNote._id === note._id);
   room.notes.splice(idx, 1, note);
   const updatedRoom = await update(room);
   return updatedRoom;
+=======
+    const room = await getById({ roomId })
+    const idx = room.notes.findIndex(currNote => note._id === currNote._id)
+    room.notes.splice(idx, 1, note)
+    const updatedRoom = await update(room)
+    return updatedRoom
+>>>>>>> 2ee9f68f01cc501a200127f5859e6dc19a2a3b1d
 }
 
 function _handleNotePin(room, note) {
