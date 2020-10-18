@@ -3,8 +3,6 @@ const roomService = require('./room.service')
 
 
 async function getById(req, res) {
-    console.log('req.query', req.query);
-
     const room = await roomService.getById(req.query)
     res.json(room)
 }
@@ -50,6 +48,29 @@ async function checkIsValidUser(req, res) {
     res.json(isValid);
 }
 
+async function removeNote(req, res) {
+    const { roomId, noteId } = req.body;
+    const updatedRoom = await roomService.removeNote(roomId, noteId)
+    res.json(updatedRoom)
+}
+
+async function changeNoteColor(req, res) {
+    const { roomId, noteId, color } = req.body;
+    const updatedRoom = await roomService.changeNoteColor(roomId, noteId, color)
+    res.json(updatedRoom)
+}
+
+async function toggleNotePin(req, res) {
+    const { roomId, noteId } = req.body;
+    const updatedRoom = await roomService.toggleNotePin(roomId, noteId)
+    res.json(updatedRoom)
+}
+
+async function updateNote(req, res) {
+    const { roomId, note } = req.body;
+    const updatedRoom = await roomService.updateNote(roomId, note)
+    res.json(updatedRoom)
+}
 
 module.exports = {
     getById,
@@ -57,5 +78,9 @@ module.exports = {
     remove,
     update,
     add,
-    checkIsValidUser
+    checkIsValidUser,
+    removeNote,
+    changeNoteColor,
+    toggleNotePin,
+    updateNote
 }

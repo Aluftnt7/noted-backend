@@ -8,7 +8,11 @@ module.exports = {
     remove,
     update,
     add,
-    checkIsValidUser
+    checkIsValidUser,
+    removeNote,
+    changeNoteColor,
+    toggleNotePin,
+    updateNote
 }
 
 async function query(filterBy = {}) {
@@ -24,7 +28,6 @@ async function query(filterBy = {}) {
 }
 
 async function getById(filterBy) {
-    console.log('filterBy IS:', filterBy);
     const collection = await dbService.getCollection('room')
     try {
         const room = await collection.findOne({ "_id": ObjectId(filterBy.roomId) })
@@ -79,7 +82,6 @@ async function add(room) {
     try {
         await collection.insertOne(room);
         console.log('backend room returned', room);
-
         return room;
     } catch (err) {
         console.log(`ERROR: cannot insert room`)
@@ -88,9 +90,59 @@ async function add(room) {
 }
 
 async function checkIsValidUser(userId, roomId) {
+    console.log('**roomID**', room);
     const room = await getById({ roomId })
+    console.log('**room***', room);
     return room.members.some(memberId => memberId.toString() === userId)
 }
+
+async function removeNote(roomId, noteId) {
+    const room = await getById({ roomId })
+    const idx = room.notes.findIndex(note => note._id === noteId)
+    room.notes.splice(idx, 1)
+    const updatedRoom = await update(room)
+    return updatedRoom
+}
+
+async function changeNoteColor(roomId, noteId, color) {
+    const room = await getById({ roomId })
+    const idx = room.notes.findIndex(note => note._id === noteId)
+    room.notes[idx].bgColor = color
+    const updatedRoom = await update(room)
+    return updatedRoom
+}
+
+async function toggleNotePin(roomId, noteId) {
+    let room = await getById({ roomId })
+    const idx = room.notes.findIndex(note => note._id === noteId)
+    const note = room.notes.splice(idx, 1)[0] //splice defalt behavior is return array
+    note.isPinned = !note.isPinned
+    room = (note.isPinned) ? _handleNotePin(room, note) : _handleNoteUnpin(room, note)
+    const updatedRoom = await update(room)
+    return updatedRoom
+}
+
+
+async function updateNote(roomId, note) {
+    const room = await getById({ roomId })
+    const idx = room.notes.findIndex(currNote => note._id === currNote._Id)
+    room.notes.splice(idx, 1, note)
+    const updatedRoom = await update(room)
+    return updatedRoom
+}
+
+
+function _handleNotePin(room, note) {
+    room.notes.unshift(note)
+    return room
+}
+
+function _handleNoteUnpin(room, note) {
+    let idx = room.notes.findIndex(currNote => (!currNote.isPinned && currNote.createdAt <= note.createdAt))
+    idx === -1 ? room.notes.push(note) : room.notes.splice(idx, 0, note)
+    return room
+}
+
 
 function _buildCriteria(filterBy) {
     const critirea = {
@@ -123,3 +175,19 @@ function _buildCriteria(filterBy) {
 
 //     return critirea;
 // }
+
+
+// NOTE JSON MODEL: 
+// {
+//     "header":"3",
+//     "data":"3",
+//     "type":"NoteText",
+//     "bgColor":"#fff59d",
+//     "isPinned":false,
+//     "_id":"2c8JKrlbr9Dmtz9q56tIcQ5B",
+//     "createdAt":1601986949152,
+//     "createdBy": {
+//         "_id": "5f16f434f18a3832d8ab3ae8",
+//         "imgUrl": "https://res.cloudinary.com/tamir/image/upload/v1597846244/15978462202777382514642915071513_lzmbdn.jpg"
+//     }
+//  }
