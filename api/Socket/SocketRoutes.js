@@ -81,13 +81,13 @@ function connectSockets(io) {
                 imgUrl: user.imgUrl,
             })
             sendingUser.notifications.unshift(newNotification)
-            const updatedSendingUser = await userService.update(sendingUser)
+            await userService.update(sendingUser)
             io.emit(`updateUser ${sendingUser._id}`, sendingUser)
 
             let room = {
                 _id: roomId,
                 notes: [],
-                createdAt: Date.now(),
+                createdAt: Date.now(), //propbly can be deleted
                 members: [user._id, sendingUser._id]
             }
             RoomService.add(room)
@@ -96,7 +96,6 @@ function connectSockets(io) {
 
         socket.on('added note', async({ room, user, friendId }) => {
             const friend = await userService.getById(friendId)
-            console.log('frienddddAFTERRRRRRRRRRRRRRRR', friend);
             const notification = {
                 _id: ObjectId(UtilService.makeId()),
                 roomId: room._id,
