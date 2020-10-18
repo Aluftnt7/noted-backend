@@ -4797,3 +4797,4 @@ Sun, 18 Oct 2020 10:11:30 GMT - Debug - auth.service - signup with username: sad
 Sun, 18 Oct 2020 10:11:30 GMT - Debug - auth.route - new account created: {"fullName":"sadio","password":"$2b$10$LLBY9yut/9wI3uCKJzveEeN2EG.gMOJxVA7fWT2SxF1wNGSUhvtym","userName":"sadio","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603015890028,"pinnedNotes":[],"_id":"5f8c14d2340a8d11ec77b785"}
 Sun, 18 Oct 2020 10:11:30 GMT - Debug - auth.service - login with username: sadio
 >>>>>>> 2ee9f68f01cc501a200127f5859e6dc19a2a3b1d
+Sun, 18 Oct 2020 10:24:59 GMT - Info - Server is running on port: 3030
