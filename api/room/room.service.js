@@ -131,7 +131,7 @@ async function removeNote(roomId, noteId) {
   const idx = room.notes.findIndex((note) => note._id === noteId);
   room.notes.splice(idx, 1);
   const updatedRoom = await update(room);
-  _removeNoteFromStarred(updatedRoom);
+  _removeNoteFromStarred(updatedRoom, noteId);
   return updatedRoom;
 }
 
@@ -157,19 +157,21 @@ async function toggleNotePin(roomId, noteId) {
 
 async function updateNote(roomId, note) {
   const room = await getById({ roomId });
-  const idx = room.notes.findIndex((currNote) => note._id !== currNote._id);
+  const idx = room.notes.findIndex((currNote) => note._id === currNote._id);
   room.notes.splice(idx, 1, note);
   const updatedRoom = await update(room);
   return updatedRoom;
 }
 
-function _removeNoteFromStarred(room) {
+async function _removeNoteFromStarred(room, noteId) {
   let members = room.members;
   members.forEach(async (memberId) => {
     let member = await userService.getById(memberId);
+    console.log("starred Length BEFORE:", member.starredNotes.length);
     member.starredNotes = member.starredNotes.filter(
-      (starredNote) => starredNote.noteId === noteId,
+      (starredNote) => starredNote.noteId !== noteId,
     );
+    console.log("starred Length AFTER:", member.starredNotes.length);
     userService.update(JSON.parse(JSON.stringify(member)));
   });
 }
