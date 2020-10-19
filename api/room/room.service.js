@@ -1,5 +1,7 @@
 const dbService = require("../../services/DbService");
 const ObjectId = require("mongodb").ObjectId;
+// const { getById } = require('../user/user.service')
+const userService = require('../user/user.service')
 
 module.exports = {
     query,
@@ -115,17 +117,21 @@ async function add(room) {
 }
 
 async function checkIsValidUser(userId, roomId) {
-    console.log("**roomID**", room);
     const room = await getById({ roomId });
-    console.log("**room***", room);
     return room.members.some((memberId) => memberId.toString() === userId);
 }
+
+//from room get members
+//load members
+//check if noteId appears in member.starredNotes
+//DELETE
 
 async function removeNote(roomId, noteId) {
     const room = await getById({ roomId });
     const idx = room.notes.findIndex((note) => note._id === noteId);
     room.notes.splice(idx, 1);
     const updatedRoom = await update(room);
+    _removeNoteFromStarred(updatedRoom)
     return updatedRoom;
 }
 
@@ -155,6 +161,15 @@ async function updateNote(roomId, note) {
     room.notes.splice(idx, 1, note);
     const updatedRoom = await update(room);
     return updatedRoom;
+}
+
+async function _removeNoteFromStarred(room) {
+    let members = room.members
+    members.forEach(memberId => {
+        let member = await userService.getById(memberId)
+        member.starredNotes = member.starredNotes.filter(starredNote => starredNote.noteId === noteId)
+        userService.update(JSON.parse(JSON.stringify(member)))
+    })
 }
 
 function _handleNotePin(room, note) {
