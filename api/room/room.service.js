@@ -157,7 +157,7 @@ async function toggleNotePin(roomId, noteId) {
 
 async function updateNote(roomId, note) {
   const room = await getById({ roomId });
-  const idx = room.notes.findIndex((currNote) => note._id === currNote._id);
+  const idx = room.notes.findIndex((currNote) => note._id !== currNote._id);
   room.notes.splice(idx, 1, note);
   const updatedRoom = await update(room);
   return updatedRoom;
