@@ -5144,3 +5144,18 @@ Mon, 19 Oct 2020 15:20:39 GMT - Info - Server is running on port: 3030
 >>>>>>> d5bb03da0762e09a16888cf40415d073786d9249
 Mon, 19 Oct 2020 15:25:14 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:19 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:45 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:45:23 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - jintonik, 123, jintonic
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.service - signup with username: jintonik
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.route - new account created: {"fullName":"jintonic","password":"$2b$10$UVYaLnPckgK0KUvSsGMXpum4nCCIxDRpEarxJ0b0nz6KxK7vmfnF6","userName":"jintonik","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122347288,"starredNotes":[],"_id":"5f8db4ab277ed831b87f84de"}
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.service - login with username: jintonik
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - araklemonade, 123, araklemonade
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.service - signup with username: araklemonade
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.route - new account created: {"fullName":"araklemonade","password":"$2b$10$9QbjGIsWJDXSwr0OnQagv.9ayARSOZe/35Ltpm0f2wnC4SQNnCXRG","userName":"araklemonade","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122517516,"starredNotes":[],"_id":"5f8db555277ed831b87f84df"}
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.service - login with username: araklemonade
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - vodka, 123, vodka
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.service - signup with username: vodka
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.route - new account created: {"fullName":"vodka","password":"$2b$10$VtzDe4t5V4Qk0T.cQ1.RH.L2Fzpk/rSPRObz7ORBBB/AqaLxtULeS","userName":"vodka","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122724403,"starredNotes":[],"_id":"5f8db624277ed831b87f84e0"}
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.service - login with username: vodka
+Mon, 19 Oct 2020 15:54:36 GMT - Info - Server is running on port: 3030
