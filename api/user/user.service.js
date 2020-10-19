@@ -67,8 +67,6 @@ async function remove(userId) {
 }
 
 async function update(user) {
-    console.log('!@#$$$$$$$$$$$$%^', user.fullName);
-
     const collection = await dbService.getCollection('user')
     user._id = ObjectId(user._id);
     try {
@@ -79,8 +77,8 @@ async function update(user) {
         throw err;
     }
 }
+
 async function add(user) {
-    // user._id = ObjectId(user._id);
     const collection = await dbService.getCollection('user')
     try {
         await collection.insertOne(user);
