@@ -165,7 +165,7 @@ async function updateNote(roomId, note) {
 
 async function _removeNoteFromStarred(room) {
     let members = room.members
-    members.forEach(memberId => {
+    members.forEach(async memberId => {
         let member = await userService.getById(memberId)
         member.starredNotes = member.starredNotes.filter(starredNote => starredNote.noteId === noteId)
         userService.update(JSON.parse(JSON.stringify(member)))
