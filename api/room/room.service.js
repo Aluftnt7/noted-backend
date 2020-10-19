@@ -12,6 +12,7 @@ module.exports = {
   changeNoteColor,
   toggleNotePin,
   updateNote,
+  getStarredNotes,
 };
 
 async function query(filterBy = {}) {
@@ -58,6 +59,23 @@ async function getById(filterBy) {
     console.log(`ERROR: while finding room ${filterBy.roomId}`);
     throw err;
   }
+}
+
+async function getStarredNotes(starredNotes) {
+  console.log(starredNotes);
+  let notes = [];
+  starredNotes.forEach(async (note) => {
+    console.log("start run");
+    const { roomId, noteId } = note;
+    let room = await getById({ roomId });
+    let currNote = room.notes.filter((note) => {
+      note._id === noteId;
+    });
+    notes.push(currNote);
+    console.log("push");
+  });
+  console.log("notes", notes);
+  return notes;
 }
 
 async function remove(roomId) {
