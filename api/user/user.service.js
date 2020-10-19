@@ -115,7 +115,7 @@ async function toggleStarredNote(userId, roomId, noteId) {
     try {
         const user = await collection.findOne({ "_id": ObjectId(userId) })
         let idx = user.starredNotes.findIndex(currNote => noteId === currNote.noteId);
-        (idx === -1) ? user.starredNotes.push({roomId, noteId}) : user.starredNotes.splice(idx, 1)
+        (idx === -1) ? user.starredNotes.unshift({ roomId, noteId }) : user.starredNotes.splice(idx, 1)
         let updatedUser = await update(JSON.parse(JSON.stringify(user)))
         return updatedUser
     } catch (err) {
