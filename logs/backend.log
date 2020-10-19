@@ -5141,3 +5141,24 @@ Mon, 19 Oct 2020 15:20:39 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:07 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:11 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:27 GMT - Debug - auth.service - login with username: sissoko
+Mon, 19 Oct 2020 15:43:53 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:13 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:21 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:23 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:34 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:58 GMT - Debug - auth.service - login with username: muller
+Mon, 19 Oct 2020 15:45:09 GMT - Debug - muller, 123, muller
+Mon, 19 Oct 2020 15:45:09 GMT - Debug - auth.service - signup with username: muller
+Mon, 19 Oct 2020 15:45:09 GMT - Debug - auth.route - new account created: {"fullName":"muller","password":"$2b$10$Y/VQ/QPTAtlHQPJfQAjAh.vJzte/o2PqwOwvVU3iq8WwnJJupu0fe","userName":"muller","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122308974,"starredNotes":[],"_id":"5f8db48582a2c1179cbedfc7"}
+Mon, 19 Oct 2020 15:45:09 GMT - Debug - auth.service - login with username: muller
+Mon, 19 Oct 2020 15:48:04 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:48:17 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:48:33 GMT - Debug - jack, 123, jack
+Mon, 19 Oct 2020 15:48:33 GMT - Debug - auth.service - signup with username: jack
+Mon, 19 Oct 2020 15:48:36 GMT - Debug - auth.route - new account created: {"fullName":"jack","password":"$2b$10$HPxg00S.odvpwAIz5NjKcOkiFZxnz/J7JLzykrrDntJKtn0eadVUW","userName":"jack","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122513699,"starredNotes":[],"_id":"5f8db55376587152c4f36e95"}
+Mon, 19 Oct 2020 15:48:36 GMT - Debug - auth.service - login with username: jack
+Mon, 19 Oct 2020 15:51:42 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:52:06 GMT - Debug - bobi firmino, 123, bobi firmino
+Mon, 19 Oct 2020 15:52:06 GMT - Debug - auth.service - signup with username: bobi firmino
+Mon, 19 Oct 2020 15:52:08 GMT - Debug - auth.route - new account created: {"fullName":"bobi firmino","password":"$2b$10$RFhodlTd.385YTQcAN9kdeLlfRgJWzZCwZUz5Uf3mFIWZI42PjAfK","userName":"bobi firmino","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122725980,"starredNotes":[],"_id":"5f8db627b8050a3478b2a569"}
+Mon, 19 Oct 2020 15:52:08 GMT - Debug - auth.service - login with username: bobi firmino
