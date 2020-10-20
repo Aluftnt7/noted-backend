@@ -1,7 +1,5 @@
 const dbService = require("../../services/DbService");
 const ObjectId = require("mongodb").ObjectId;
-// const { getById } = require('../user/user.service')
-const userService = require("../user/user.service");
 
 module.exports = {
   query,
@@ -10,11 +8,6 @@ module.exports = {
   update,
   add,
   checkIsValidUser,
-  removeNote,
-  changeNoteColor,
-  toggleNotePin,
-  updateNote,
-  getStarredNotes,
 };
 
 async function query(filterBy = {}) {
@@ -63,24 +56,6 @@ async function getById(filterBy) {
   }
 }
 
-async function getStarredNotes(starredNotesPointers) {
-  console.log("inside service starred pointers:", starredNotesPointers);
-  try {
-    let notesToReturn = starredNotesPointers.map(async (currPointer) => {
-      const { roomId, noteId } = currPointer;
-      let room = await getById({ roomId });
-      let starredNote = room.notes.filter((note) => note._id === noteId)[0];
-      starredNote.roomId = roomId;
-      return starredNote;
-    });
-    console.log("notesToReturn", notesToReturn);
-    return Promise.all(notesToReturn);
-  } catch (err) {
-    console.log(`ERROR: could not find starred notes`);
-    throw err;
-  }
-}
-
 async function remove(roomId) {
   const collection = await dbService.getCollection("room");
   try {
@@ -119,74 +94,6 @@ async function add(room) {
 async function checkIsValidUser(userId, roomId) {
   const room = await getById({ roomId });
   return room.members.some((memberId) => memberId.toString() === userId);
-}
-
-//from room get members
-//load members
-//check if noteId appears in member.starredNotes
-//DELETE
-
-async function removeNote(roomId, noteId) {
-  const room = await getById({ roomId });
-  const idx = room.notes.findIndex((note) => note._id === noteId);
-  room.notes.splice(idx, 1);
-  const updatedRoom = await update(room);
-  _removeNoteFromStarred(updatedRoom, noteId);
-  return updatedRoom;
-}
-
-async function changeNoteColor(roomId, noteId, color) {
-  const room = await getById({ roomId });
-  const idx = room.notes.findIndex((note) => note._id === noteId);
-  room.notes[idx].bgColor = color;
-  const updatedRoom = await update(room);
-  return updatedRoom;
-}
-
-async function toggleNotePin(roomId, noteId) {
-  let room = await getById({ roomId });
-  const idx = room.notes.findIndex((note) => note._id === noteId);
-  const note = room.notes.splice(idx, 1)[0]; //splice defalt behavior returns array
-  note.isPinned = !note.isPinned;
-  room = note.isPinned
-    ? _handleNotePin(room, note)
-    : _handleNoteUnpin(room, note);
-  const updatedRoom = await update(room);
-  return updatedRoom;
-}
-
-async function updateNote(roomId, note) {
-  const room = await getById({ roomId });
-  const idx = room.notes.findIndex((currNote) => note._id === currNote._id);
-  room.notes.splice(idx, 1, note);
-  const updatedRoom = await update(room);
-  return updatedRoom;
-}
-
-async function _removeNoteFromStarred(room, noteId) {
-  let members = room.members;
-  members.forEach(async (memberId) => {
-    let member = await userService.getById(memberId);
-    console.log("starred Length BEFORE:", member.starredNotes.length);
-    member.starredNotes = member.starredNotes.filter(
-      (starredNote) => starredNote.noteId !== noteId,
-    );
-    console.log("starred Length AFTER:", member.starredNotes.length);
-    userService.update(JSON.parse(JSON.stringify(member)));
-  });
-}
-
-function _handleNotePin(room, note) {
-  room.notes.unshift(note);
-  return room;
-}
-
-function _handleNoteUnpin(room, note) {
-  let idx = room.notes.findIndex(
-    (currNote) => !currNote.isPinned && currNote.createdAt <= note.createdAt,
-  );
-  idx === -1 ? room.notes.push(note) : room.notes.splice(idx, 0, note);
-  return room;
 }
 
 function _buildCriteria(filterBy) {
