@@ -5,10 +5,6 @@ async function getById(req, res) {
     res.json(room);
 }
 
-// async function getById(req, res) {
-//     const room = await roomService.getById(req.params.id)
-//     res.json(room)
-// }
 
 async function query(req, res) {
     const filterBy = req.query;
@@ -29,10 +25,6 @@ async function update(req, res) {
 
 async function add(req, res) {
     const room = req.body;
-    // const user = req.session.user;
-    // if (user) {
-    //     room.owners = { _id: user._id, userName: user.userName, fullName: user.fullName } //MAYBE LATER
-    // }
     const savedRoom = await roomService.add(room);
     res.json(savedRoom);
 }
@@ -43,38 +35,7 @@ async function checkIsValidUser(req, res) {
     res.json(isValid);
 }
 
-async function removeNote(req, res) {
-    const { roomId, noteId } = req.body;
-    const updatedRoom = await roomService.removeNote(roomId, noteId);
-    res.json(updatedRoom);
-}
 
-async function changeNoteColor(req, res) {
-    const { roomId, noteId, color } = req.body;
-    const updatedRoom = await roomService.changeNoteColor(roomId, noteId, color);
-    res.json(updatedRoom);
-}
-
-async function toggleNotePin(req, res) {
-    const { roomId, noteId } = req.body;
-    const updatedRoom = await roomService.toggleNotePin(roomId, noteId);
-    res.json(updatedRoom);
-}
-
-async function updateNote(req, res) {
-    const { roomId, note } = req.body;
-    const updatedRoom = await roomService.updateNote(roomId, note);
-    res.json(updatedRoom);
-}
-
-async function getStarredNotes(req, res) {
-    const user = req.query;
-    const notes = await roomService.getStarredNotes(JSON.parse(user.starredNotes));
-    console.log("notes in controlllerrrr", notes);
-    res.json(notes);
-}
-
-// getStarredNotes
 module.exports = {
     getById,
     query,
@@ -82,9 +43,4 @@ module.exports = {
     update,
     add,
     checkIsValidUser,
-    removeNote,
-    changeNoteColor,
-    toggleNotePin,
-    updateNote,
-    getStarredNotes,
 };

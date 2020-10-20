@@ -26,11 +26,7 @@ async function updateImgAtContacts(req, res) {
     res.send(user)
 }
 
-async function toggleStarredNote(req, res) {
-    const { userId, roomId, noteId } = req.body;
-    const user = await userService.toggleStarredNote(userId, roomId, noteId)
-    res.send(user)
-}
+
 
 module.exports = {
     getUser,
@@ -38,5 +34,4 @@ module.exports = {
     deleteUser,
     updateUser,
     updateImgAtContacts,
-    toggleStarredNote
 }
