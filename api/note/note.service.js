@@ -1,5 +1,21 @@
 const userService = require('../user/user.service')
 const roomService = require('../room/room.service')
+const UtilService = require('../../services/UtilService')
+
+
+async function addNote(userId, roomId, note) {
+    const user = await userService.getById(userId);
+    const room = await roomService.getById({ roomId })
+    note._id = UtilService.makeId(8)
+    note.createdAt = Date.now()
+    let { _id, imgUrl } = user
+    note.createdBy = { _id, imgUrl }
+    let idx = room.notes.findIndex(currNote => !currNote.isPinned)
+    room.notes.splice(idx, 0, note)
+    const updatedRoom = await roomService.update(room);
+    return updatedRoom
+}
+
 
 async function removeNote(roomId, noteId) {
     const room = await roomService.getById({ roomId });
@@ -90,10 +106,11 @@ function _handleNoteUnpin(room, note) {
 }
 
 module.exports = {
+    addNote,
     removeNote,
     changeNoteColor,
     toggleNotePin,
     updateNote,
     getStarredNotes,
-    toggleStarredNote
+    toggleStarredNote,
 };

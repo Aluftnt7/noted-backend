@@ -1,5 +1,11 @@
 const noteService = require("./note.service");
 
+async function addNote(req, res) {
+    const { userId, roomId, note } = req.body;
+    const savedRoom = await noteService.addNote(userId, roomId, note);
+    res.json(savedRoom);
+}
+
 
 async function removeNote(req, res) {
     const { roomId, noteId } = req.body;
@@ -38,6 +44,7 @@ async function toggleStarredNote(req, res) {
 }
 
 module.exports = {
+    addNote,
     removeNote,
     changeNoteColor,
     toggleNotePin,
