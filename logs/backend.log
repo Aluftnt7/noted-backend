@@ -5257,3 +5257,28 @@ Wed, 21 Oct 2020 08:09:57 GMT - Info - Server is running on port: 3030
 Wed, 21 Oct 2020 08:10:04 GMT - Info - Server is running on port: 3030
 >>>>>>> 72305b33cc42d5275b163488bb2d7e304c7573b4
 Wed, 21 Oct 2020 08:39:41 GMT - Info - Server is running on port: 3030
+Thu, 29 Oct 2020 09:05:39 GMT - Info - Server is running on port: 3030
+Thu, 29 Oct 2020 09:06:18 GMT - Debug - auth.service - login with username: tamir
+Thu, 29 Oct 2020 09:06:27 GMT - Debug - auth.service - login with username: Tamir
+Thu, 29 Oct 2020 09:29:25 GMT - Info - Server is running on port: 3030
+Sun, 08 Nov 2020 08:57:22 GMT - Info - Server is running on port: 3030
+Sun, 08 Nov 2020 08:59:01 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 08:59:35 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 09:00:22 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 09:00:33 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 09:01:03 GMT - Debug - auth.service - login with username: Tamir
+Sun, 08 Nov 2020 09:01:15 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 09:11:24 GMT - Debug - auth.service - login with username: tamir
+Sun, 08 Nov 2020 09:11:30 GMT - Debug - auth.service - login with username: Tamir
+Sun, 08 Nov 2020 09:40:05 GMT - Debug - auth.service - login with username: Tamir
+Mon, 09 Nov 2020 09:00:18 GMT - Info - Server is running on port: 3030
+Mon, 09 Nov 2020 10:19:01 GMT - Debug - zebra, 123, zebra
+Mon, 09 Nov 2020 10:19:01 GMT - Debug - auth.service - signup with username: zebra
+Mon, 09 Nov 2020 10:19:02 GMT - Debug - auth.route - new account created: {"fullName":"zebra","password":"$2b$10$QQkEsZ1nIOA4Aj.KWt4z6O0BAQNd9wg6o1rbSRFWLlfkl0Bq9mah2","userName":"zebra","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1604917141452,"starredNotes":[],"_id":"5fa91795b8343e057cc8d736"}
+Mon, 09 Nov 2020 10:19:02 GMT - Debug - auth.service - login with username: zebra
+Mon, 09 Nov 2020 10:23:58 GMT - Debug - auth.service - login with username: zebra
+Mon, 09 Nov 2020 11:34:13 GMT - Info - Server is running on port: 3030
+Mon, 09 Nov 2020 13:59:04 GMT - Info - Server is running on port: 3030
+Mon, 09 Nov 2020 13:59:16 GMT - Info - Server is running on port: 3030
+Mon, 09 Nov 2020 14:05:56 GMT - Info - Server is running on port: 3030
+Mon, 09 Nov 2020 14:05:58 GMT - Info - Server is running on port: 3030
