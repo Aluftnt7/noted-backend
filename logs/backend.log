@@ -5107,6 +5107,9 @@ Mon, 19 Oct 2020 12:03:42 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 14:37:24 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 14:38:35 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 14:38:41 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+Mon, 19 Oct 2020 14:42:09 GMT - Info - Server is running on port: 3030
+=======
 Mon, 19 Oct 2020 14:49:56 GMT - Debug - auth.service - login with username: Ran
 Mon, 19 Oct 2020 14:50:50 GMT - Debug - Zalmon, 123, Zalmon
 Mon, 19 Oct 2020 14:50:50 GMT - Debug - auth.service - signup with username: Zalmon
@@ -5138,6 +5141,26 @@ Mon, 19 Oct 2020 15:20:08 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:20:17 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:20:34 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:20:39 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+>>>>>>> d5bb03da0762e09a16888cf40415d073786d9249
+Mon, 19 Oct 2020 15:25:14 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:25:19 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:44:45 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:45:23 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - jintonik, 123, jintonic
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.service - signup with username: jintonik
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.route - new account created: {"fullName":"jintonic","password":"$2b$10$UVYaLnPckgK0KUvSsGMXpum4nCCIxDRpEarxJ0b0nz6KxK7vmfnF6","userName":"jintonik","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122347288,"starredNotes":[],"_id":"5f8db4ab277ed831b87f84de"}
+Mon, 19 Oct 2020 15:45:47 GMT - Debug - auth.service - login with username: jintonik
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - araklemonade, 123, araklemonade
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.service - signup with username: araklemonade
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.route - new account created: {"fullName":"araklemonade","password":"$2b$10$9QbjGIsWJDXSwr0OnQagv.9ayARSOZe/35Ltpm0f2wnC4SQNnCXRG","userName":"araklemonade","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122517516,"starredNotes":[],"_id":"5f8db555277ed831b87f84df"}
+Mon, 19 Oct 2020 15:48:37 GMT - Debug - auth.service - login with username: araklemonade
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - vodka, 123, vodka
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.service - signup with username: vodka
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.route - new account created: {"fullName":"vodka","password":"$2b$10$VtzDe4t5V4Qk0T.cQ1.RH.L2Fzpk/rSPRObz7ORBBB/AqaLxtULeS","userName":"vodka","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122724403,"starredNotes":[],"_id":"5f8db624277ed831b87f84e0"}
+Mon, 19 Oct 2020 15:52:04 GMT - Debug - auth.service - login with username: vodka
+Mon, 19 Oct 2020 15:54:36 GMT - Info - Server is running on port: 3030
+=======
 Mon, 19 Oct 2020 15:25:07 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:11 GMT - Info - Server is running on port: 3030
 Mon, 19 Oct 2020 15:25:27 GMT - Debug - auth.service - login with username: sissoko
@@ -5162,6 +5185,14 @@ Mon, 19 Oct 2020 15:52:06 GMT - Debug - bobi firmino, 123, bobi firmino
 Mon, 19 Oct 2020 15:52:06 GMT - Debug - auth.service - signup with username: bobi firmino
 Mon, 19 Oct 2020 15:52:08 GMT - Debug - auth.route - new account created: {"fullName":"bobi firmino","password":"$2b$10$RFhodlTd.385YTQcAN9kdeLlfRgJWzZCwZUz5Uf3mFIWZI42PjAfK","userName":"bobi firmino","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1603122725980,"starredNotes":[],"_id":"5f8db627b8050a3478b2a569"}
 Mon, 19 Oct 2020 15:52:08 GMT - Debug - auth.service - login with username: bobi firmino
+<<<<<<< HEAD
+>>>>>>> 29890ac72a2fac9823c5540412242b09f661ea4a
+Mon, 19 Oct 2020 16:00:11 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 16:01:38 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 16:05:09 GMT - Info - Server is running on port: 3030
+Mon, 19 Oct 2020 16:05:13 GMT - Info - Server is running on port: 3030
+Tue, 20 Oct 2020 08:21:36 GMT - Info - Server is running on port: 3030
+=======
 Mon, 19 Oct 2020 16:08:25 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 07:29:25 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 07:30:36 GMT - Info - Server is running on port: 3030
@@ -5181,6 +5212,39 @@ Tue, 20 Oct 2020 08:51:15 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 08:51:25 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 08:52:51 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 08:53:04 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+>>>>>>> 6f8c70e74b3bf5f2e59a7fb9d25e07432acd7020
+Tue, 20 Oct 2020 09:17:50 GMT - Info - Server is running on port: 3030
+Tue, 20 Oct 2020 09:20:05 GMT - Info - Server is running on port: 3030
+Tue, 20 Oct 2020 09:21:51 GMT - Debug - auth.service - login with username: tamir
+Tue, 20 Oct 2020 09:21:56 GMT - Debug - auth.service - login with username: Tamir
+Tue, 20 Oct 2020 09:25:13 GMT - Debug - auth.service - login with username: Try
+Tue, 20 Oct 2020 09:25:19 GMT - Debug - auth.service - login with username: Try
+Tue, 20 Oct 2020 09:25:49 GMT - Debug - auth.service - login with username: vodka
+Tue, 20 Oct 2020 13:57:17 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:37:58 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:39:12 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:40:09 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:41:55 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:42:03 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:42:11 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:42:33 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:44:01 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:44:42 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:44:46 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:45:06 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:45:14 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:45:30 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:45:35 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:45:51 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:46:02 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:47:18 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:47:34 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:48:48 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:49:27 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 06:49:59 GMT - Info - Server is running on port: 3030
+Wed, 21 Oct 2020 07:06:21 GMT - Info - Server is running on port: 3030
+=======
 Tue, 20 Oct 2020 09:53:12 GMT - Info - Server is running on port: 3030
 Tue, 20 Oct 2020 14:55:15 GMT - Info - Server is running on port: 3030
 Wed, 21 Oct 2020 07:07:02 GMT - Info - Server is running on port: 3030
@@ -5191,6 +5255,7 @@ Wed, 21 Oct 2020 08:06:16 GMT - Info - Server is running on port: 3030
 Wed, 21 Oct 2020 08:06:56 GMT - Debug - auth.service - login with username: vodka
 Wed, 21 Oct 2020 08:09:57 GMT - Info - Server is running on port: 3030
 Wed, 21 Oct 2020 08:10:04 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
 Thu, 29 Oct 2020 08:32:23 GMT - Info - Server is running on port: 3030
 Thu, 29 Oct 2020 08:32:42 GMT - Debug - auth.service - login with username: Ran
 Thu, 29 Oct 2020 16:08:00 GMT - Info - Server is running on port: 3030
@@ -5275,3 +5340,8 @@ Sun, 15 Nov 2020 13:13:33 GMT - Debug - auth.service - signup with username: dem
 Sun, 15 Nov 2020 13:13:33 GMT - Debug - auth.route - new account created: {"fullName":"demo6","password":"$2b$10$.nUNETN5VPLGN9N//dDhsu9KfQe35Iasi5NfWPgaU.VQTAt59vJBi","userName":"demo6","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605446013215,"starredNotes":[],"_id":"5fb1297dab41d00ac899d8d3"}
 Sun, 15 Nov 2020 13:13:33 GMT - Debug - auth.service - login with username: demo6
 Sun, 15 Nov 2020 13:23:27 GMT - Info - Server is running on port: 3030
+=======
+>>>>>>> 72305b33cc42d5275b163488bb2d7e304c7573b4
+Wed, 21 Oct 2020 08:39:41 GMT - Info - Server is running on port: 3030
+>>>>>>> 29c8ec14223beaa5196b9ddd499ec2027924c542
+Sun, 15 Nov 2020 13:32:44 GMT - Info - Server is running on port: 3030
