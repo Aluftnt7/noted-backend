@@ -84,7 +84,6 @@ async function add(room) {
     const collection = await dbService.getCollection("room");
     try {
         await collection.insertOne(room);
-        console.log("backend room returned", room);
         return room;
     } catch (err) {
         console.log(`ERROR: cannot insert room`);
