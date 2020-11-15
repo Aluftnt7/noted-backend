@@ -16,7 +16,6 @@ function connectSockets(io) {
             let user = await userService.getById(friendId)
             user.notifications.unshift(notification)
             const updatedUser = await userService.update(user)
-                // io.emit(`updateUser ${updatedUser._id}`, 'stam string')
             io.emit(`updateUser ${updatedUser._id}`, updatedUser)
         })
 

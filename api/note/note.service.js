@@ -3,33 +3,40 @@ const roomService = require("../room/room.service");
 const UtilService = require("../../services/UtilService");
 
 async function addNote(userId, roomId, note) {
-  const user = await userService.getById(userId);
-  const room = await roomService.getById({ roomId });
-  note._id = UtilService.makeId(8);
-  note.createdAt = Date.now();
-  let { _id, imgUrl } = user;
-  note.createdBy = { _id, imgUrl };
-  let idx = room.notes.findIndex((currNote) => !currNote.isPinned);
-  room.notes.splice(idx, 0, note);
-  const updatedRoom = await roomService.update(room);
-  return updatedRoom;
+    const user = await userService.getById(userId);
+    const room = await roomService.getById({ roomId })
+    note._id = UtilService.makeId(8)
+    note.createdAt = Date.now()
+    let { _id, imgUrl } = user
+    note.createdBy = { _id, imgUrl }
+    let idx = room.notes.findIndex(currNote => !currNote.isPinned)
+    room.notes.splice(idx, 0, note)
+    await roomService.update(room);
+    return note
 }
 
 async function removeNote(roomId, noteId) {
-  const room = await roomService.getById({ roomId });
-  const idx = room.notes.findIndex((note) => note._id === noteId);
-  room.notes.splice(idx, 1);
-  const updatedRoom = await roomService.update(room);
-  _removeNoteFromStarred(updatedRoom, noteId);
-  return updatedRoom;
+    const room = await roomService.getById({ roomId });
+    const idx = room.notes.findIndex((note) => note._id === noteId);
+    room.notes.splice(idx, 1);
+    const updatedRoom = await roomService.update(room);
+    _removeNoteFromStarred(updatedRoom, noteId)
 }
 
+// async function changeNoteColor(roomId, noteId, color) {
+//     const room = await roomService.getById({ roomId });
+//     const idx = room.notes.findIndex((note) => note._id === noteId);
+//     room.notes[idx].bgColor = color;
+//     const updatedRoom = await roomService.update(room);
+//     return updatedRoom;
+// }
+//OPT2
 async function changeNoteColor(roomId, noteId, color) {
-  const room = await roomService.getById({ roomId });
-  const idx = room.notes.findIndex((note) => note._id === noteId);
-  room.notes[idx].bgColor = color;
-  const updatedRoom = await roomService.update(room);
-  return updatedRoom;
+    const room = await roomService.getById({ roomId });
+    const idx = room.notes.findIndex((note) => note._id === noteId);
+    room.notes[idx].bgColor = color;
+    await roomService.update(room);
+    return room.notes[idx];
 }
 
 async function toggleNotePin(roomId, noteId) {
@@ -45,11 +52,11 @@ async function toggleNotePin(roomId, noteId) {
 }
 
 async function updateNote(roomId, note) {
-  const room = await roomService.getById({ roomId });
-  const idx = room.notes.findIndex((currNote) => note._id === currNote._id);
-  room.notes.splice(idx, 1, note);
-  const updatedRoom = await roomService.update(room);
-  return updatedRoom;
+    const room = await roomService.getById({ roomId });
+    const idx = room.notes.findIndex((currNote) => note._id === currNote._id);
+    room.notes.splice(idx, 1, note);
+    await roomService.update(room);
+    return note;
 }
 
 async function getStarredNotes(starredNotesPointers) {

@@ -2,21 +2,28 @@ const noteService = require("./note.service");
 
 async function addNote(req, res) {
     const { userId, roomId, note } = req.body;
-    const savedRoom = await noteService.addNote(userId, roomId, note);
-    res.json(savedRoom);
+    const newNote = await noteService.addNote(userId, roomId, note);
+    res.json(newNote);
 }
 
 
 async function removeNote(req, res) {
     const { roomId, noteId } = req.body;
-    const updatedRoom = await noteService.removeNote(roomId, noteId);
-    res.json(updatedRoom);
+    await noteService.removeNote(roomId, noteId);
+    res.end();
 }
 
+// async function changeNoteColor(req, res) {
+//     const { roomId, noteId, color } = req.body;
+//     const updatedRoom = await noteService.changeNoteColor(roomId, noteId, color);
+//     res.json(updatedRoom);
+// }
+
+//OPT2
 async function changeNoteColor(req, res) {
     const { roomId, noteId, color } = req.body;
-    const updatedRoom = await noteService.changeNoteColor(roomId, noteId, color);
-    res.json(updatedRoom);
+    const updatedNote = await noteService.changeNoteColor(roomId, noteId, color);
+    res.json(updatedNote);
 }
 
 async function toggleNotePin(req, res) {
@@ -27,8 +34,8 @@ async function toggleNotePin(req, res) {
 
 async function updateNote(req, res) {
     const { roomId, note } = req.body;
-    const updatedRoom = await noteService.updateNote(roomId, note);
-    res.json(updatedRoom);
+    const updatedNote = await noteService.updateNote(roomId, note);
+    res.json(updatedNote);
 }
 
 async function getStarredNotes(req, res) {
