@@ -5378,3 +5378,7 @@ Sun, 15 Nov 2020 13:17:34 GMT - Debug - auth.service - login with username: Tami
 Sun, 15 Nov 2020 13:32:44 GMT - Info - Server is running on port: 3030
 >>>>>>> 965506b0be3c336b859a2a5e1d130b187880fa44
 Sun, 15 Nov 2020 13:35:06 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 15:03:37 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 15:05:27 GMT - Debug - auth.service - login with username: Tamir
+Mon, 16 Nov 2020 15:41:14 GMT - Debug - auth.service - login with username: jhonny
+Mon, 16 Nov 2020 15:41:25 GMT - Debug - auth.service - login with username: Jhonny
