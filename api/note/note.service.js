@@ -23,14 +23,7 @@ async function removeNote(roomId, noteId) {
     _removeNoteFromStarred(updatedRoom, noteId)
 }
 
-// async function changeNoteColor(roomId, noteId, color) {
-//     const room = await roomService.getById({ roomId });
-//     const idx = room.notes.findIndex((note) => note._id === noteId);
-//     room.notes[idx].bgColor = color;
-//     const updatedRoom = await roomService.update(room);
-//     return updatedRoom;
-// }
-//OPT2
+
 async function changeNoteColor(roomId, noteId, color) {
     const room = await roomService.getById({ roomId });
     const idx = room.notes.findIndex((note) => note._id === noteId);

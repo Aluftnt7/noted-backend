@@ -5345,3 +5345,49 @@ Sun, 15 Nov 2020 13:23:27 GMT - Info - Server is running on port: 3030
 Wed, 21 Oct 2020 08:39:41 GMT - Info - Server is running on port: 3030
 >>>>>>> 29c8ec14223beaa5196b9ddd499ec2027924c542
 Sun, 15 Nov 2020 13:32:44 GMT - Info - Server is running on port: 3030
+Sun, 15 Nov 2020 13:40:07 GMT - Debug - demo7, 123, demo7
+Sun, 15 Nov 2020 13:40:07 GMT - Debug - auth.service - signup with username: demo7
+Sun, 15 Nov 2020 13:40:07 GMT - Debug - auth.route - new account created: {"fullName":"demo7","password":"$2b$10$eo5HRwp5EwV8AuUL6q1wneq3RFq6.JdPvphs3eer4Wk6TRMNtFfMW","userName":"demo7","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447607184,"starredNotes":[],"_id":"5fb12fb7e1f9491d342996e7"}
+Sun, 15 Nov 2020 13:40:07 GMT - Debug - auth.service - login with username: demo7
+Sun, 15 Nov 2020 13:40:17 GMT - Debug - auth.service - login with username: demo5
+Sun, 15 Nov 2020 13:41:46 GMT - Debug - demo8, 123, demo8
+Sun, 15 Nov 2020 13:41:46 GMT - Debug - auth.service - signup with username: demo8
+Sun, 15 Nov 2020 13:41:46 GMT - Debug - auth.route - new account created: {"fullName":"demo8","password":"$2b$10$uudwIouKsuSrRF5nglokBe8kVrjdd3tat/V3Vj1PuMFqofn986R2G","userName":"demo8","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447706074,"starredNotes":[],"_id":"5fb1301ae1f9491d342996e8"}
+Sun, 15 Nov 2020 13:41:46 GMT - Debug - auth.service - login with username: demo8
+Sun, 15 Nov 2020 13:41:57 GMT - Debug - demo8, 123, demo8
+Sun, 15 Nov 2020 13:41:57 GMT - Debug - auth.service - signup with username: demo8
+Sun, 15 Nov 2020 13:41:57 GMT - Debug - auth.route - new account created: {"fullName":"demo8","password":"$2b$10$/LDdyz1/1HvTEsrmxpt6puHC4UGUh6Z2SqmENGCGhQklOqRT86Zb6","userName":"demo8","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447717095,"starredNotes":[],"_id":"5fb13025e1f9491d342996e9"}
+Sun, 15 Nov 2020 13:41:57 GMT - Debug - auth.service - login with username: demo8
+Sun, 15 Nov 2020 13:42:12 GMT - Debug - demo9, 123, demo9
+Sun, 15 Nov 2020 13:42:12 GMT - Debug - auth.service - signup with username: demo9
+Sun, 15 Nov 2020 13:42:12 GMT - Debug - auth.route - new account created: {"fullName":"demo9","password":"$2b$10$FZ2t0mZV4bXsMFtHGS2k8OSG19R6d6tFrwyiFPjgSeHVvyGkZdG5W","userName":"demo9","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447732191,"starredNotes":[],"_id":"5fb13034e1f9491d342996ea"}
+Sun, 15 Nov 2020 13:42:12 GMT - Debug - auth.service - login with username: demo9
+Sun, 15 Nov 2020 13:46:12 GMT - Debug - eli, 123, eli
+Sun, 15 Nov 2020 13:46:12 GMT - Debug - auth.service - signup with username: eli
+Sun, 15 Nov 2020 13:46:12 GMT - Debug - auth.route - new account created: {"fullName":"eli","password":"$2b$10$CmxZgVTZhQ0lbWmxJF5w5O1pGM6/sL/KTWASUyIyhYxiIw4s2HTGS","userName":"eli","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447972568,"starredNotes":[],"_id":"5fb13124e1f9491d342996eb"}
+Sun, 15 Nov 2020 13:46:12 GMT - Debug - auth.service - login with username: eli
+Sun, 15 Nov 2020 13:46:34 GMT - Debug - eden, 123, eden
+Sun, 15 Nov 2020 13:46:34 GMT - Debug - auth.service - signup with username: eden
+Sun, 15 Nov 2020 13:46:35 GMT - Debug - auth.route - new account created: {"fullName":"eden","password":"$2b$10$vJaxdasX2cp85U9Yjgw1/OXxph.iebjVRiZ7/x4Bg7r6.HFy3mAJi","userName":"eden","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605447994909,"starredNotes":[],"_id":"5fb1313be1f9491d342996ec"}
+Sun, 15 Nov 2020 13:46:35 GMT - Debug - auth.service - login with username: eden
+Sun, 15 Nov 2020 13:52:56 GMT - Debug - eli1, 123, eli1
+Sun, 15 Nov 2020 13:52:56 GMT - Debug - auth.service - signup with username: eli1
+Sun, 15 Nov 2020 13:52:56 GMT - Debug - auth.route - new account created: {"fullName":"eli1","password":"$2b$10$DUyzy5LN1S3MHJVe5wK1P.ZfhvnWAKNnF9ZKmigpjTrxrQRej6X0O","userName":"eli1","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605448376175,"starredNotes":[],"_id":"5fb132b8e1f9491d342996ed"}
+Sun, 15 Nov 2020 13:52:56 GMT - Debug - auth.service - login with username: eli1
+Sun, 15 Nov 2020 13:53:04 GMT - Debug - eden1, 123, eden1
+Sun, 15 Nov 2020 13:53:04 GMT - Debug - auth.service - signup with username: eden1
+Sun, 15 Nov 2020 13:53:05 GMT - Debug - auth.route - new account created: {"fullName":"eden1","password":"$2b$10$kkEgUYpMnFoFz.LWX5/rAe6Rcx5nSR.1VGdPo.sKmpyIx4m7Hh67C","userName":"eden1","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605448384547,"starredNotes":[],"_id":"5fb132c0e1f9491d342996ee"}
+Sun, 15 Nov 2020 13:53:05 GMT - Debug - auth.service - login with username: eden1
+Sun, 15 Nov 2020 13:55:43 GMT - Debug - kosta, 123, kosta
+Sun, 15 Nov 2020 13:55:43 GMT - Debug - auth.service - signup with username: kosta
+Sun, 15 Nov 2020 13:55:43 GMT - Debug - auth.route - new account created: {"fullName":"kosta","password":"$2b$10$7Prx2rTvtz/zMAulmWamiOAZy0bHocn6ELuQRKUnJlcXrK8KQH/zO","userName":"kosta","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605448543396,"starredNotes":[],"_id":"5fb1335fe1f9491d342996ef"}
+Sun, 15 Nov 2020 13:55:43 GMT - Debug - auth.service - login with username: kosta
+Sun, 15 Nov 2020 13:55:51 GMT - Debug - ofek, 123, ofek
+Sun, 15 Nov 2020 13:55:51 GMT - Debug - auth.service - signup with username: ofek
+Sun, 15 Nov 2020 13:55:51 GMT - Debug - auth.route - new account created: {"fullName":"ofek","password":"$2b$10$o9lY.ZfSOYP/Y2/rGWSzUuh8OcZCJq1Hz4tZptPQPE5lEGy9sCvge","userName":"ofek","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605448551308,"starredNotes":[],"_id":"5fb13367e1f9491d342996f0"}
+Sun, 15 Nov 2020 13:55:51 GMT - Debug - auth.service - login with username: ofek
+Sun, 15 Nov 2020 15:54:06 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 10:01:00 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 10:50:30 GMT - Debug - auth.service - login with username: ofek
+Mon, 16 Nov 2020 14:24:31 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 15:01:11 GMT - Debug - auth.service - login with username: kosta
