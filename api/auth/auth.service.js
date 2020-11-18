@@ -1,11 +1,12 @@
 const bcrypt = require('bcrypt')
 const userService = require('../user/user.service')
+const roomService = require('../room/room.service')
 const logger = require('../../services/LoggerService')
 
 const saltRounds = 10
 
 async function login(username, password) {
-   
+
     logger.debug(`auth.service - login with username: ${username}`)
     if (!username || !password) return Promise.reject('username and password are required!')
 
@@ -18,15 +19,21 @@ async function login(username, password) {
     return user;
 }
 
-async function signup(userName, password, fullName, friends, imgUrl,notifications, joinedAt, starredNotes) {
+
+async function signup(userName, password, fullName, friends, imgUrl, notifications, joinedAt, starredNotes) {
     console.log('$$$$$$$userName', userName, 'fullName', fullName);
     if (!fullName || !password || !userName) return Promise.reject('fullName, username and password are required!')
     logger.debug(`auth.service - signup with username: ${userName}`)
     const hash = await bcrypt.hash(password, saltRounds)
-    
-    return userService.add({ fullName, password: hash, userName, friends, imgUrl, notifications, joinedAt, starredNotes})
+    const user = await userService.add({ fullName, password: hash, userName, friends, imgUrl, notifications, joinedAt, starredNotes })
+    const room = {
+        _id: user._id,
+        notes: [],
+        members: [user._id]
+    }
+    await roomService.add(room)
+    return user
 }
-
 
 module.exports = {
     signup,
