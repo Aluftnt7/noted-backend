@@ -13,23 +13,17 @@ async function removeNote(req, res) {
     res.end();
 }
 
-// async function changeNoteColor(req, res) {
-//     const { roomId, noteId, color } = req.body;
-//     const updatedRoom = await noteService.changeNoteColor(roomId, noteId, color);
-//     res.json(updatedRoom);
-// }
-
-//OPT2
 async function changeNoteColor(req, res) {
     const { roomId, noteId, color } = req.body;
     const updatedNote = await noteService.changeNoteColor(roomId, noteId, color);
     res.json(updatedNote);
 }
 
+
 async function toggleNotePin(req, res) {
     const { roomId, noteId } = req.body;
-    const updatedRoom = await noteService.toggleNotePin(roomId, noteId);
-    res.json(updatedRoom);
+    const updatedNote = await noteService.toggleNotePin(roomId, noteId);
+    res.json(updatedNote);
 }
 
 async function updateNote(req, res) {
@@ -49,6 +43,7 @@ async function toggleStarredNote(req, res) {
     const user = await noteService.toggleStarredNote(userId, roomId, noteId)
     res.send(user)
 }
+
 
 module.exports = {
     addNote,

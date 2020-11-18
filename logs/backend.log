@@ -5430,6 +5430,7 @@ Mon, 16 Nov 2020 10:01:00 GMT - Info - Server is running on port: 3030
 Mon, 16 Nov 2020 10:50:30 GMT - Debug - auth.service - login with username: ofek
 Mon, 16 Nov 2020 14:24:31 GMT - Info - Server is running on port: 3030
 Mon, 16 Nov 2020 15:01:11 GMT - Debug - auth.service - login with username: kosta
+<<<<<<< HEAD
 >>>>>>> fd4ec8b1ad1bb524f5070203d78a1bb1e3092895
 Mon, 16 Nov 2020 15:42:25 GMT - Info - Server is running on port: 3030
 Mon, 16 Nov 2020 15:44:24 GMT - Debug - auth.service - login with username: Tamir
@@ -5446,3 +5447,49 @@ Mon, 16 Nov 2020 17:20:30 GMT - Info - Server is running on port: 3030
 Tue, 17 Nov 2020 13:06:00 GMT - Info - Server is running on port: 3030
 Tue, 17 Nov 2020 13:06:59 GMT - Debug - auth.service - login with username: Jhonny
 Wed, 18 Nov 2020 08:15:40 GMT - Info - Server is running on port: 3030
+=======
+Mon, 16 Nov 2020 15:53:43 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 17:25:57 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 08:38:13 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:12:05 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:12:16 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:12:58 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:13:03 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:13:27 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:14:04 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:39:01 GMT - Debug - auth.service - login with username: ofek
+Tue, 17 Nov 2020 09:46:59 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:47:11 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:47:44 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:47:48 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:49:29 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:49:43 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 09:55:59 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 10:03:42 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 10:03:47 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:04:55 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:07:58 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:08:05 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:08:27 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:08:43 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:09:01 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:09:06 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:10:04 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:10:14 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:13:20 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:16:02 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:16:59 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:18:22 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:18:25 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:18:49 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:19:03 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 11:35:13 GMT - Debug - flavio, 123, flavio
+Tue, 17 Nov 2020 11:35:13 GMT - Debug - auth.service - signup with username: flavio
+Tue, 17 Nov 2020 11:35:13 GMT - Debug - auth.route - new account created: {"fullName":"flavio","password":"$2b$10$0GyirJL2UW5SS0RKLhQLAeegQ0vtihPeYg4FUjxoKW8gWgivU7lzK","userName":"flavio","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605612913202,"starredNotes":[],"_id":"5fb3b571c46b6225c82d93c2"}
+Tue, 17 Nov 2020 11:35:13 GMT - Debug - auth.service - login with username: flavio
+Tue, 17 Nov 2020 14:55:09 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 16:28:00 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 07:56:10 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 07:57:06 GMT - Info - Server is running on port: 3030
+>>>>>>> bf1c7dfae109c5feffb80e4031c835575a7bf5d8
+Wed, 18 Nov 2020 08:23:21 GMT - Info - Server is running on port: 3030

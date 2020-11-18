@@ -86,7 +86,6 @@ function connectSockets(io) {
             let room = {
                 _id: roomId,
                 notes: [],
-                createdAt: Date.now(), //propbly can be deleted
                 members: [user._id, sendingUser._id]
             }
             RoomService.add(room)
