@@ -5432,3 +5432,17 @@ Mon, 16 Nov 2020 14:24:31 GMT - Info - Server is running on port: 3030
 Mon, 16 Nov 2020 15:01:11 GMT - Debug - auth.service - login with username: kosta
 >>>>>>> fd4ec8b1ad1bb524f5070203d78a1bb1e3092895
 Mon, 16 Nov 2020 15:42:25 GMT - Info - Server is running on port: 3030
+Mon, 16 Nov 2020 15:44:24 GMT - Debug - auth.service - login with username: Tamir
+Mon, 16 Nov 2020 15:44:41 GMT - Debug - auth.service - login with username: Jhonny
+Mon, 16 Nov 2020 15:47:13 GMT - Debug - b, b, b
+Mon, 16 Nov 2020 15:47:13 GMT - Debug - auth.service - signup with username: b
+Mon, 16 Nov 2020 15:47:13 GMT - Debug - auth.route - new account created: {"fullName":"b","password":"$2b$10$xtLyScmHXabNS1md7pLLkuSwYlUmGDjIJJNXTOJK4YyTNkEzHJxxK","userName":"b","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605541633147,"starredNotes":[],"_id":"5fb29f01a7861d4624e8874e"}
+Mon, 16 Nov 2020 15:47:13 GMT - Debug - auth.service - login with username: b
+Mon, 16 Nov 2020 15:47:14 GMT - Debug - a, 1, a
+Mon, 16 Nov 2020 15:47:14 GMT - Debug - auth.service - signup with username: a
+Mon, 16 Nov 2020 15:47:15 GMT - Debug - auth.route - new account created: {"fullName":"a","password":"$2b$10$Fb9yRZNComUCEmygs86bPeRT1j4pufoT99U4wHGQzQAIqMUxAE91e","userName":"a","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1605541634904,"starredNotes":[],"_id":"5fb29f03a7861d4624e8874f"}
+Mon, 16 Nov 2020 15:47:15 GMT - Debug - auth.service - login with username: a
+Mon, 16 Nov 2020 17:20:30 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 13:06:00 GMT - Info - Server is running on port: 3030
+Tue, 17 Nov 2020 13:06:59 GMT - Debug - auth.service - login with username: Jhonny
+Wed, 18 Nov 2020 08:15:40 GMT - Info - Server is running on port: 3030
