@@ -5491,6 +5491,17 @@ Tue, 17 Nov 2020 14:55:09 GMT - Info - Server is running on port: 3030
 Tue, 17 Nov 2020 16:28:00 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 07:56:10 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 07:57:06 GMT - Info - Server is running on port: 3030
+<<<<<<< HEAD
+Wed, 18 Nov 2020 09:29:18 GMT - Debug - auth.service - login with username: demo1
+Wed, 18 Nov 2020 09:38:35 GMT - Debug - auth.service - login with username: demo2
+Wed, 18 Nov 2020 09:43:02 GMT - Debug - auth.service - login with username: demo3
+Wed, 18 Nov 2020 09:48:04 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 09:48:39 GMT - Debug - auth.service - login with username: demo4
+Wed, 18 Nov 2020 09:49:00 GMT - Debug - auth.service - login with username: demo5
+Wed, 18 Nov 2020 09:49:22 GMT - Debug - auth.service - login with username: demo6
+Wed, 18 Nov 2020 09:50:17 GMT - Debug - auth.service - login with username: demo5
+Wed, 18 Nov 2020 10:58:54 GMT - Debug - auth.service - login with username: demo6
+=======
 >>>>>>> bf1c7dfae109c5feffb80e4031c835575a7bf5d8
 Wed, 18 Nov 2020 08:23:21 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 09:34:09 GMT - Debug - auth.service - login with username: cartman
@@ -5506,6 +5517,7 @@ Wed, 18 Nov 2020 09:52:41 GMT - Debug - auth.service - login with username: tami
 Wed, 18 Nov 2020 09:52:47 GMT - Debug - auth.service - login with username: Tamir
 Wed, 18 Nov 2020 09:54:06 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 09:54:39 GMT - Debug - auth.service - login with username: Tamir
+<<<<<<< HEAD
 Wed, 18 Nov 2020 10:26:01 GMT - Debug - auth.service - login with username: aaa
 Wed, 18 Nov 2020 10:26:09 GMT - Debug - auth.service - login with username: aaa
 Wed, 18 Nov 2020 10:27:34 GMT - Debug - auth.service - login with username: Tamir
@@ -5519,3 +5531,7 @@ Wed, 18 Nov 2020 10:32:10 GMT - Debug - auth.service - login with username: Tami
 Wed, 18 Nov 2020 10:32:24 GMT - Debug - auth.service - login with username: Tamir
 Wed, 18 Nov 2020 10:38:02 GMT - Debug - auth.service - login with username: Tamir
 Wed, 18 Nov 2020 12:33:28 GMT - Debug - auth.service - login with username: aaa
+=======
+>>>>>>> 5eafd1fa6bfce42d163b019c9a83c2dcb370e221
+Wed, 18 Nov 2020 12:34:09 GMT - Info - Server is running on port: 3030
+>>>>>>> f4ddd49f734159a16947445e4e480ca3b3f213bb
