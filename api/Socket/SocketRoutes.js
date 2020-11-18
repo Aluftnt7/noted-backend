@@ -51,10 +51,10 @@ function connectSockets(io) {
                 fullName: notification.fullName,
                 imgUrl: notification.imgUrl,
             })
-            const idx = user.notifications.findIndex(
-                currNotification => currNotification._id === notification._id
-            );
-            user.notifications.splice(idx, 1);
+            // const idx = user.notifications.findIndex(
+            //     currNotification => currNotification._id === notification._id
+            // );
+            // user.notifications.splice(idx, 1);
             const updatedReciveingUser = await userService.update(user)
             io.emit(`updateUserWithoutAudio ${user._id}`, updatedReciveingUser)
 

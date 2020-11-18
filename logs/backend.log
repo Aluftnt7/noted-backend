@@ -5434,3 +5434,12 @@ Tue, 17 Nov 2020 14:55:09 GMT - Info - Server is running on port: 3030
 Tue, 17 Nov 2020 16:28:00 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 07:56:10 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 07:57:06 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 09:29:18 GMT - Debug - auth.service - login with username: demo1
+Wed, 18 Nov 2020 09:38:35 GMT - Debug - auth.service - login with username: demo2
+Wed, 18 Nov 2020 09:43:02 GMT - Debug - auth.service - login with username: demo3
+Wed, 18 Nov 2020 09:48:04 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 09:48:39 GMT - Debug - auth.service - login with username: demo4
+Wed, 18 Nov 2020 09:49:00 GMT - Debug - auth.service - login with username: demo5
+Wed, 18 Nov 2020 09:49:22 GMT - Debug - auth.service - login with username: demo6
+Wed, 18 Nov 2020 09:50:17 GMT - Debug - auth.service - login with username: demo5
+Wed, 18 Nov 2020 10:58:54 GMT - Debug - auth.service - login with username: demo6
