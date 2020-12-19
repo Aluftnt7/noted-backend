@@ -5519,3 +5519,147 @@ Wed, 18 Nov 2020 09:54:06 GMT - Info - Server is running on port: 3030
 Wed, 18 Nov 2020 09:54:39 GMT - Debug - auth.service - login with username: Tamir
 >>>>>>> 5eafd1fa6bfce42d163b019c9a83c2dcb370e221
 Wed, 18 Nov 2020 12:34:09 GMT - Info - Server is running on port: 3030
+Wed, 18 Nov 2020 18:16:47 GMT - Info - Server is running on port: 3030
+Mon, 23 Nov 2020 09:11:31 GMT - Info - Server is running on port: 3030
+Mon, 23 Nov 2020 16:48:40 GMT - Info - Server is running on port: 3030
+Tue, 24 Nov 2020 09:36:18 GMT - Info - Server is running on port: 3030
+Tue, 24 Nov 2020 11:51:32 GMT - Info - Server is running on port: 3030
+Tue, 24 Nov 2020 11:51:38 GMT - Info - Server is running on port: 3030
+Tue, 24 Nov 2020 11:52:29 GMT - Info - Server is running on port: 3030
+Tue, 24 Nov 2020 15:59:08 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:47:05 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:54:24 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:58:12 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:58:15 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:59:01 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 10:59:30 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:02:22 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:02:55 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:03:44 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:05:10 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:05:31 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 11:06:04 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:09:53 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:10:56 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:11:24 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:13:30 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:22:35 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:22:58 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:35:47 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:35:49 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:36:25 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:36:37 GMT - Debug - auth.service - login with username: Ran
+Wed, 25 Nov 2020 12:37:09 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:38:03 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:38:24 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:39:09 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:39:35 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:39:50 GMT - Debug - auth.service - login with username: Ran
+Wed, 25 Nov 2020 12:40:12 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:40:59 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:41:05 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:41:22 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:41:43 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:42:09 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:43:28 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:43:32 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:43:40 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:47:05 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:48:36 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:50:15 GMT - Debug - auth.service - login with username: flavio
+Wed, 25 Nov 2020 12:51:04 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:51:40 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:53:08 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:53:23 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:53:45 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:54:52 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 12:58:05 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 15:05:37 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 15:05:44 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 15:06:14 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 19:19:19 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 19:35:47 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 19:40:53 GMT - Info - Server is running on port: 3030
+Wed, 25 Nov 2020 19:41:52 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 10:54:25 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:29:24 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:29:48 GMT - Debug - flavio2, 123, flavio2
+Thu, 26 Nov 2020 11:29:48 GMT - Debug - auth.service - signup with username: flavio2
+Thu, 26 Nov 2020 11:29:52 GMT - Debug - auth.route - new account created: {"fullName":"flavio2","password":"$2b$10$bVlO6WRJQhi.//TLWWgNdOxKnOR6Z9cG/MgKfH6ZftK/Qi10TdzOa","userName":"flavio2","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606390188756,"starredNotes":[],"_id":"5fbf91aed8b02c3d58a23d9a"}
+Thu, 26 Nov 2020 11:29:52 GMT - Debug - auth.service - login with username: flavio2
+Thu, 26 Nov 2020 11:35:16 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:35:35 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:36:53 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:37:11 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:37:28 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:38:15 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:39:50 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:40:30 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:40:38 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:41:09 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:42:39 GMT - Debug - flavio3, 123, flavio3
+Thu, 26 Nov 2020 11:42:39 GMT - Debug - auth.service - signup with username: flavio3
+Thu, 26 Nov 2020 11:42:42 GMT - Debug - auth.route - new account created: {"fullName":"flavio3","password":"$2b$10$HIDpOBNDLmv2NjBky1P0Uu93FqzhMFh3AncF2kKcynK9EaZCIIq42","userName":"flavio3","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606390959258,"starredNotes":[],"_id":"5fbf94b15c7638272873ffcd"}
+Thu, 26 Nov 2020 11:42:43 GMT - Debug - auth.service - login with username: flavio3
+Thu, 26 Nov 2020 11:54:36 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:56:43 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:57:30 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:58:33 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 11:59:20 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:00:16 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:00:23 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:00:35 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:01:38 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:02:54 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:03:02 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:03:04 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:03:10 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:04:49 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:06:15 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:06:29 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:07:32 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:08:04 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:09:10 GMT - Debug - auth.service - login with username: flavio2
+Thu, 26 Nov 2020 12:09:18 GMT - Debug - auth.service - login with username: flavio3
+Thu, 26 Nov 2020 12:11:19 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:13:03 GMT - Info - Server is running on port: 3030
+Thu, 26 Nov 2020 12:13:33 GMT - Debug - flavio4, 123, flavio4
+Thu, 26 Nov 2020 12:13:33 GMT - Debug - auth.service - signup with username: flavio4
+Thu, 26 Nov 2020 12:13:33 GMT - Debug - auth.route - new account created: {"fullName":"flavio4","password":"$2b$10$9fbloHy8YC5xenZeLeyDUegP459KzGAy0ePTQgDf1UlokFjwd.l6O","userName":"flavio4","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606392813312,"starredNotes":[],"_id":"5fbf9bed704d884720cff317"}
+Thu, 26 Nov 2020 12:13:33 GMT - Debug - auth.service - login with username: flavio4
+Thu, 26 Nov 2020 12:13:49 GMT - Debug - flavio5, 123, flavio5
+Thu, 26 Nov 2020 12:13:49 GMT - Debug - auth.service - signup with username: flavio5
+Thu, 26 Nov 2020 12:13:50 GMT - Debug - auth.route - new account created: {"fullName":"flavio5","password":"$2b$10$V1zTq.fje5/R5a51HHqIjeMn9yzqoYW/D/TrVLdRRnSUHV2vTho.S","userName":"flavio5","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606392829818,"starredNotes":[],"_id":"5fbf9bfd704d884720cff318"}
+Thu, 26 Nov 2020 12:13:50 GMT - Debug - auth.service - login with username: flavio5
+Thu, 26 Nov 2020 18:36:17 GMT - Info - Server is running on port: 3030
+Sun, 29 Nov 2020 10:00:48 GMT - Info - Server is running on port: 3030
+Sun, 29 Nov 2020 15:43:53 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 10:11:24 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 10:18:01 GMT - Debug - auth.service - login with username: flavio5
+Mon, 30 Nov 2020 10:19:45 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 10:21:00 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 10:22:06 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 10:23:38 GMT - Info - Server is running on port: 3030
+Mon, 30 Nov 2020 17:18:39 GMT - Info - Server is running on port: 3030
+Tue, 01 Dec 2020 07:12:51 GMT - Info - Server is running on port: 3030
+Tue, 01 Dec 2020 07:13:49 GMT - Debug - auth.service - login with username: Harry Kane
+Tue, 01 Dec 2020 07:14:04 GMT - Debug - Harry Kane, 123, Harry Kane
+Tue, 01 Dec 2020 07:14:04 GMT - Debug - auth.service - signup with username: Harry Kane
+Tue, 01 Dec 2020 07:14:05 GMT - Debug - auth.route - new account created: {"fullName":"Harry Kane","password":"$2b$10$YtRj/jUYFSibvrEhQQBhMebWAA/W8Q.Hj68jPld6pZlTLkxuv8ebW","userName":"Harry Kane","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606806844871,"starredNotes":[],"_id":"5fc5ed3c3690ee659c602d8a"}
+Tue, 01 Dec 2020 07:14:05 GMT - Debug - auth.service - login with username: Harry Kane
+Tue, 01 Dec 2020 07:17:11 GMT - Debug - auth.service - login with username: son
+Tue, 01 Dec 2020 07:17:30 GMT - Debug - Heung Min Son, 123, Heung Min Son
+Tue, 01 Dec 2020 07:17:30 GMT - Debug - auth.service - signup with username: Heung Min Son
+Tue, 01 Dec 2020 07:17:30 GMT - Debug - auth.route - new account created: {"fullName":"Heung Min Son","password":"$2b$10$iI0eJ.8wThGRQ2KWoEiqHuz02Tz3RGA/ZY.0Bh30EnxKKACr/GOI.","userName":"Heung Min Son","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606807050028,"starredNotes":[],"_id":"5fc5ee0a3690ee659c602d8b"}
+Tue, 01 Dec 2020 07:17:30 GMT - Debug - auth.service - login with username: Heung Min Son
+Tue, 01 Dec 2020 07:18:09 GMT - Debug - hakim ziyech, 123, hakim ziyech
+Tue, 01 Dec 2020 07:18:09 GMT - Debug - auth.service - signup with username: hakim ziyech
+Tue, 01 Dec 2020 07:18:10 GMT - Debug - auth.route - new account created: {"fullName":"hakim ziyech","password":"$2b$10$eXyQ0E4vQlhGH5UUYPSTP.4tfUKvKOP/vIdqLfljNjn1p2xcKwVoW","userName":"hakim ziyech","friends":[],"imgUrl":"/static/media/user.c79dce59.png","notifications":[],"joinedAt":1606807089713,"starredNotes":[],"_id":"5fc5ee313690ee659c602d8c"}
+Tue, 01 Dec 2020 07:18:10 GMT - Debug - auth.service - login with username: hakim ziyech
+Tue, 01 Dec 2020 07:18:59 GMT - Debug - auth.service - login with username: Heung Min Son
+Tue, 01 Dec 2020 07:22:20 GMT - Debug - auth.service - login with username: hakim ziyech
+Tue, 01 Dec 2020 09:53:47 GMT - Info - Server is running on port: 3030
+Wed, 02 Dec 2020 09:29:36 GMT - Info - Server is running on port: 3030
+Wed, 02 Dec 2020 13:01:38 GMT - Info - Server is running on port: 3030
+Sun, 06 Dec 2020 09:34:36 GMT - Info - Server is running on port: 3030
+Sun, 06 Dec 2020 15:34:33 GMT - Info - Server is running on port: 3030
