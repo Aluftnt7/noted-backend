@@ -5687,3 +5687,4 @@ Thu, 21 Jan 2021 08:51:03 GMT - Info - Server is running on port: 3030
 >>>>>>> c6fd3996fc0f68ec93e08b4dd09185cb5732a0c3
 >>>>>>> 68b0a7d8265b96fca39df501fdeef28fc5621fbc
 Thu, 21 Jan 2021 08:59:03 GMT - Info - Server is running on port: 3030
+Thu, 21 Jan 2021 09:01:16 GMT - Debug - auth.service - login with username: Tamir
