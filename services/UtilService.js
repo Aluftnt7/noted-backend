@@ -14,6 +14,9 @@ function makeId(length=12) {
     return text;
 }
 
+
+
+
 // function makeLorem(length) {
 
 //     var randStr = '';
