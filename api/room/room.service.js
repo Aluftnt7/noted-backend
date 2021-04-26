@@ -39,7 +39,7 @@ async function getById(filterBy) {
               return note.data.name.toLowerCase().includes(term);
             case "NoteTodo":
               return note.data.some((todo) =>
-                todo.text.toLowerCase().includes(term),
+                todo.text.toLowerCase().includes(term)
               );
             default:
               return note.data.toLowerCase().includes(term);
@@ -79,15 +79,15 @@ async function update(room) {
 }
 
 async function add(room) {
-    room.createdAt = Date.now();
-    const collection = await dbService.getCollection("room");
-    try {
-        await collection.insertOne(room);
-        return room;
-    } catch (err) {
-        console.log(`ERROR: cannot insert room`);
-        throw err;
-    }
+  room.createdAt = Date.now();
+  const collection = await dbService.getCollection("room");
+  try {
+    await collection.insertOne(room);
+    return room;
+  } catch (err) {
+    console.log(`ERROR: cannot insert room`);
+    throw err;
+  }
 }
 
 async function checkIsValidUser(userId, roomId) {

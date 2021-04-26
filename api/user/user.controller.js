@@ -1,38 +1,37 @@
-const userService = require('./user.service')
+const userService = require("./user.service");
 
 async function getUser(req, res) {
-    const user = await userService.getById(req.params.id)
-    res.send(user)
+  const user = await userService.getById(req.params.id);
+  console.log("user in controller", user);
+  res.send(user);
 }
 
 async function getUsers(req, res) {
-    const users = await userService.query(req.query)
-    if (req.query.count) res.json(users)
-    else res.send(users)
+  const users = await userService.query(req.query);
+  if (req.query.count) res.json(users);
+  else res.send(users);
 }
 
 async function deleteUser(req, res) {
-    res.end()
+  res.end();
 }
 
 async function updateUser(req, res) {
-    const user = req.body;
-    const updatedUser = await userService.update(user)
-    res.cookie('user', updatedUser)
-    res.send(updatedUser)
+  const user = req.body;
+  const updatedUser = await userService.update(user);
+  res.cookie("user", updatedUser);
+  res.send(updatedUser);
 }
 async function updateImgAtContacts(req, res) {
-    const { userId, imgUrl } = req.body;
-    const user = await userService.updateImgAtContacts(userId, imgUrl)
-    res.send(user)
+  const { userId, imgUrl } = req.body;
+  const user = await userService.updateImgAtContacts(userId, imgUrl);
+  res.send(user);
 }
-
-
 
 module.exports = {
-    getUser,
-    getUsers,
-    deleteUser,
-    updateUser,
-    updateImgAtContacts,
-}
+  getUser,
+  getUsers,
+  deleteUser,
+  updateUser,
+  updateImgAtContacts,
+};

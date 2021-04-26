@@ -30,9 +30,11 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
+  console.log("userId", userId);
   const collection = await dbService.getCollection("user");
   try {
     const user = await collection.findOne({ _id: ObjectId(userId) });
+    console.log("userrrrrrrrrrrrrrr", user);
     delete user.password;
     return user;
   } catch (err) {
@@ -92,7 +94,7 @@ async function updateImgAtContacts(userId, imgUrl) {
     user.friends.forEach(async (userFriend) => {
       let currFriend = await getById(userFriend._id);
       const userToUpdate = currFriend.friends.find(
-        (friend) => friend._id === userId,
+        (friend) => friend._id === userId
       );
       userToUpdate.imgUrl = imgUrl;
       update(currFriend);
